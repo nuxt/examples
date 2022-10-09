@@ -8,7 +8,7 @@ const stringify = contents => JSON.stringify(contents, null, 2)
 const packages = await globby('examples/**/nuxt.config.*')
 const names = new Set()
 
-await fsp.rm('.output', { recursive: true, force: true })
+await fsp.rm('.vercel/output', { recursive: true, force: true })
 
 // Create public files
 await fsp.mkdir('.vercel/output/static', { recursive: true })
