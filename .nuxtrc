@@ -1,1 +1,1 @@
-nitro.preset=node-server
+nitro.preset=vercel
