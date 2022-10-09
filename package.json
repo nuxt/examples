@@ -1,0 +1,19 @@
+{
+  "name": "nuxt-examples",
+  "private": true,
+  "version": "1.0.0",
+  "main": "index.mjs",
+  "license": "MIT",
+  "scripts": {
+    "build": "turbo run generate && node scripts/build.mjs"
+  },
+  "devDependencies": {
+    "globby": "^13.1.2",
+    "pathe": "^0.3.9",
+    "pkg-types": "^0.3.5",
+    "turbo": "^1.5.5"
+  },
+  "engines": {
+    "node": "16.x"
+  }
+}
