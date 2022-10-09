@@ -1,7 +1,7 @@
 import fsp from 'node:fs/promises'
 import { globby } from 'globby'
 import { readPackageJSON } from 'pkg-types'
-import { resolve } from 'pathe'
+import { join, resolve } from 'pathe'
 
 const stringify = contents => JSON.stringify(contents, null, 2)
 
@@ -12,9 +12,10 @@ await fsp.rm('.vercel/output', { recursive: true, force: true })
 
 // Create public files
 await fsp.mkdir('.vercel/output/static', { recursive: true })
+await fsp.mkdir('.vercel/output/functions', { recursive: true })
 for (const config of packages) {
   const { name } = await readPackageJSON(resolve(config))
-  const output = resolve(config, '../.output/public')
+  const output = resolve(config, '../.vercel/output')
   try {
     const stats = await fsp.stat(output)
     if (!stats.isDirectory()) continue
@@ -22,9 +23,12 @@ for (const config of packages) {
     continue
   }
 
+  await fsp.cp(join(output, 'static'), `.vercel/output/static/${name}`, {
+    recursive: true,
+  })
   await fsp.cp(
-    resolve(config, '../.output/public'),
-    `.vercel/output/static/${name}`,
+    join(output, 'functions/__nitro.func'),
+    `.vercel/output/functions/${name}.func`,
     {
       recursive: true,
     }
@@ -82,6 +86,10 @@ await fsp.writeFile(
       {
         handle: 'filesystem',
       },
+      ...[...names].map(name => ({
+        src: `/${name}/(.*)`,
+        dest: `/${name}`,
+      })),
     ],
   })
 )

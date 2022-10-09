@@ -10,7 +10,8 @@
         "^build"
       ],
       "outputs": [
-        ".output/**"
+        ".output/**",
+        ".vercel/**"
       ]
     },
     "generate": {
@@ -18,7 +19,8 @@
         "^build"
       ],
       "outputs": [
-        ".output/public/**"
+        ".output/public/**",
+        ".vercel/**"
       ]
     }
   }
