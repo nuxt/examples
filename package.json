@@ -8,11 +8,11 @@
     "build": "turbo run build && node scripts/build.mjs"
   },
   "devDependencies": {
-    "@nuxt/kit": "3.0.0-rc.11",
+    "@nuxt/kit": "3.0.0-rc.12",
     "globby": "^13.1.2",
     "pathe": "^0.3.9",
     "pkg-types": "^0.3.5",
-    "turbo": "^1.5.5"
+    "turbo": "^1.5.6"
   },
   "engines": {
     "node": "16.x"
