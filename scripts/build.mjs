@@ -5,7 +5,11 @@ import { join, resolve } from 'pathe'
 
 const stringify = contents => JSON.stringify(contents, null, 2)
 
-const packages = await globby('examples/**/nuxt.config.*')
+const packages = await globby([
+  '**/package.json',
+  '!**/node_modules',
+  '!package.json',
+])
 const names = new Set()
 
 await fsp.rm('.vercel/output', { recursive: true, force: true })
