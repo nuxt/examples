@@ -9,7 +9,7 @@ const packages = await globby([
   '**/package.json',
   '!**/node_modules',
   '!package.json',
-])
+]).then(r => r.sort())
 const names = new Set()
 
 await fsp.rm('.vercel/output', { recursive: true, force: true })
@@ -97,3 +97,10 @@ await fsp.writeFile(
     ],
   })
 )
+
+console.log('Successfully built nuxt/examples:')
+let index = 0
+for (const name of names) {
+  const treeChar = index++ === names.size - 1 ? '└─' : '├─'
+  process.stdout.write(`  ${treeChar} ${name}\n`)
+}
