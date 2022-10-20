@@ -1,5 +1,20 @@
 {
   "extends": [
-    "@nuxtjs"
+    "github>nuxt/renovate-config-nuxt",
+  ],
+  "rebaseStalePrs": true,
+  "prCreation": "not-pending",
+  "packageRules": [
+    {
+      "groupName": "nuxt core",
+      "groupSlug": "nuxt",
+      "matchPackageNames": [
+        "nuxt",
+        "nuxt3"
+      ],
+      "matchPackagePatterns": [
+        "^@nuxt/"
+      ]
+    }
   ]
 }
