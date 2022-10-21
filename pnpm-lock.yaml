@@ -134,12 +134,6 @@ importers:
       '@nuxt/ui': 0.3.3_nuxt@3.0.0-rc.12
       nuxt: 3.0.0-rc.12
 
-  examples/essentials/hello-world:
-    specifiers:
-      nuxt: ^3.0.0-rc.12
-    devDependencies:
-      nuxt: 3.0.0-rc.12
-
   examples/experimental/reactivity-transform:
     specifiers:
       '@nuxt/ui': ^0.3.2
@@ -218,6 +212,12 @@ importers:
       nuxt: ^3.0.0-rc.12
     devDependencies:
       '@nuxt/ui': 0.3.3_nuxt@3.0.0-rc.12
+      nuxt: 3.0.0-rc.12
+
+  hello-world:
+    specifiers:
+      nuxt: ^3.0.0-rc.12
+    devDependencies:
       nuxt: 3.0.0-rc.12
 
 packages:
