@@ -1,5 +1,5 @@
 {
-  "name": "example-nuxt-link",
+  "name": "nuxt-link",
   "private": true,
   "scripts": {
     "build": "nuxi build",

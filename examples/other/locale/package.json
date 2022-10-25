@@ -1,5 +1,5 @@
 {
-  "name": "example-locale",
+  "name": "locale",
   "private": true,
   "scripts": {
     "build": "nuxi build",

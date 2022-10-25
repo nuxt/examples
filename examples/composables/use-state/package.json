@@ -1,5 +1,5 @@
 {
-  "name": "example-use-state",
+  "name": "use-state",
   "private": true,
   "scripts": {
     "build": "nuxi build",

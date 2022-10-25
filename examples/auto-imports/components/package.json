@@ -1,5 +1,5 @@
 {
-  "name": "example-components",
+  "name": "components",
   "private": true,
   "scripts": {
     "build": "nuxi build",

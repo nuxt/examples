@@ -1,5 +1,5 @@
 {
-  "name": "example-use-head",
+  "name": "use-head",
   "private": true,
   "scripts": {
     "build": "nuxi build",

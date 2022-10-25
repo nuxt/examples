@@ -1,5 +1,5 @@
 {
-  "name": "example-error-handling",
+  "name": "error-handling",
   "private": true,
   "scripts": {
     "build": "nuxi build",

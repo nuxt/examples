@@ -1,5 +1,5 @@
 {
-  "name": "example-hello-world",
+  "name": "hello-world",
   "private": true,
   "scripts": {
     "build": "nuxi build",

@@ -1,5 +1,5 @@
 {
-  "name": "example-teleport",
+  "name": "teleport",
   "private": true,
   "scripts": {
     "build": "nuxi build",

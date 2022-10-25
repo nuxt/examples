@@ -1,5 +1,5 @@
 {
-  "name": "example-plugins",
+  "name": "plugins",
   "private": true,
   "scripts": {
     "build": "nuxi build",
