@@ -1,6 +1,6 @@
 export default defineNuxtConfig({
   modules: [
-    '~/modules/pages',
+    '~/modules/pages/index',
     '@nuxt/ui'
   ]
 })
