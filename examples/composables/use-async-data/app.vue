@@ -13,7 +13,7 @@ const refreshAll = async () => {
 </script>
 
 <template>
-  <NuxtExampleLayout example="composables/use-async-data">
+  <NuxtExampleLayout repo="nuxt/examples" example="composables/use-async-data">
     <div>
       <div class="flex justify-center gap-2">
         <NButton @click="showMountain = !showMountain">

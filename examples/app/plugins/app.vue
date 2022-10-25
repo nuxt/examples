@@ -1,5 +1,5 @@
 <template>
-  <NuxtExampleLayout example="app/plugins">
+  <NuxtExampleLayout repo="nuxt/examples" example="app/plugins">
     <div>{{ $myPlugin() }}</div>
   </NuxtExampleLayout>
 </template>

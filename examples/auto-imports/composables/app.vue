@@ -1,5 +1,5 @@
 <template>
-  <NuxtExampleLayout example="auto-imports/composables">
+  <NuxtExampleLayout repo="nuxt/examples" example="auto-imports/composables">
     <p>Named export <code>useA</code> : {{ a }}</p>
     <p>Named export <code>useB</code> : {{ b }}</p>
     <p>Named export <code>useC</code> : {{ c }}</p>

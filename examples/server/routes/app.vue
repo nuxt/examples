@@ -1,5 +1,5 @@
 <template>
-  <NuxtExampleLayout example="server/routes">
+  <NuxtExampleLayout repo="nuxt/examples" example="server/routes">
     <p>Fetched from <pre>/api/mountain</pre>: {{ mountain }}</p>
   </NuxtExampleLayout>
 </template>

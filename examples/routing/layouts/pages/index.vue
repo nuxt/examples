@@ -1,19 +1,11 @@
 <template>
-  <NuxtExampleLayout example="routing/layouts">
+  <NuxtExampleLayout repo="nuxt/examples" example="routing/layouts">
     <template #nav>
       <nav class="flex align-center gap-4 p-4">
-        <NuxtLink to="/default">
-          Default layout
-        </NuxtLink>
-        <NuxtLink to="/custom">
-          Custom layout
-        </NuxtLink>
-        <NuxtLink to="/dynamic">
-          Dynamic layout
-        </NuxtLink>
-        <NuxtLink to="/other">
-          Other layout
-        </NuxtLink>
+        <NuxtLink to="/default"> Default layout </NuxtLink>
+        <NuxtLink to="/custom"> Custom layout </NuxtLink>
+        <NuxtLink to="/dynamic"> Dynamic layout </NuxtLink>
+        <NuxtLink to="/other"> Other layout </NuxtLink>
         <NButton @click="setPageLayout('default')">
           Change to default layout
         </NButton>

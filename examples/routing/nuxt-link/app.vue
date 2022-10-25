@@ -1,5 +1,9 @@
 <template>
-  <NuxtExampleLayout example="routing/nuxt-link" class="example">
+  <NuxtExampleLayout
+    repo="nuxt/examples"
+    example="routing/nuxt-link"
+    class="example"
+  >
     <NuxtPage />
   </NuxtExampleLayout>
 </template>

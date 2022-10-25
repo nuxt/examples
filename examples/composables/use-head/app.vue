@@ -1,16 +1,20 @@
 <template>
-  <NuxtExampleLayout example="composables/use-head">
+  <NuxtExampleLayout repo="nuxt/examples" example="composables/use-head">
     <div
       class="bg-gray-400/10 border-2 border-dashed border-gray-400/50 rounded-xl py-8 px-2 op-80"
     >
-      There are renderless <code>&lt;Html&gt;</code>, <code>&lt;Meta&gt;</code>, <code>&lt;Title&gt;</code> components
-      <br>that can magically bind the meta using Vue template.
+      There are renderless <code>&lt;Html&gt;</code>, <code>&lt;Meta&gt;</code>,
+      <code>&lt;Title&gt;</code> components <br />that can magically bind the
+      meta using Vue template.
     </div>
 
     <Html :lang="String(dynamic)">
       <Head>
         <Title>Luck number: {{ dynamic }}</Title>
-        <Meta name="description" :content="`My page's ${dynamic} description`" />
+        <Meta
+          name="description"
+          :content="`My page's ${dynamic} description`"
+        />
         <Link rel="preload" href="/test.txt" as="script" />
         <Script>console.log("hello script");</Script>
       </Head>
@@ -26,17 +30,17 @@
 
 <script>
 export default {
-  setup () {
+  setup() {
     useHead({
       titleTemplate: '%s - useHead example',
       bodyAttrs: {
-        class: 'test'
-      }
+        class: 'test',
+      },
     })
     return { dynamic: ref(49) }
   },
   head: {
-    title: 'Another title'
-  }
+    title: 'Another title',
+  },
 }
 </script>

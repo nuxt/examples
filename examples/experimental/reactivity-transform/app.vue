@@ -1,25 +1,24 @@
 <script setup lang="ts">
 let count = $ref(0)
 
-function inc () {
+function inc() {
   count++
 }
-function dec () {
+function dec() {
   count--
 }
 </script>
 
 <template>
-  <NuxtExampleLayout example="experimental/reactivity-transform">
+  <NuxtExampleLayout
+    repo="nuxt/examples"
+    example="experimental/reactivity-transform"
+  >
     <div>
       <Label :count="count" />
       <div class="flex gap-1 justify-center">
-        <NButton @click="inc()">
-          Inc
-        </NButton>
-        <NButton @click="dec()">
-          Dec
-        </NButton>
+        <NButton @click="inc()"> Inc </NButton>
+        <NButton @click="dec()"> Dec </NButton>
       </div>
     </div>
   </NuxtExampleLayout>

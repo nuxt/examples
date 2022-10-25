@@ -6,7 +6,7 @@ const bar = getBar()
 </script>
 
 <template>
-  <NuxtExampleLayout example="advanced/config-extends">
+  <NuxtExampleLayout repo="nuxt/examples" example="advanced/config-extends">
     appConfig:
     <pre>{{ JSON.stringify(appConfig, null, 2) }}</pre>
     runtimeConfig:
@@ -14,9 +14,9 @@ const bar = getBar()
     <BaseButton>Base Button</BaseButton>
     <FancyButton>Fancy Button</FancyButton>
     <UIButton>UI Button</UIButton>
-    <br>
+    <br />
     {{ foo }} {{ bar }}
-    <br>
+    <br />
     {{ $myPlugin() }}
   </NuxtExampleLayout>
 </template>
