@@ -11,8 +11,8 @@
     "@nuxt/kit": "3.0.0-rc.12",
     "globby": "^13.1.2",
     "pathe": "^1.0.0",
-    "pkg-types": "^0.3.5",
-    "turbo": "^1.6.1"
+    "pkg-types": "^0.3.6",
+    "turbo": "^1.6.3"
   },
   "engines": {
     "node": "16.x"
