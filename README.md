@@ -10,6 +10,7 @@
 - [components](https://components.example.nuxt.space/)
 - [composables](https://composables.example.nuxt.space/)
 - [config-extends](https://config-extends.example.nuxt.space/)
+- [daisyui](https://daisyui.example.nuxt.space/)
 - [error-handling](https://error-handling.example.nuxt.space/)
 - [hello-world](https://hello-world.example.nuxt.space/)
 - [jsx](https://jsx.example.nuxt.space/)
