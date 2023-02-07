@@ -5,7 +5,7 @@
   "main": "index.mjs",
   "license": "MIT",
   "scripts": {
-    "build": "turbo run build && node scripts/build.mjs"
+    "build": "turbo run build && node .scripts/build.mjs"
   },
   "devDependencies": {
     "@nuxt/kit": "3.1.2",
