@@ -19,6 +19,16 @@ importers:
       pkg-types: 1.0.1
       turbo: 1.7.3
 
+  auth/local:
+    specifiers:
+      '@nuxt/ui': ^0.4.0
+      nuxt: ^3.1.2
+      uncrypto: ^0.1.2
+    devDependencies:
+      '@nuxt/ui': 0.4.1_nuxt@3.1.2
+      nuxt: 3.1.2
+      uncrypto: 0.1.2
+
   features/advanced/config-extends:
     specifiers:
       '@nuxt/ui': ^0.4.0
