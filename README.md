@@ -14,9 +14,8 @@
 
 ### Core Features
 
+- [auto-imports](https://auto-imports.example.nuxt.space/)
 - [app-config](https://app-config.example.nuxt.space/)
-- [components](https://components.example.nuxt.space/)
-- [composables](https://composables.example.nuxt.space/)
 - [config-extends](https://config-extends.example.nuxt.space/)
 - [error-handling](https://error-handling.example.nuxt.space/)
 - [hello-world](https://hello-world.example.nuxt.space/)
