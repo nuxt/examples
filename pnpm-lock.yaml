@@ -128,12 +128,6 @@ importers:
       '@nuxt/ui': 0.4.1_nuxt@3.1.2
       nuxt: 3.1.2
 
-  features/essentials/hello-world:
-    specifiers:
-      nuxt: ^3.1.2
-    devDependencies:
-      nuxt: 3.1.2
-
   features/experimental/reactivity-transform:
     specifiers:
       '@nuxt/ui': ^0.4.0
@@ -2606,8 +2600,8 @@ packages:
     peerDependencies:
       postcss: ^8.1.0
     dependencies:
-      browserslist: 4.21.5
-      caniuse-lite: 1.0.30001450
+      browserslist: 4.21.4
+      caniuse-lite: 1.0.30001435
       fraction.js: 4.2.0
       normalize-range: 0.1.2
       picocolors: 1.0.0
@@ -5199,13 +5193,13 @@ packages:
       pathe: 1.1.0
       perfect-debounce: 0.1.3
       scule: 1.0.0
-      strip-literal: 1.0.0
+      strip-literal: 1.0.1
       ufo: 1.0.1
       ultrahtml: 1.2.0
       unctx: 2.1.1
       unenv: 1.1.0
       unhead: 1.0.21
-      unimport: 2.1.0
+      unimport: 2.2.4
       unplugin: 1.0.1
       untyped: 1.2.2
       vue: 3.2.47
@@ -6899,24 +6893,6 @@ packages:
       - rollup
     dev: true
 
-  /unimport/2.1.0:
-    resolution: {integrity: sha512-GDVIxATluUquX8EqelT6DtnmnZaXGID1jsO9IXwlnxb0OIEqKAxTOnTlnGmHbseoGTh+ZC9kcNDaO18HYQj9KA==}
-    dependencies:
-      '@rollup/pluginutils': 5.0.2
-      escape-string-regexp: 5.0.0
-      fast-glob: 3.2.12
-      local-pkg: 0.4.3
-      magic-string: 0.27.0
-      mlly: 1.1.0
-      pathe: 1.1.0
-      pkg-types: 1.0.1
-      scule: 1.0.0
-      strip-literal: 1.0.0
-      unplugin: 1.0.1
-    transitivePeerDependencies:
-      - rollup
-    dev: true
-
   /unimport/2.2.4:
     resolution: {integrity: sha512-qMgmeEGqqrrmEtm0dqxMG37J6xBtrriqxq9hILvDb+e6l2F0yTnJomLoCCp0eghLR7bYGeBsUU5Y0oyiUYhViw==}
     dependencies:
@@ -7373,7 +7349,7 @@ packages:
       '@vitest/runner': 0.28.4
       '@vitest/spy': 0.28.4
       '@vitest/utils': 0.28.4
-      acorn: 8.8.1
+      acorn: 8.8.2
       acorn-walk: 8.2.0
       cac: 6.7.14
       chai: 4.3.7
@@ -7383,7 +7359,7 @@ packages:
       picocolors: 1.0.0
       source-map: 0.6.1
       std-env: 3.3.2
-      strip-literal: 1.0.0
+      strip-literal: 1.0.1
       tinybench: 2.3.1
       tinypool: 0.3.1
       tinyspy: 1.0.2
