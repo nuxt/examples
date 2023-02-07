@@ -1,5 +1,5 @@
 {
-  "name": "nuxt-local-auth",
+  "name": "local-auth",
   "private": true,
   "scripts": {
     "build": "nuxi build",
