@@ -8,8 +8,9 @@
 
 ### UI Frameworks
 
-- [tailwindcss](https://tailwindcss.example.nuxt.space/)
 - [daisyui](https://daisyui.example.nuxt.space/)
+- [tailwindcss](https://tailwindcss.example.nuxt.space/)
+- [sass](https://sass.example.nuxt.space/)
 
 ### Core Features
 
