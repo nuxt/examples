@@ -11,6 +11,7 @@
 - [daisyui](https://daisyui.example.nuxt.space/)
 - [tailwindcss](https://tailwindcss.example.nuxt.space/)
 - [sass](https://sass.example.nuxt.space/)
+- [vuetify](https://vuetify.example.nuxt.space/)
 
 ### Core Features
 
