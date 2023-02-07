@@ -15,7 +15,7 @@
     "turbo": "^1.7.3"
   },
   "engines": {
-    "node": "18.x"
+    "node": "18.x || 16.x"
   },
   "resolutions": {
     "ufo": "^1.0.0"

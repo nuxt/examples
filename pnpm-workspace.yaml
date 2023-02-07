@@ -1,4 +1,5 @@
 packages:
+  - "auth/**"
   - "features/**"
-  - "ui/**"
   - "hello-world/"
+  - "ui/**"
