@@ -8,6 +8,9 @@ const stringify = contents => JSON.stringify(contents, null, 2)
 const packages = await globby([
   '**/package.json',
   '!**/node_modules',
+  '!**/.nitro',
+  '!**/.vercel',
+  '!**/.output',
   '!package.json',
 ]).then(r => r.sort())
 const names = new Set()
@@ -64,7 +67,7 @@ export default function middleware(req) {
   return new Response(null, {
     status: 307,
     headers: {
-      Location: 'https://v3.nuxtjs.org/examples/essentials/hello-world/'
+      Location: 'https://nuxt.com/docs/examples/essentials/hello-world/'
     }
   })
   
