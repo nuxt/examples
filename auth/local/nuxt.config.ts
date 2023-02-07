@@ -16,7 +16,7 @@ export default defineNuxtConfig({
   },
   hooks: {
     ready() {
-      if (!process.env.NUXT_AUTH_PASSWORD) {
+      if (process.env.NODE_ENV === 'development' && !process.env.NUXT_AUTH_PASSWORD) {
         throw new Error(
           "Missing `NUXT_AUTH_PASSWORD` environment variable! Is .env file missing?"
         );
