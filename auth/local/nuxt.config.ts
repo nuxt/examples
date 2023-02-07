@@ -1,4 +1,11 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+
+// Demo-only
+if (!process.env.NUXT_AUTH_PASSWORD) {
+  console.warn('Security warning: NUXT_AUTH_PASSWORD is not set. Using an example value. Please set it otherwise your session is unsecure!');
+  process.env.NUXT_AUTH_PASSWORD = 'secretsecretsecretsecretsecretsecretsecret'
+}
+
 export default defineNuxtConfig({
   modules: [
     '@nuxt/ui'
@@ -6,21 +13,12 @@ export default defineNuxtConfig({
   runtimeConfig: {
     auth: {
       name: "nuxt-session",
-      password: "",
+      password: process.env.NUXT_AUTH_PASSWORD || "",
     },
   },
   nitro: {
     storage: {
       "db:auth": { driver: "fs", base: "./.data/auth" },
-    },
-  },
-  hooks: {
-    ready() {
-      if (process.env.NODE_ENV === 'development' && !process.env.NUXT_AUTH_PASSWORD) {
-        throw new Error(
-          "Missing `NUXT_AUTH_PASSWORD` environment variable! Is .env file missing?"
-        );
-      }
     },
   },
 });
