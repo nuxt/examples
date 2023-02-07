@@ -82,20 +82,10 @@ importers:
       '@nuxt/ui': 0.3.3_nuxt@3.0.0
       nuxt: 3.0.0
 
-  features/auto-imports/components:
+  features/auto-imports:
     specifiers:
-      '@nuxt/ui': ^0.3.3
       nuxt: ^3.0.0
     devDependencies:
-      '@nuxt/ui': 0.3.3_nuxt@3.0.0
-      nuxt: 3.0.0
-
-  features/auto-imports/composables:
-    specifiers:
-      '@nuxt/ui': ^0.3.3
-      nuxt: ^3.0.0
-    devDependencies:
-      '@nuxt/ui': 0.3.3_nuxt@3.0.0
       nuxt: 3.0.0
 
   features/composables/use-async-data:
