@@ -16,5 +16,8 @@
   },
   "engines": {
     "node": "18.x"
+  },
+  "resolutions": {
+    "ufo": "^1.0.0"
   }
 }
