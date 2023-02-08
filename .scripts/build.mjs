@@ -62,7 +62,7 @@ export default function middleware(req) {
     const url = new URL(req.url)
     response.headers.set('x-middleware-rewrite', '/' + subdomain + url.pathname)
     if (forced) {
-      response.cookies.set('force', forced)
+      response.headers.set('set-cookie', \`forced=$\{forced}\`)
     }
     return response
   }
