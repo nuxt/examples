@@ -55,7 +55,7 @@ const names = ${stringify([...names])}
 export default function middleware(req) {
   const forced = req.url.match(/\\?force=(.*)$/)?.[1]
   const hostname = req.headers.get('host')
-  const subdomain = forced || req.headers.cookie?.match(/force=([^;]*)(;|$)/)?.[1] || hostname.split('.').shift()
+  const subdomain = forced || req.headers.cookie?.match(/forced=([^;]*)(;|$)/)?.[1] || hostname.split('.').shift()
   
   if (names.includes(subdomain)) {
     const response = new Response()
