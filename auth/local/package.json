@@ -8,7 +8,7 @@
   },
   "devDependencies": {
     "@nuxt/ui": "^0.4.0",
-    "nuxt": "^3.1.2",
+    "nuxt": "^3.2.0",
     "uncrypto": "^0.1.2"
   }
 }

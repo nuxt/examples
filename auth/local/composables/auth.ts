@@ -25,16 +25,9 @@ export const authRegister = async (email: string, password: string) => {
 };
 
 export const authLogout = async () => {
-  await $authFetch("/api/auth/logout", {
+  const $fetch = useRequestFetch()
+  await $fetch("/api/auth/logout", {
     method: "POST",
   });
   await useAuth().updateSession();
 };
-
-export const $authFetch = ((url: string, init?: any) => ($fetch as any)(url, {
-  ...init,
-  headers: {
-    ...useRequestHeaders(['cookie']),
-    ...init?.headers,
-  }
-})) as typeof globalThis.$fetch
