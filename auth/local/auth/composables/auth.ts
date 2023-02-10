@@ -25,7 +25,6 @@ export const authRegister = async (email: string, password: string) => {
 };
 
 export const authLogout = async () => {
-  const $fetch = useRequestFetch()
   await $fetch("/api/auth/logout", {
     method: "POST",
   });

@@ -7,11 +7,15 @@ if (!process.env.NUXT_AUTH_PASSWORD) {
 }
 
 export default defineNuxtConfig({
-  // Learn more: https://nuxt.com/docs/getting-started/layers
-  extends: [
-    './auth'
-  ],
-  modules: [
-    '@nuxt/ui'
-  ],
+  runtimeConfig: {
+    auth: {
+      name: "nuxt-session",
+      password: process.env.NUXT_AUTH_PASSWORD || "",
+    },
+  },
+  nitro: {
+    storage: {
+      ".data:auth": { driver: "fs", base: "./.data/auth" },
+    },
+  },
 });

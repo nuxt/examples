@@ -1,4 +1,4 @@
-import type { AuthSession } from "~~/server/utils/auth";
+import type { AuthSession } from "~~/auth/server/utils/session";
 
 export default defineNuxtPlugin(async (nuxtApp) => {
   // Skip plugin when rendering error page
