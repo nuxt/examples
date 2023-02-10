@@ -1,8 +1,8 @@
 # Nuxt with Local Auth
 
-Simple password based started made with Nuxt goodies, built-in session, storage layer and composables.
+Simple password based starter made with Nuxt goodies, built-in session, storage layer and composables.
 
-This project uses [Nuxt Extend Layers](https://nuxt.com/docs/getting-started/layers) feature to implement local auth (in [`auth`](./auth)) directory with a modular approach. This way you can share and reuse your authentication implementation across projects and keep source code clean.
+This project uses [Nuxt Extend Layers](https://nuxt.com/docs/getting-started/layers) feature to implement local auth in [`auth`](./auth) directory with a modular approach. This way you can share and reuse your authentication implementation across projects and keep the code clean.
 
 Default database is using built-in KV strage. You can rewrite it with a custom database by updating [`server/utils/db.ts`](./auth/server/utils/db.ts)
 
