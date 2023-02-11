@@ -11,7 +11,17 @@ export default defineNuxtPlugin(async (nuxtApp) => {
 
   const loggedIn: any = computed(() => !!session.value?.email);
 
+  // Create a ref to know where to redirect the user when logged in
   const redirectTo = useState("authRedirect")
+
+  /**
+   * Add global route middleware to protect pages using:
+   * 
+   * definePageMeta({
+   *  auth: true
+   * })
+   */
+  // 
 
   addRouteMiddleware(
     "auth",
@@ -30,12 +40,12 @@ export default defineNuxtPlugin(async (nuxtApp) => {
     watch(loggedIn, async (loggedIn) => {
       if (!loggedIn && currentRoute.meta.auth) {
         redirectTo.value = currentRoute.path
-        await navigateTo("/auth");
+        await navigateTo("/login");
       }
     });
   }
 
-  if (loggedIn.value && currentRoute.path === "/auth") {
+  if (loggedIn.value && currentRoute.path === "/login") {
     await navigateTo(redirectTo.value || "/");
   }
 
