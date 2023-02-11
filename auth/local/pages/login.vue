@@ -45,7 +45,7 @@ const onError = (err: any) => {
         </div>
       </div>
       <br />
-      <NTip v-if="alert">
+      <NTip v-if="alert" n="orange">
         {{ alert }}
       </NTip>
       <br />

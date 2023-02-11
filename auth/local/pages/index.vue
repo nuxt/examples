@@ -5,5 +5,5 @@ useHead({
 </script>
 
 <template>
-  <div>Home Page</div>
+  <div>Welcome to the example of Nuxt with local authentication.</div>
 </template>

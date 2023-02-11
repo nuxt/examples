@@ -18,7 +18,7 @@ export default defineNuxtPlugin(async (nuxtApp) => {
     (to) => {
       if (to.meta.auth && !loggedIn.value) {
         redirectTo.value = to.path
-        return "/auth";
+        return "/login";
       }
     },
     { global: true }

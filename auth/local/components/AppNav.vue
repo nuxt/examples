@@ -4,7 +4,7 @@
   <nav>
     <NuxtLink to="/">Home Page</NuxtLink> |
     <NuxtLink to="/secret">Secret Page</NuxtLink> |
-    <NuxtLink to="/auth" v-if="!$auth.loggedIn.value">Login</NuxtLink>
+    <NuxtLink to="/login" v-if="!$auth.loggedIn.value">Login</NuxtLink>
     <NuxtLink to="/profile" v-else>Profile</NuxtLink>
   </nav>
   <hr />

@@ -7,7 +7,7 @@ definePageMeta({
   auth: true,
 });
 
-const { data: secretData } = await useAsyncData(() => $authFetch("/api/secret"));
+const { data: secretData } = await useFetch("/api/secret")
 </script>
 
 <template>
