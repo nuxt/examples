@@ -40,3 +40,7 @@
 - [use-state](https://use-state.example.nuxt.space/)
 - [vite-node](https://vite-node.example.nuxt.space/)
 - [wasm](https://wasm.example.nuxt.space/)
+
+### Authentication
+
+- [local](https://local-auth.example.nuxt.space/)
