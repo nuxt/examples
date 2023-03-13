@@ -25,6 +25,10 @@ const showAlert = (message: string) => {
 const onError = (err: any) => {
   showAlert(err?.data.message ?? err?.message ?? err);
 };
+
+watch(useAuth().redirectTo, (redirectTo) => {
+  alert.value = `Please login or register ${redirectTo ? `to access ${redirectTo}` : ""}`
+});
 </script>
 
 <template>
