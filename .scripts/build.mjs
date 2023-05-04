@@ -53,14 +53,17 @@ await fsp.writeFile(
 const names = ${stringify([...names])}
 
 export default function middleware(req) {
+  const forced = req.url.match(/\\?force=(.*)$/)?.[1]
   const hostname = req.headers.get('host')
-  const subdomain = hostname.split('.').shift()
-
+  const subdomain = forced || req.headers.get('cookie')?.match(/forced=([^;]*)(;|$)/)?.[1] || hostname.split('.').shift()
   
   if (names.includes(subdomain)) {
     const response = new Response()
     const url = new URL(req.url)
     response.headers.set('x-middleware-rewrite', '/' + subdomain + url.pathname)
+    if (forced) {
+      response.headers.set('set-cookie', \`forced=$\{forced}\`)
+    }
     return response
   }
   
