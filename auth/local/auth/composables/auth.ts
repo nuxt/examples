@@ -8,9 +8,9 @@ export const authLogin = async (email: string, password: string) => {
       password: password,
     },
   });
-  useAuth().redirectTo.value = null;
+  const { redirectTo } = useRoute().query;
   await useAuth().updateSession();
-  await navigateTo(useAuth().redirectTo.value || "/");
+  await navigateTo(String(redirectTo) || "/");
 };
 
 export const authRegister = async (email: string, password: string) => {

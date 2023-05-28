@@ -7,7 +7,7 @@ definePageMeta({
   auth: true,
 });
 
-const { data: session } = await useFetch("/api/auth/session", { headers: useRequestHeaders(['cookie'])});
+const { data: session } = await useFetch("/api/auth/session");
 </script>
 
 <template>
