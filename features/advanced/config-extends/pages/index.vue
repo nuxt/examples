@@ -14,9 +14,9 @@ const bar = getBar()
     <BaseButton>Base Button</BaseButton>
     <FancyButton>Fancy Button</FancyButton>
     <UIButton>UI Button</UIButton>
-    <br />
+    <br>
     {{ foo }} {{ bar }}
-    <br />
+    <br>
     {{ $myPlugin() }}
   </NuxtExampleLayout>
 </template>

@@ -1,10 +1,10 @@
 <script setup lang="ts">
 const count = ref(0)
 
-function inc() {
+function inc () {
   count.value++
 }
-function dec() {
+function dec () {
   count.value--
 }
 </script>
@@ -14,8 +14,12 @@ function dec() {
     <div>
       {{ count }}
       <div class="flex gap-1 justify-center">
-        <NButton @click="inc()"> Inc </NButton>
-        <NButton @click="dec()"> Dec </NButton>
+        <NButton @click="inc()">
+          Inc
+        </NButton>
+        <NButton @click="dec()">
+          Dec
+        </NButton>
       </div>
     </div>
   </NuxtExampleLayout>

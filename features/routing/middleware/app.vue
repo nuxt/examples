@@ -8,9 +8,15 @@ const route = useRoute()
 
     <template #nav>
       <nav class="flex align-center gap-4 p-4">
-        <NuxtLink to="/" class="n-link-base"> Home </NuxtLink>
-        <NuxtLink to="/forbidden" class="n-link-base"> Forbidden </NuxtLink>
-        <NuxtLink to="/redirect" class="n-link-base"> Redirect </NuxtLink>
+        <NuxtLink to="/" class="n-link-base">
+          Home
+        </NuxtLink>
+        <NuxtLink to="/forbidden" class="n-link-base">
+          Forbidden
+        </NuxtLink>
+        <NuxtLink to="/redirect" class="n-link-base">
+          Redirect
+        </NuxtLink>
       </nav>
     </template>
 

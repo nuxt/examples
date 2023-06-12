@@ -9,11 +9,11 @@ const Nuxt3 = defineComponent(() => {
 
 // We can combine components with JSX syntax too
 const InlineComponent = () => (
-  <div>
-    <Welcome />
-    <span>to </span>
-    <Nuxt3 />
-  </div>
+    <div>
+      <Welcome />
+      <span>to </span>
+      <Nuxt3 />
+    </div>
 )
 </script>
 

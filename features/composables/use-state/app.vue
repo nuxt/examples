@@ -8,8 +8,12 @@ const sameCounter = useState('counter')
     <div>Counter: {{ counter }}</div>
     <div>Same Counter: {{ sameCounter }}</div>
     <div>
-      <NButton class="font-mono" @click="counter++"> + </NButton>
-      <NButton class="font-mono" @click="counter--"> - </NButton>
+      <NButton class="font-mono" @click="counter++">
+        +
+      </NButton>
+      <NButton class="font-mono" @click="counter--">
+        -
+      </NButton>
     </div>
   </NuxtExampleLayout>
 </template>

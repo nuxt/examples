@@ -5,7 +5,7 @@
     "dev": "nuxi dev",
     "build": "nuxi build",
     "generate": "nuxi generate",
-    "start": "node .output/server/index.mjs"
+    "start": "nuxi preview"
   },
   "devDependencies": {
     "nuxt": "^3.1.2"
