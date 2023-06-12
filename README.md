@@ -41,7 +41,7 @@
 - [use-async-data](https://use-async-data.example.nuxt.space/)
 - [use-cookie](https://use-cookie.example.nuxt.space/)
 - [use-fetch](https://use-fetch.example.nuxt.space/)
-- [use-custom-fetch-composable](https://use-custom-fetch-composable.nuxt.space/)
+- [use-custom-fetch-composable](https://use-custom-fetch-composable.example.nuxt.space/)
 - [use-head](https://use-head.example.nuxt.space/)
 - [use-state](https://use-state.example.nuxt.space/)
 - [vite-node](https://vite-node.example.nuxt.space/)
