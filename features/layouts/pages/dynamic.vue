@@ -10,15 +10,13 @@ const layout = ref('custom')
     <p>Custom layout defined dynamically with the <code>NuxtLayout</code> component</p>
 
     <NuxtLayout :name="layout">
-      Default slot
-      <br>
-      <button class="border p-1 rounded" @click="layout = layout ? null : 'custom'">
-        Switch layout
-      </button>
-
       <template #header>
-        Header slot
+        <p>Header slot</p>
       </template>
+      <p>Default slot</p>
+      <button class="border p-1 rounded" @click="layout = layout ? null : 'custom'">
+        Toggle layout
+      </button>
     </NuxtLayout>
   </div>
 </template>
