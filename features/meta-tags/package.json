@@ -1,5 +1,5 @@
 {
-  "name": "use-head",
+  "name": "meta-tags",
   "private": true,
   "scripts": {
     "build": "nuxi build",

@@ -3,4 +3,7 @@ packages:
   - "features/**"
   - "hello-world/"
   - "ui/**"
+  - "routing/**"
+  - "advanced/**"
+  - "experimental/**"
   - '!**/.vercel/**'
