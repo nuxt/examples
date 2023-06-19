@@ -6,7 +6,20 @@
 
 ## Sites
 
+- [hello-world](https://hello-world.example.nuxt.space/) - ([source](./hello-world/))
+
+### Features
+
+Inside [features/](./features).
+
+- [auto-imports](https://auto-imports.example.nuxt.space/)
+- [data-fetching](https://data-fetching.example.nuxt.space/)
+- [state-management](https://state-management.example.nuxt.space/)
+- [meta-tags](https://meta-tags.example.nuxt.space/)
+
 ### UI Frameworks
+
+Inside [ui/](./ui).
 
 - [daisyui](https://daisyui.example.nuxt.space/)
 - [tailwindcss](https://tailwindcss.example.nuxt.space/)
@@ -17,11 +30,8 @@
 
 - [local](https://local-auth.example.nuxt.space/)
 
+## Advanced
 
-### Core Features
-
-- [auto-imports](https://auto-imports.example.nuxt.space/)
-- [app-config](https://app-config.example.nuxt.space/)
 - [config-extends](https://config-extends.example.nuxt.space/)
 - [error-handling](https://error-handling.example.nuxt.space/)
 - [hello-world](https://hello-world.example.nuxt.space/)
