@@ -137,15 +137,6 @@ importers:
         specifier: ^3.5.3
         version: 3.5.3(@types/node@18.13.0)(sass@1.58.0)
 
-  features/composables/use-state:
-    devDependencies:
-      '@nuxt/ui':
-        specifier: ^0.4.1
-        version: 0.4.1(nuxt@3.5.3)(vite@4.3.9)(vue@3.3.4)(webpack@5.86.0)
-      nuxt:
-        specifier: ^3.5.3
-        version: 3.5.3(@types/node@18.13.0)(sass@1.58.0)
-
   features/data-fetching:
     devDependencies:
       nuxt:
@@ -238,6 +229,12 @@ importers:
       '@nuxt/ui':
         specifier: ^0.4.1
         version: 0.4.1(nuxt@3.5.3)(vite@4.3.9)(vue@3.3.4)(webpack@5.86.0)
+      nuxt:
+        specifier: ^3.5.3
+        version: 3.5.3(@types/node@18.13.0)(sass@1.58.0)
+
+  features/state-management:
+    devDependencies:
       nuxt:
         specifier: ^3.5.3
         version: 3.5.3(@types/node@18.13.0)(sass@1.58.0)
