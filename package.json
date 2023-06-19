@@ -16,9 +16,10 @@
     "turbo": "^1.7.3"
   },
   "resolutions": {
+    "destr": "latest",
     "ufo": "latest"
   },
   "engines": {
-    "node": "18.x || 16.x"
+    "node": "20.x || 18.x || 16.x"
   }
 }
