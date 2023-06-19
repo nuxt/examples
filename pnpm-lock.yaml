@@ -1,5 +1,8 @@
 lockfileVersion: '6.0'
 
+overrides:
+  ufo: latest
+
 importers:
 
   .:
@@ -1516,7 +1519,7 @@ packages:
       postcss-nesting: 10.2.0(postcss@8.4.24)
       tailwind-config-viewer: 1.7.2(tailwindcss@3.3.2)
       tailwindcss: 3.3.2
-      ufo: 0.8.6
+      ufo: 1.1.2
     transitivePeerDependencies:
       - rollup
       - supports-color
@@ -5166,7 +5169,7 @@ packages:
     dependencies:
       destr: 1.2.2
       node-fetch-native: 0.1.8
-      ufo: 0.8.6
+      ufo: 1.1.2
       undici: 5.22.1
     dev: true
 
@@ -6715,10 +6718,6 @@ packages:
     dependencies:
       media-typer: 0.3.0
       mime-types: 2.1.35
-    dev: true
-
-  /ufo@0.8.6:
-    resolution: {integrity: sha512-fk6CmUgwKCfX79EzcDQQpSCMxrHstvbLswFChHS0Vump+kFkw7nJBfTZoC1j0bOGoY9I7R3n2DGek5ajbcYnOw==}
     dev: true
 
   /ufo@1.1.2:

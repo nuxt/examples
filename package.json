@@ -15,6 +15,9 @@
     "pkg-types": "^1.0.1",
     "turbo": "^1.7.3"
   },
+  "resolutions": {
+    "ufo": "latest"
+  },
   "engines": {
     "node": "18.x || 16.x"
   }
