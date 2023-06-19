@@ -1,6 +1,8 @@
+import { defineLazyEventHandler } from 'h3'
+
 export default defineLazyEventHandler(async () => {
   const { exports: { sum } } = await loadWasmInstance(
-    // @ts-ignore
+    // @ts-expect-error TODO: https://github.com/nuxt/nuxt/issues/14131
     () => import('~/server/wasm/sum.wasm')
   )
 

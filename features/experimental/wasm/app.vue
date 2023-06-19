@@ -2,8 +2,8 @@
 const a = ref(100)
 const b = ref(250)
 
-const { data } = await useAsyncData('sum', () =>
-  $fetch('/api/sum', { params: { a: a.value, b: b.value } })
+const { data } = await useAsyncData('sum',
+  () => $fetch('/api/sum', { params: { a: a.value, b: b.value } })
 )
 </script>
 
@@ -17,7 +17,7 @@ const { data } = await useAsyncData('sum', () =>
     </p>
     <p>
       Computation performed server-side with WASM :
-      <br />
+      <br>
       <code>{{ a }} + {{ b }} = {{ data.sum }}</code>
     </p>
   </NuxtExampleLayout>

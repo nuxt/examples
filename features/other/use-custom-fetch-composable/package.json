@@ -1,5 +1,5 @@
 {
-  "name": "reactivity-transform",
+  "name": "use-custom-fetch-composable",
   "private": true,
   "scripts": {
     "build": "nuxi build",

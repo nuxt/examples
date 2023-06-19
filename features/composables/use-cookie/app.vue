@@ -15,13 +15,11 @@ const logout = () => {
 </script>
 
 <template>
-  <NuxtExampleLayout
-    repo="nuxt/examples"
-    class="h-50"
-    example="composables/use-cookie"
-  >
+  <NuxtExampleLayout class="h-50" example="composables/use-cookie">
     <template v-if="user">
-      <h1 class="text-3xl mb-3">Welcome, {{ user.name }}! 👋</h1>
+      <h1 class="text-3xl mb-3">
+        Welcome, {{ user.name }}! 👋
+      </h1>
       <div>
         <NTip n="green6" icon="carbon:idea" class="inline-flex">
           You have logged in <b>{{ logins }} times</b>!
@@ -34,14 +32,10 @@ const logout = () => {
       </div>
     </template>
     <template v-else>
-      <h1 class="text-3xl mb-3">Login</h1>
-      <NTextInput
-        v-model="name"
-        n="lg"
-        class="w-100 m-auto"
-        placeholder="Enter your name..."
-        @keypress.enter="login()"
-      />
+      <h1 class="text-3xl mb-3">
+        Login
+      </h1>
+      <NTextInput v-model="name" n="lg" class="w-100 m-auto" placeholder="Enter your name..." @keypress.enter="login()" />
       <div class="mt-3">
         <NButton icon="carbon:user" :disabled="!name" @click="login">
           Log in
