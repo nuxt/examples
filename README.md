@@ -15,7 +15,7 @@ Inside [features/](./features).
 - [auto-imports](https://auto-imports.example.nuxt.space/)
 - [data-fetching](https://data-fetching.example.nuxt.space/)
 - [state-management](https://state-management.example.nuxt.space/)
-- [meta-tags](https://meta-tagss.example.nuxt.space/)
+- [meta-tags](https://meta-tags.example.nuxt.space/)
 - [layouts](https://layouts.example.nuxt.space/)
 
 ### Routing
