@@ -1,5 +1,5 @@
 {
-  "name": "auto-imports-components",
+  "name": "auto-imports",
   "private": true,
   "scripts": {
     "build": "nuxi build",
@@ -7,7 +7,6 @@
     "start": "nuxi preview"
   },
   "devDependencies": {
-    "@nuxt/ui": "^0.4.0",
     "nuxt": "^3.1.2"
   }
 }
