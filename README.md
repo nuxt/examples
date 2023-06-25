@@ -47,7 +47,6 @@ Inside [advanced/](./advanced).
 
 - [config-extends](https://config-extends.example.nuxt.space/)
 - [error-handling](https://error-handling.example.nuxt.space/)
-- [hello-world](https://hello-world.example.nuxt.space/)
 - [jsx](https://jsx.example.nuxt.space/)
 - [locale](https://locale.example.nuxt.space/)
 - [module-extend-pages](https://module-extend-pages.example.nuxt.space/)
