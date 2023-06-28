@@ -2,7 +2,6 @@
   "name": "nuxt-examples",
   "private": true,
   "version": "1.0.0",
-  "main": "index.mjs",
   "license": "MIT",
   "scripts": {
     "build": "turbo run build && node .scripts/build.mjs"
