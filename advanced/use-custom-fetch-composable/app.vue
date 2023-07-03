@@ -4,7 +4,7 @@ const { data } = await useCustomFetch<object>('/beers')
 </script>
 
 <template>
-  <NuxtExampleLayout repo="nuxt/examples" example="other/use-custom-fetch-composable">
+  <NuxtExampleLayout repo="nuxt/examples" example="advanced/use-custom-fetch-composable">
     <h1 class="text-xl opacity-50">
       Nuxt custom fetch
     </h1>
