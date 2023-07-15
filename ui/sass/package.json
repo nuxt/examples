@@ -9,7 +9,7 @@
     "generate": "nuxt generate"
   },
   "devDependencies": {
-    "nuxt": "^3.6.1",
+    "nuxt": "^3.6.3",
     "sass": "^1.58.0"
   }
 }
