@@ -3,7 +3,7 @@
   "private": true,
   "devDependencies": {
     "@nuxt/ui": "^0.4.1",
-    "nuxt": "^3.6.3"
+    "nuxt": "^3.6.5"
   },
   "scripts": {
     "dev": "nuxi dev",
