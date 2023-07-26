@@ -7,6 +7,6 @@
     "start": "node .output/server"
   },
   "devDependencies": {
-    "nuxt": "^3.6.3"
+    "nuxt": "^3.6.5"
   }
 }

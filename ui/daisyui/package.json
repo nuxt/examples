@@ -12,6 +12,6 @@
     "@nuxtjs/color-mode": "^3.2.0",
     "@nuxtjs/tailwindcss": "^6.7.2",
     "daisyui": "^3.1.1",
-    "nuxt": "^3.6.3"
+    "nuxt": "^3.6.5"
   }
 }
