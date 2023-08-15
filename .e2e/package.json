@@ -1,0 +1,12 @@
+{
+  "name": "e2e",
+  "scripts": {
+    "test": "playwright test",
+    "test:update-snapshots": "playwright test --update-snapshots",
+    "codegen": "playwright codegen",
+    "ui": "playwright test --ui"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.35.1"
+  }
+}
