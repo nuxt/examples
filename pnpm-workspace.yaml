@@ -6,4 +6,5 @@ packages:
   - "routing/**"
   - "advanced/**"
   - "experimental/**"
+  - ".e2e/"
   - '!**/.vercel/**'

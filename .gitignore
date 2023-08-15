@@ -62,3 +62,8 @@ Temporary Items
 .netlify
 .turbo
 .vercel
+
+# Playwright
+**/test-results/
+**/playwright-report/
+**/playwright/.cache/
