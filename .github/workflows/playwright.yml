@@ -21,7 +21,7 @@ jobs:
         run: pnpm exec playwright install --with-deps
 
       - name: Run Playwright tests
-        run: pnpm --filter e2e test
+        run: pnpm --filter e2e test:all
 
       - uses: actions/upload-artifact@v3
         if: always()
