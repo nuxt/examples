@@ -55,7 +55,7 @@ Windows users shouldn't run visual regression tests directly, because the CI use
 In case you want to run these tests, you should use a docker image:
 
 ```ps
-docker run --rm --network host -v $(pwd):/work/ -w /work/ -it mcr.microsoft.com/playwright:v1.37.0-jammy /bin/bash
+docker run --rm --network host -v $(pwd):/work/ -w /work/ -it node:20-bookworm /bin/bash
 cd .e2e
 npm install
 
