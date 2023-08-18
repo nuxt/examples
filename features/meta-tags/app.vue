@@ -7,9 +7,3 @@ useHead({
 <template>
   <NuxtPage />
 </template>
-
-<style>
-body.my-body-class {
-  background: #eee;
-}
-</style>

@@ -1,6 +1,7 @@
 # Dependencies
 node_modules
 jspm_packages
+.pnpm-store
 
 package-lock.json
 */**/yarn.lock
@@ -62,3 +63,8 @@ Temporary Items
 .netlify
 .turbo
 .vercel
+
+# Playwright
+**/test-results/
+**/playwright-report/
+**/playwright/.cache/

@@ -1,0 +1,14 @@
+{
+  "name": "e2e",
+  "scripts": {
+    "test": "playwright test --grep-invert @visual",
+    "test:all": "playwright test",
+    "test:visual": "playwright test --grep @visual",
+    "test:visual:update-snapshots": "playwright test --grep @visual --update-snapshots",
+    "codegen": "playwright codegen",
+    "ui": "playwright test --ui"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.35.1"
+  }
+}
