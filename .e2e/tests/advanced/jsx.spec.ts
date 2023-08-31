@@ -1,6 +1,7 @@
+import { getURLForDeployment } from "@/utils"
 import { test, expect } from "@playwright/test"
 
-test.use({ baseURL: "https://jsx.example.nuxt.space/" })
+test.use({ baseURL: getURLForDeployment('jsx') })
 test.beforeEach(async ({ page }) => {
   await page.goto("/")
 })

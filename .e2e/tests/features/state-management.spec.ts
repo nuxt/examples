@@ -1,3 +1,4 @@
+import { getURLForDeployment } from "@/utils"
 import { test, expect, type Page } from "@playwright/test"
 
 test.use({ baseURL: "https://state-management.example.nuxt.space//" })

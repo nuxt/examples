@@ -1,6 +1,7 @@
+import { getURLForDeployment } from "@/utils"
 import { test, expect } from "@playwright/test"
 
-test.use({ baseURL: "https://data-fetching.example.nuxt.space/" })
+test.use({ baseURL: getURLForDeployment('data-fetching') })
 
 test.describe("Index page", () => {
   test("Hello world is shown on the index page", async ({ page }) => {

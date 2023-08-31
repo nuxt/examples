@@ -1,6 +1,7 @@
+import { getURLForDeployment } from "@/utils"
 import { test, expect } from "@playwright/test"
 
-test.use({ baseURL: "https://pages.example.nuxt.space/" })
+test.use({ baseURL: getURLForDeployment('pages') })
 
 test.describe("Linked pages", () => {
   test.beforeEach(async ({ page }) => {

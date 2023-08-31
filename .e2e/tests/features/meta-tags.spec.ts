@@ -1,6 +1,7 @@
+import { getURLForDeployment } from "@/utils"
 import { test, expect } from "@playwright/test"
 
-test.use({ baseURL: "https://meta-tags.example.nuxt.space/" })
+test.use({ baseURL: getURLForDeployment('meta-tags') })
 
 const INDEX_LANG = "en"
 const INDEX_DEFAULT_TITLE = "Lucky number: 1 - Meta Tags Example"

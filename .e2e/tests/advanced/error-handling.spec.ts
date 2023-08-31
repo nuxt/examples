@@ -1,6 +1,7 @@
+import { getURLForDeployment } from "@/utils"
 import { test, expect, Page } from "@playwright/test"
 
-test.use({ baseURL: "https://error-handling.example.nuxt.space/" })
+test.use({ baseURL: getURLForDeployment('error-handling') })
 
 test("Home page loads without any errors", async ({ page }) => {
   await page.goto("/")

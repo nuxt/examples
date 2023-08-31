@@ -1,6 +1,7 @@
+import { getURLForDeployment } from "@/utils"
 import { test, expect } from "@playwright/test"
 
-test.use({ baseURL: "https://use-cookie.example.nuxt.space/" })
+test.use({ baseURL: getURLForDeployment('use-cookie') })
 
 test("Login screen shows by default", async ({ page }) => {
   await page.goto("/")

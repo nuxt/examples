@@ -1,6 +1,18 @@
 name: Playwright Tests
 
-on: workflow_dispatch
+on:
+  workflow_dispatch:
+    inputs:
+      url:
+        required: false
+        description: The URL to run the test suite against. If omitted, it runs against all.
+        type: string
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
 
 jobs:
   test:
@@ -22,6 +34,8 @@ jobs:
 
       - name: Run Playwright tests
         run: pnpm --filter e2e test:all
+        env:
+          DEPLOY_URL: ${{ github.event.inputs.url || github.event.deployment.payload.web_url || github.event.deployment_status.target_url }}
 
       - uses: actions/upload-artifact@v3
         if: always()

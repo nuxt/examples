@@ -1,6 +1,7 @@
+import { getURLForDeployment } from "@/utils"
 import { test, expect } from "@playwright/test"
 
-test.use({ baseURL: "https://config-extends.example.nuxt.space/" })
+test.use({ baseURL: getURLForDeployment('config-extends') })
 
 test("App config merged", async ({ page }) => {
   // TODO need a unique locator

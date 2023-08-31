@@ -1,7 +1,7 @@
-import { wait } from "@/utils"
+import { getURLForDeployment, wait } from "@/utils"
 import { test, expect } from "@playwright/test"
 
-test.use({ baseURL: "https://middleware.example.nuxt.space/" })
+test.use({ baseURL: getURLForDeployment('middleware') })
 
 test("Global middleware is being registered", async ({ page }) => {
   const globalMiddlewareMessageLoggedPromise = page.waitForEvent("console", {

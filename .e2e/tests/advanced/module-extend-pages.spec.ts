@@ -1,6 +1,7 @@
+import { getURLForDeployment } from "@/utils"
 import { test, expect } from "@playwright/test"
 
-test.use({ baseURL: "https://module-extend-pages.example.nuxt.space/" })
+test.use({ baseURL: getURLForDeployment('module-extend-pages') })
 test.beforeEach(async ({ page }) => {
   await page.goto("/")
 })
