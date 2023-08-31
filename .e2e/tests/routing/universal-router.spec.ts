@@ -1,7 +1,7 @@
-import { getURLForDeployment } from "@/utils"
+import { getSettingsForDeployment } from "@/utils"
 import { test, expect } from "@playwright/test"
 
-test.use({ baseURL: getURLForDeployment('universal-router') })
+test.use(getSettingsForDeployment('universal-router'))
 
 test("Global middleware is being registered", async ({ page }) => {
   const globalMiddlewareMessageLoggedPromise = page.waitForEvent("console", {

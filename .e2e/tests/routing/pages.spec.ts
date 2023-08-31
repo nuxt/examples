@@ -1,7 +1,7 @@
-import { getURLForDeployment } from "@/utils"
+import { getSettingsForDeployment } from "@/utils"
 import { test, expect } from "@playwright/test"
 
-test.use({ baseURL: getURLForDeployment('pages') })
+test.use(getSettingsForDeployment('pages'))
 
 test.describe("Linked pages", () => {
   test.beforeEach(async ({ page }) => {

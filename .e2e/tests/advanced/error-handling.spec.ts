@@ -1,7 +1,7 @@
-import { getURLForDeployment } from "@/utils"
+import { getSettingsForDeployment } from "@/utils"
 import { test, expect, Page } from "@playwright/test"
 
-test.use({ baseURL: getURLForDeployment('error-handling') })
+test.use(getSettingsForDeployment('error-handling'))
 
 test("Home page loads without any errors", async ({ page }) => {
   await page.goto("/")

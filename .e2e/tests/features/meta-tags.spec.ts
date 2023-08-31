@@ -1,7 +1,7 @@
-import { getURLForDeployment } from "@/utils"
+import { getSettingsForDeployment } from "@/utils"
 import { test, expect } from "@playwright/test"
 
-test.use({ baseURL: getURLForDeployment('meta-tags') })
+test.use(getSettingsForDeployment('meta-tags'))
 
 const INDEX_LANG = "en"
 const INDEX_DEFAULT_TITLE = "Lucky number: 1 - Meta Tags Example"

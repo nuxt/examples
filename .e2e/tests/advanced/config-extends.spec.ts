@@ -1,7 +1,7 @@
-import { getURLForDeployment } from "@/utils"
+import { getSettingsForDeployment } from "@/utils"
 import { test, expect } from "@playwright/test"
 
-test.use({ baseURL: getURLForDeployment('config-extends') })
+test.use(getSettingsForDeployment('config-extends'))
 
 test("App config merged", async ({ page }) => {
   // TODO need a unique locator

@@ -1,7 +1,7 @@
-import { getURLForDeployment } from "@/utils"
+import { getSettingsForDeployment } from "@/utils"
 import { test, expect } from "@playwright/test"
 
-test.use({ baseURL: getURLForDeployment('locale') })
+test.use(getSettingsForDeployment('locale'))
 test.beforeEach(async ({ page }) => {
   await page.goto("/")
 })

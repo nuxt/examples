@@ -1,7 +1,7 @@
-import { getURLForDeployment } from "@/utils"
+import { getSettingsForDeployment } from "@/utils"
 import { test, expect } from "@playwright/test"
 
-test.use({ baseURL: getURLForDeployment('module-extend-pages') })
+test.use(getSettingsForDeployment('module-extend-pages'))
 test.beforeEach(async ({ page }) => {
   await page.goto("/")
 })

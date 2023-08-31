@@ -1,5 +1,7 @@
 export const wait = (ms: number) =>
   new Promise((resolve) => setTimeout(resolve, ms))
 
-export const getURLForDeployment = (slug: string) =>
-  process.env.DEPLOY_URL ? `${process.env.DEPLOY_URL}?force=${slug}` : `https://${slug}.example.nuxt.space/`
+export const getSettingsForDeployment = (slug: string) => ({
+  baseURL: process.env.DEPLOY_URL || `https://${slug}.example.nuxt.space/`,
+  extraHTTPHeaders: { 'cookie': `forced=${slug}` }
+})

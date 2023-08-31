@@ -1,7 +1,7 @@
-import { getURLForDeployment } from "@/utils"
+import { getSettingsForDeployment } from "@/utils"
 import { test, expect } from "@playwright/test"
 
-test.use({ baseURL: getURLForDeployment('use-cookie') })
+test.use(getSettingsForDeployment('use-cookie'))
 
 test("Login screen shows by default", async ({ page }) => {
   await page.goto("/")
