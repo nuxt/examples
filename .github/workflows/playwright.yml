@@ -7,12 +7,7 @@ on:
         required: false
         description: The URL to run the test suite against. If omitted, it runs against all.
         type: string
-  push:
-    branches:
-      - main
-  pull_request:
-    branches:
-      - main
+  deployment_status:
 
 jobs:
   test:
