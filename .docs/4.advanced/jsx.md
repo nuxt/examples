@@ -1,12 +1,9 @@
 ---
 toc: false
+title: 'JSX / TSX'
+description: 'This example shows how to use JSX syntax with typescript in Nuxt pages and components.'
 ---
 
-# JSX / TSX
+:read-more{link="https://vuejs.org/guide/extras/render-function.html#jsx-tsx"}
 
-This example shows how to use [jsx syntax](https://vuejs.org/guide/extras/render-function.html#jsx-tsx) with typescript in Nuxt pages and components.
-
-::ReadMore{link="https://vuejs.org/guide/extras/render-function.html#jsx-tsx"}
-::
-
-::sandbox{repo="nuxt/examples" branch="main" dir="advanced/jsx" file="nuxt.config.ts"}
+:sandbox{repo="nuxt/examples" branch="main" dir="advanced/jsx" file="nuxt.config.ts"}
