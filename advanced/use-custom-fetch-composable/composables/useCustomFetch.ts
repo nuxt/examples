@@ -1,13 +1,16 @@
 import type { UseFetchOptions } from 'nuxt/app'
 import { defu } from 'defu'
 
-export function useCustomFetch<T> (url: string, options: UseFetchOptions<T> = {}) {
+export function useCustomFetch<T> (url: string | (() => string), options: UseFetchOptions<T> = {}) {
   const userAuth = useCookie('token')
   const config = useRuntimeConfig()
 
   const defaults: UseFetchOptions<T> = {
     baseURL: config.baseUrl ?? 'https://api.nuxtjs.dev',
-    // cache request
+    // this overrides the default key generation, which includes a hash of
+    // url, method, headers, etc. - this should be used with care as the key
+    // is how Nuxt decides how responses should be deduplicated between
+    // client and server
     key: url,
 
     // set user token if connected
