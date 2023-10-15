@@ -7,6 +7,11 @@ export function useCustomFetch<T> (url: string | (() => string), options: UseFet
 
   const defaults: UseFetchOptions<T> = {
     baseURL: config.baseUrl ?? 'https://api.nuxtjs.dev',
+    // this overrides the default key generation, which includes a hash of
+    // url, method, headers, etc. - this should be used with care as the key
+    // is how Nuxt decides how responses should be deduplicated between
+    // client and server
+    key: url,
 
     // set user token if connected
     headers: userAuth.value
