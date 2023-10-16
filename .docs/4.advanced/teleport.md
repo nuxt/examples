@@ -8,6 +8,6 @@ Vue 3 provides the [`<Teleport>` component](https://vuejs.org/guide/built-ins/te
 
 This example shows how to use the `<Teleport>` with client-side and server-side rendering.
 
-:read-more{link="/docs/api/components/teleports"}
+:read-more{to="/docs/api/components/teleports"}
 
 :sandbox{repo="nuxt/examples" branch="main" dir="advanced/teleport" file="app.vue"}

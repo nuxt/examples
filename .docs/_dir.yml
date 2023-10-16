@@ -1,2 +1,3 @@
-image: '/socials/examples.jpg'
+title: Examples
+titleTemplate: '%s · Nuxt Examples'
 icon: i-ph-app-window-duotone
