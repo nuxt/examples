@@ -1,3 +1,3 @@
-import { useState } from '#app'
+import { useState } from '#imports'
 
 export const useFoo = () => useState('foo', () => 'foo')

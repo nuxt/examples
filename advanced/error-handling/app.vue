@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { showError } from '#app'
+import { showError } from '#imports'
 const route = useRoute()
 if ('setup' in route.query) {
   throw new Error('error in setup')
