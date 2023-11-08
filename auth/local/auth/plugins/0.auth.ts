@@ -11,24 +11,21 @@ export default defineNuxtPlugin(async (nuxtApp) => {
 
   const loggedIn: any = computed(() => !!session.value?.email);
 
-  // Create a ref to know where to redirect the user when logged in
-  const redirectTo = useState("authRedirect")
-
   /**
    * Add global route middleware to protect pages using:
-   * 
+   *
    * definePageMeta({
    *  auth: true
    * })
    */
-  // 
+  //
 
   addRouteMiddleware(
     "auth",
-    (to) => {
+    (to, from) => {
       if (to.meta.auth && !loggedIn.value) {
-        redirectTo.value = to.path
-        return "/login";
+        if (process.server && to.path === from.path) return;
+        return `/login?redirectTo=${to.path}`;
       }
     },
     { global: true }
@@ -39,14 +36,14 @@ export default defineNuxtPlugin(async (nuxtApp) => {
   if (process.client) {
     watch(loggedIn, async (loggedIn) => {
       if (!loggedIn && currentRoute.meta.auth) {
-        redirectTo.value = currentRoute.path
-        await navigateTo("/login");
+        await navigateTo(`/login?redirectTo=${currentRoute.path}`);
       }
     });
   }
 
   if (loggedIn.value && currentRoute.path === "/login") {
-    await navigateTo(redirectTo.value || "/");
+    const to = String(currentRoute.query.redirectTo) || '/';
+    await navigateTo(to);
   }
 
   return {
@@ -54,7 +51,6 @@ export default defineNuxtPlugin(async (nuxtApp) => {
       auth: {
         loggedIn,
         session,
-        redirectTo,
         updateSession,
       },
     },

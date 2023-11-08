@@ -15,7 +15,7 @@ export default defineNuxtConfig({
   },
   nitro: {
     storage: {
-      ".data:auth": { driver: "fs", base: "./.data/auth" },
+      "db:auth": { driver: "fs", base: "./.data/auth" },
     },
   },
 });

@@ -10,7 +10,7 @@ const isValid = computed(() => {
   return email.value && password.value;
 });
 
-const redirectTo = useAuth().redirectTo.value
+const { redirectTo } = useRoute().query;
 const alert = ref(
   `Please login or register ${redirectTo ? `to access ${redirectTo}` : ""}`
 );
