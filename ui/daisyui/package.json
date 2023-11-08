@@ -9,9 +9,9 @@
     "generate": "nuxt generate"
   },
   "devDependencies": {
-    "@nuxtjs/color-mode": "^3.2.0",
-    "@nuxtjs/tailwindcss": "^6.7.2",
-    "daisyui": "^3.1.1",
+    "@nuxtjs/color-mode": "^3.3.0",
+    "@nuxtjs/tailwindcss": "^6.9.4",
+    "daisyui": "^3.9.4",
     "nuxt": "^3.8.1"
   }
 }
