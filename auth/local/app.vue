@@ -1,10 +1,8 @@
-<script setup lang="ts"></script>
-
 <template>
-    <NuxtExampleLayout repo="nuxt/examples"  example="auth/local">
+  <main class="max-w-4xl mx-auto">
     <AppNav />
     <div>
       <NuxtPage />
     </div>
-  </NuxtExampleLayout>
+  </main>
 </template>
