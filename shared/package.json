@@ -1,0 +1,21 @@
+{
+  "name": "@nuxt/examples-ui",
+  "private": true,
+  "scripts": {
+    "dev": "nuxi dev",
+    "build": "nuxi build",
+    "start": "nuxi preview"
+  },
+  "main": "./nuxt.config.ts",
+  "files": [
+    "components",
+    "nuxt.config.ts"
+  ],
+  "devDependencies": {
+    "nuxt": "^3.8.1"
+  },
+  "dependencies": {
+    "@iconify-json/simple-icons": "^1.1.82",
+    "@nuxt/ui": "^2.11.0"
+  }
+}

@@ -6,4 +6,4 @@ description: 'This example shows how to use the useCookie API to persist small a
 
 :read-more{to="/docs/api/composables/use-cookie"}
 
-:sandbox{repo="nuxt/examples" branch="main" dir="advanced/use-cookie" file="app.vue"}
+:sandbox{repo="nuxt/examples" branch="main" dir="examples/advanced/use-cookie" file="app.vue"}

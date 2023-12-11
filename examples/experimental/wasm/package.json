@@ -1,0 +1,13 @@
+{
+  "name": "wasm",
+  "private": true,
+  "devDependencies": {
+    "@nuxt/examples-ui": "workspace:^",
+    "nuxt": "^3.8.1"
+  },
+  "scripts": {
+    "dev": "nuxi dev",
+    "build": "nuxi build",
+    "start": "nuxi preview"
+  }
+}

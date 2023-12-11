@@ -10,4 +10,4 @@ This example shows how to use the `<Teleport>` with client-side and server-side 
 
 :read-more{to="/docs/api/components/teleports"}
 
-:sandbox{repo="nuxt/examples" branch="main" dir="advanced/teleport" file="app.vue"}
+:sandbox{repo="nuxt/examples" branch="main" dir="examples/advanced/teleport" file="app.vue"}

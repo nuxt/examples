@@ -6,4 +6,4 @@ description: 'This example defines a new `test` page using `extendPages` within 
 
 :read-more{to="/docs/guide/going-further/modules"}
 
-:read-more{repo="nuxt/examples" branch="main" dir="advanced/module-extend-pages" file="pages/index.vue"}
+:sandbox{repo="nuxt/examples" branch="main" dir="examples/advanced/module-extend-pages" file="pages/index.vue"}

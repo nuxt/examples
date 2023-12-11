@@ -1,10 +1,5 @@
 packages:
-  - "auth/**"
-  - "features/**"
-  - "hello-world/"
-  - "ui/**"
-  - "routing/**"
-  - "advanced/**"
-  - "experimental/**"
+  - 'shared/**'
+  - 'examples/**'
   - ".e2e/"
   - '!**/.vercel/**'

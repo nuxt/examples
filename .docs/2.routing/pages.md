@@ -6,4 +6,4 @@ description: 'This example shows how to use the pages/ directory to create appli
 
 :read-more{to="/docs/guide/directory-structure/pages"}
 
-:sandbox{repo="nuxt/examples" branch="main" dir="routing/pages" file="app.vue"}
+:sandbox{repo="nuxt/examples" branch="main" dir="examples/routing/pages" file="app.vue"}
