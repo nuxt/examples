@@ -1,6 +1,7 @@
 {
   "name": "@nuxt/examples-ui",
-  "version": "0.0.0",
+  "version": "0.0.1",
+  "private": false,
   "scripts": {
     "dev": "nuxi dev",
     "build": "nuxi build",
