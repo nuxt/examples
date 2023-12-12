@@ -8,7 +8,7 @@
     "start": "nuxi preview"
   },
   "devDependencies": {
-    "@nuxt/examples-ui": "workspace:^",
+    "@nuxt/examples-ui": "latest",
     "nuxt": "^3.8.1"
   }
 }

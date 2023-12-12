@@ -9,7 +9,7 @@
     "generate": "nuxt generate"
   },
   "devDependencies": {
-    "@nuxt/examples-ui": "workspace:^",
+    "@nuxt/examples-ui": "latest",
     "nuxt": "^3.8.1",
     "sass": "^1.69.5"
   }

@@ -1,3 +1,3 @@
-# Shared Examples-UI
+# @nuxt/examples-ui
 
-shared UI for examples
+Shared UI for Nuxt examples on https://nuxt.com/docs/examples

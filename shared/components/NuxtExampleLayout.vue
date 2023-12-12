@@ -31,10 +31,6 @@ const isDark = computed({
   }
 })
 
-function openInEditor() {
-  fetch(`/__open-in-editor?file=${encodeURIComponent(props.file || 'app.vue')}`)
-}
-
 const title = computed(() => props.dir.split('/').map(i => i.split('-').join(' ')))
 
 const github = computed(() => `https://github.com/${props.repo}/tree/main/examples/${props.dir}`)
@@ -51,12 +47,12 @@ useSeoMeta({
         <template #header>
           <div class="flex justify-between items-center">
             <div>
-              <UTooltip text="Open in Editor">
+              <UTooltip text="Open on Github">
                 <UButton
                   target="_blank"
                   color="white"
-                  icon="i-heroicons-command-line"
-                  @click="openInEditor"
+                  icon="i-simple-icons-github"
+                  :to="github"
                 />
               </UTooltip>
             </div>
@@ -78,14 +74,6 @@ useSeoMeta({
                   <div class="w-8 h-8" />
                 </template>
               </ClientOnly>
-              <UTooltip text="Github">
-                <UButton
-                  target="_blank"
-                  color="white"
-                  icon="i-simple-icons-github"
-                  :to="github"
-                />
-              </UTooltip>
             </div>
           </div>
         </template>

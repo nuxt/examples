@@ -7,7 +7,7 @@
     "start": "node .output/server"
   },
   "devDependencies": {
-    "@nuxt/examples-ui": "workspace:^",
+    "@nuxt/examples-ui": "latest",
     "nuxt": "^3.8.1"
   }
 }

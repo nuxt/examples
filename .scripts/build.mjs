@@ -6,12 +6,7 @@ import { join, resolve } from 'pathe'
 const stringify = contents => JSON.stringify(contents, null, 2)
 
 const packages = await globby([
-  '**/package.json',
-  '!**/node_modules',
-  '!**/.nitro',
-  '!**/.vercel',
-  '!**/.output',
-  '!package.json',
+  'examples/**/package.json',
 ]).then(r => r.sort())
 const names = new Set()
 
@@ -56,7 +51,7 @@ export default function middleware(req) {
   const forced = req.url.match(/\\?force=(.*)$/)?.[1]
   const hostname = req.headers.get('host')
   const subdomain = forced || req.headers.get('cookie')?.match(/forced=([^;]*)(;|$)/)?.[1] || hostname.split('.').shift()
-  
+
   if (names.includes(subdomain)) {
     const response = new Response()
     const url = new URL(req.url)
@@ -66,14 +61,14 @@ export default function middleware(req) {
     }
     return response
   }
-  
+
   return new Response(null, {
     status: 307,
     headers: {
       Location: 'https://nuxt.com/docs/examples/essentials/hello-world/'
     }
   })
-  
+
 }`
 )
 await fsp.writeFile(

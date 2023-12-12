@@ -2,7 +2,7 @@
   "name": "wasm",
   "private": true,
   "devDependencies": {
-    "@nuxt/examples-ui": "workspace:^",
+    "@nuxt/examples-ui": "latest",
     "nuxt": "^3.8.1"
   },
   "scripts": {
