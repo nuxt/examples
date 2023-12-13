@@ -6,4 +6,4 @@ description: 'This example shows how to handle errors in different contexts: pag
 
 :read-more{to="/docs/getting-started/error-handling"}
 
-:sandbox{repo="nuxt/examples" branch="main" dir="advanced/error-handling" file="app.vue"}
+:sandbox{repo="nuxt/examples" branch="main" dir="examples/advanced/error-handling" file="app.vue"}

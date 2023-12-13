@@ -1,0 +1,13 @@
+{
+  "name": "locale",
+  "private": true,
+  "scripts": {
+    "build": "nuxi build",
+    "dev": "nuxi dev",
+    "start": "nuxi preview"
+  },
+  "devDependencies": {
+    "@nuxt/examples-ui": "latest",
+    "nuxt": "^3.8.1"
+  }
+}

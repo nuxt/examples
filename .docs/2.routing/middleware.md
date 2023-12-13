@@ -6,4 +6,4 @@ description: 'This example shows how to add route middleware with the middleware
 
 :read-more{to="/docs/guide/directory-structure/middleware"}
 
-:sandbox{repo="nuxt/examples" branch="main" dir="routing/middleware" file="app.vue"}
+:sandbox{repo="nuxt/examples" branch="main" dir="examples/routing/middleware" file="app.vue"}

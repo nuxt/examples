@@ -6,4 +6,4 @@ description: 'This example shows how to test your Nuxt application.'
 
 :read-more{to="/docs/getting-started/testing"}
 
-:sandbox{repo="nuxt/examples" branch="main" dir="advanced/testing" file="app.vue"}
+:sandbox{repo="nuxt/examples" branch="main" dir="examples/advanced/testing" file="app.vue"}

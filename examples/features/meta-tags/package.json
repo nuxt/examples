@@ -1,0 +1,13 @@
+{
+  "name": "meta-tags",
+  "private": true,
+  "scripts": {
+    "build": "nuxi build",
+    "dev": "nuxi dev",
+    "start": "node .output/server"
+  },
+  "devDependencies": {
+    "@nuxt/examples-ui": "latest",
+    "nuxt": "^3.8.1"
+  }
+}

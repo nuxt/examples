@@ -6,11 +6,11 @@
 
 ## Sites
 
-- [hello-world](https://hello-world.example.nuxt.space/) - ([source](./hello-world/))
+- [hello-world](https://hello-world.example.nuxt.space/) - ([source](./examples/hello-world/))
 
 ### Features
 
-Inside [features/](./features).
+Inside [features/](./examples/features).
 
 - [auto-imports](https://auto-imports.example.nuxt.space/)
 - [data-fetching](https://data-fetching.example.nuxt.space/)
@@ -20,7 +20,7 @@ Inside [features/](./features).
 
 ### Routing
 
-Inside [routing/](./routing).
+Inside [routing/](./examples/routing).
 
 - [middleware](https://middleware.example.nuxt.space/)
 - [pages](https://pages.example.nuxt.space/)
@@ -28,7 +28,7 @@ Inside [routing/](./routing).
 
 ### UI Frameworks
 
-Inside [ui/](./ui).
+Inside [ui/](./examples/ui).
 
 - [daisyui](https://daisyui.example.nuxt.space/)
 - [tailwindcss](https://tailwindcss.example.nuxt.space/)
@@ -37,13 +37,13 @@ Inside [ui/](./ui).
 
 ### Authentication
 
-Inside [auth/](./auth).
+Inside [auth/](./examples/auth).
 
 - [local](https://local-auth.example.nuxt.space/)
 
 ## Advanced
 
-Inside [advanced/](./advanced).
+Inside [advanced/](./examples/advanced).
 
 - [config-extends](https://config-extends.example.nuxt.space/)
 - [error-handling](https://error-handling.example.nuxt.space/)
@@ -57,6 +57,6 @@ Inside [advanced/](./advanced).
 
 ## Experimental
 
-Inside [experimental/](./experimental).
+Inside [experimental/](./examples/experimental).
 
 - [wasm](https://wasm.example.nuxt.space/)

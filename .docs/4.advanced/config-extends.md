@@ -8,4 +8,4 @@ This example shows how to use the `extends` key in `nuxt.config.ts` to use the `
 
 :read-more{to="/docs/getting-started/layers"}
 
-:sandbox{repo="nuxt/examples" branch="main" dir="advanced/config-extends" file="nuxt.config.ts"}
+:sandbox{repo="nuxt/examples" branch="main" dir="examples/advanced/config-extends" file="nuxt.config.ts"}
