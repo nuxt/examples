@@ -43,7 +43,7 @@ const logout = () => {
       </h1>
       <UInput v-model="name" class="w-100 m-auto" placeholder="Enter your name..." @keypress.enter="login()" />
       <div class="mt-3">
-        <UButton icon="i-heroicons-user" :disabled="!name" @click="login">
+        <UButton icon="i-heroicons-user" :disabled="!name" name="Log in" @click="login">
           Log in
         </UButton>
       </div>

@@ -1,3 +1,4 @@
+import { withoutProtocol } from "ufo"
 import { getSettingsForDeployment } from "@/utils"
 import { test, expect } from "@playwright/test"
 
@@ -32,17 +33,18 @@ test("Logging in multiple times increases counter", async ({ page }) => {
 })
 
 test("Automatic login with existing cookies", async ({ context, page }) => {
+  const domain = withoutProtocol(process.env.DEPLOY_URL || `https://use-cookie.example.nuxt.space/`)
   await context.addCookies([
     {
       name: "user",
       value: '{"name":"Nuxt"}',
-      domain: "use-cookie.example.nuxt.space",
+      domain,
       path: "/",
     },
     {
       name: "logins",
       value: "1",
-      domain: "use-cookie.example.nuxt.space",
+      domain,
       path: "/",
     },
   ])
