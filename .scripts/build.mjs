@@ -7,6 +7,10 @@ const stringify = contents => JSON.stringify(contents, null, 2)
 
 const packages = await globby([
   'examples/**/package.json',
+  '!**/node_modules',
+  '!**/.nitro',
+  '!**/.vercel',
+  '!**/.output',
 ]).then(r => r.sort())
 const names = new Set()
 
