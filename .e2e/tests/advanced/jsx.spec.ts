@@ -7,7 +7,7 @@ test.beforeEach(async ({ page }) => {
 })
 
 test("Inline components load", async ({ page }) => {
-  await expect(page.getByText("Welcome to nuxt3")).toBeVisible()
+  await expect(page.getByText("Nuxt 3")).toBeVisible()
 })
 
 test('JSX component from "component" folder loads', async ({ page }) => {

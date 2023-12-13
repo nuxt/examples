@@ -16,7 +16,7 @@ test.describe("External page", () => {
     page,
   }) => {
     await page.goto("/")
-    await page.getByRole("link", { name: "Visit /external" }).click()
+    await page.getByRole("link", { name: "External" }).click()
 
     await expect(page.getByRole("spinbutton")).toHaveValue("1")
     await expect(page.getByText('"id": 1')).toBeVisible()
@@ -37,7 +37,7 @@ test.describe("Component page", () => {
     page,
   }) => {
     await page.goto("/")
-    await page.getByRole("link", { name: "Visit /component" }).click()
+    await page.getByRole("link", { name: "Component" }).click()
 
     await expect(
       page.getByText(
