@@ -4,6 +4,7 @@ import { test, expect } from "@playwright/test"
 test.use(getSettingsForDeployment('locale'))
 test.beforeEach(async ({ page }) => {
   await page.goto("/")
+  await page.waitForFunction(() => window.useNuxtApp?.().isHydrating === false)
 })
 
 test.describe("British Locale", () => {

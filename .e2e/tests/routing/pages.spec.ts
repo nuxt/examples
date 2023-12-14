@@ -6,6 +6,7 @@ test.use(getSettingsForDeployment('pages'))
 test.describe("Linked pages", () => {
   test.beforeEach(async ({ page }) => {
     await page.goto("/")
+    await page.waitForFunction(() => window.useNuxtApp?.().isHydrating === false)
   })
 
   test("Home page is shown", async ({ page }) => {

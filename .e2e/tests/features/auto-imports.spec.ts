@@ -4,6 +4,7 @@ import { test, expect } from "@playwright/test"
 test.use(getSettingsForDeployment('auto-imports'))
 test.beforeEach(async ({ page }) => {
   await page.goto("/")
+  await page.waitForFunction(() => window.useNuxtApp?.().isHydrating === false)
 })
 
 test("Heading is visible", async ({ page }) => {

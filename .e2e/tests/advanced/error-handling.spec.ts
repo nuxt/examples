@@ -86,6 +86,7 @@ test('Clicking on the "Trigger fatal error" button navigates to the error page a
   await page.goto("/")
 
   const appErrorHookPromise = waitForAppErrorHookToRan(page)
+  await page.waitForFunction(() => window.useNuxtApp?.().isHydrating === false)
   await page.getByRole("button", { name: "Trigger fatal error" }).click()
   await appErrorHookPromise
 
@@ -99,6 +100,7 @@ test("Triggering non-fatal error with button runs the global error handler and v
   const globalErrorHandlerPromise = waitForGlobalErrorHandlerToRan(page)
   const vueErrorHookPromise = waitForVueErrorHookToRan(page)
 
+  await page.waitForFunction(() => window.useNuxtApp?.().isHydrating === false)
   await page.getByRole("button", { name: "Trigger non-fatal error" }).click()
   await globalErrorHandlerPromise
   await vueErrorHookPromise

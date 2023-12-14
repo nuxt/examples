@@ -1,4 +1,4 @@
-import { getSettingsForDeployment, wait } from "@/utils"
+import { addForcedCookie, getSettingsForDeployment, wait } from "@/utils"
 import { test, expect } from "@playwright/test"
 
 test.use(getSettingsForDeployment('middleware'))
@@ -10,9 +10,7 @@ test("Global middleware is being registered", async ({ page }) => {
 
   await page.goto("/")
   await globalMiddlewareMessageLoggedPromise
-  await expect(
-    page.getByText("Current route: /", { exact: true })
-  ).toBeVisible()
+  await expect(page.getByText("Current route: /", { exact: true })).toBeVisible()
 })
 
 test("Global middleware from plugin is being registered", async ({ page }) => {
@@ -23,9 +21,7 @@ test("Global middleware from plugin is being registered", async ({ page }) => {
 
   await page.goto("/")
   await globalMiddlewareMessageLoggedPromise
-  await expect(
-    page.getByText("Current route: /", { exact: true })
-  ).toBeVisible()
+  await expect(page.getByText("Current route: /", { exact: true })).toBeVisible()
 })
 
 test('Inline middleware on the "forbidden" page cancels navigation', async ({
@@ -36,18 +32,16 @@ test('Inline middleware on the "forbidden" page cancels navigation', async ({
   const strictlyForbiddenLoggedPromise = page.waitForEvent("console", {
     predicate: (message) => message.text() === "Strictly forbidden.",
   })
+  await page.waitForFunction(() => window.useNuxtApp?.().isHydrating === false)
   await page.getByRole("link", { name: "Forbidden" }).click()
   await strictlyForbiddenLoggedPromise
   await wait(500)
 
-  await expect(
-    page.getByText("Current route: /", { exact: true })
-  ).toBeVisible()
+  await expect(page.getByText("Current route: /", { exact: true })).toBeVisible()
 })
 
-test('Middleware redirects from the "/redirect" page to the "/secret" page', async ({
-  page,
-}) => {
+test('Middleware redirects from the "/redirect" page to the "/secret" page', async ({ page, context }) => {
+  await addForcedCookie(context, "middleware")
   await page.goto("/redirect")
   await expect(page.getByText("You should never see this page")).toBeHidden()
   await expect(page).toHaveURL("/secret")
@@ -61,7 +55,5 @@ test("Named middleware is registered on the secret page", async ({ page }) => {
 
   await page.goto("/secret")
   await namedMiddlewareLoggedPromise
-  await expect(
-    page.getByText("You've landed on a page that wasn't in the menu!")
-  ).toBeVisible()
+  await expect(page.getByText("You've landed on a page that wasn't in the menu!")).toBeVisible()
 })
