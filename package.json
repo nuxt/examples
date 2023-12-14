@@ -8,11 +8,11 @@
   },
   "devDependencies": {
     "@nuxt/kit": "3.8.1",
-    "@types/node": "^20.9.0",
+    "@types/node": "^20.10.4",
     "globby": "^13.2.2",
     "pathe": "^1.1.1",
     "pkg-types": "^1.0.3",
-    "turbo": "^1.10.16"
+    "turbo": "^1.11.2"
   },
   "resolutions": {
     "destr": "latest",
