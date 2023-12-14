@@ -7,7 +7,7 @@
     "build": "turbo run build && node .scripts/build.mjs"
   },
   "devDependencies": {
-    "@nuxt/kit": "3.8.1",
+    "@nuxt/kit": "3.8.2",
     "@types/node": "^20.10.4",
     "globby": "^13.2.2",
     "pathe": "^1.1.1",
