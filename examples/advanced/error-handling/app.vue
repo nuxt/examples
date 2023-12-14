@@ -29,7 +29,7 @@ function triggerError() {
       <NuxtLink to="/?middleware" class="n-link-base">
         Middleware
       </NuxtLink>
-      <button class="n-link-base" @click="() => showError">
+      <button class="n-link-base" @click="() => showError('Fatal error')">
         Trigger fatal error
       </button>
       <button class="n-link-base" @click="triggerError">
