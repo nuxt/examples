@@ -1,13 +1,14 @@
+import { getSettingsForDeployment } from "@/utils"
 import { test, expect } from "@playwright/test"
 
-test.use({ baseURL: "https://config-extends.example.nuxt.space/" })
+test.use(getSettingsForDeployment('config-extends'))
 
 test("App config merged", async ({ page }) => {
   // TODO need a unique locator
   await page.goto("/")
   await expect(
     page.getByText(
-      '{ "bar": "user", "baz": "base", "array": [ "user", "user", "user" ], "arrayNested": { "nested": { "array": [ "base", "base", "base" ] } }, "foo": "user" }'
+      '"bar": "user", "baz": "base", "array": [ "user", "user", "user" ], "arrayNested": { "nested": { "array": [ "base", "base", "base" ] } }, "foo": "user" }'
     )
   ).toBeVisible()
 })
@@ -26,7 +27,7 @@ test("Base button is shown", async ({ page }) => {
 test("Fancy button from base layer is overridden", async ({ page }) => {
   await page.goto("/")
   await expect(page.getByRole("button", { name: "Fancy Button" })).toHaveClass(
-    "fancy-button"
+    "border p-2 fancy-button"
   )
 })
 

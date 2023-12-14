@@ -1,6 +1,7 @@
+import { getSettingsForDeployment } from "@/utils"
 import { test, expect } from "@playwright/test"
 
-test.use({ baseURL: "https://wasm.example.nuxt.space/" })
+test.use(getSettingsForDeployment('wasm'))
 test.beforeEach(async ({ page }) => {
   await page.goto("/")
 })

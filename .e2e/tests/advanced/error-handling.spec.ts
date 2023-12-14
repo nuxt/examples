@@ -1,6 +1,7 @@
+import { getSettingsForDeployment } from "@/utils"
 import { test, expect, Page } from "@playwright/test"
 
-test.use({ baseURL: "https://error-handling.example.nuxt.space/" })
+test.use(getSettingsForDeployment('error-handling'))
 
 test("Home page loads without any errors", async ({ page }) => {
   await page.goto("/")
@@ -83,6 +84,7 @@ test('Clicking on the "Trigger fatal error" button navigates to the error page a
   page,
 }) => {
   await page.goto("/")
+  await page.waitForFunction(() => window.useNuxtApp?.().isHydrating === false)
 
   const appErrorHookPromise = waitForAppErrorHookToRan(page)
   await page.getByRole("button", { name: "Trigger fatal error" }).click()
@@ -95,6 +97,8 @@ test("Triggering non-fatal error with button runs the global error handler and v
   page,
 }) => {
   await page.goto("/")
+  await page.waitForFunction(() => window.useNuxtApp?.().isHydrating === false)
+
   const globalErrorHandlerPromise = waitForGlobalErrorHandlerToRan(page)
   const vueErrorHookPromise = waitForVueErrorHookToRan(page)
 

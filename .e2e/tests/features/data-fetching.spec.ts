@@ -1,6 +1,7 @@
+import { getSettingsForDeployment } from "@/utils"
 import { test, expect } from "@playwright/test"
 
-test.use({ baseURL: "https://data-fetching.example.nuxt.space/" })
+test.use(getSettingsForDeployment('data-fetching'))
 
 test.describe("Index page", () => {
   test("Hello world is shown on the index page", async ({ page }) => {
@@ -15,7 +16,7 @@ test.describe("External page", () => {
     page,
   }) => {
     await page.goto("/")
-    await page.getByRole("link", { name: "Visit /external" }).click()
+    await page.getByRole("link", { name: "External" }).click()
 
     await expect(page.getByRole("spinbutton")).toHaveValue("1")
     await expect(page.getByText('"id": 1')).toBeVisible()
@@ -36,7 +37,7 @@ test.describe("Component page", () => {
     page,
   }) => {
     await page.goto("/")
-    await page.getByRole("link", { name: "Visit /component" }).click()
+    await page.getByRole("link", { name: "Component" }).click()
 
     await expect(
       page.getByText(

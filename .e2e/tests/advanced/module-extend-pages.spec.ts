@@ -1,8 +1,10 @@
+import { getSettingsForDeployment } from "@/utils"
 import { test, expect } from "@playwright/test"
 
-test.use({ baseURL: "https://module-extend-pages.example.nuxt.space/" })
+test.use(getSettingsForDeployment('module-extend-pages'))
 test.beforeEach(async ({ page }) => {
   await page.goto("/")
+  await page.waitForFunction(() => window.useNuxtApp?.().isHydrating === false)
 })
 
 test("Page that has been added by a module works", async ({ page }) => {

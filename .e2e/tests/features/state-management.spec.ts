@@ -1,8 +1,10 @@
+import { getSettingsForDeployment } from "@/utils"
 import { test, expect, type Page } from "@playwright/test"
 
-test.use({ baseURL: "https://state-management.example.nuxt.space//" })
+test.use(getSettingsForDeployment("state-management"))
 test.beforeEach(async ({ page }) => {
   await page.goto("/")
+  await page.waitForFunction(() => window.useNuxtApp?.().isHydrating === false)
 })
 
 test("Same value is displayed on load for both counters", async ({ page }) => {
@@ -13,12 +15,14 @@ test("Same value is displayed on load for both counters", async ({ page }) => {
 test('Clicking on "-" decrements both counters', async ({ page }) => {
   const counterValue = await getCounterValue(page)
   await page.getByRole("button", { name: "-" }).click()
+  await page.getByText(`Counter: ${counterValue - 1}`).first().isVisible()
   await expect(page.getByText(`Counter: ${counterValue - 1}`)).toHaveCount(2)
 })
 
 test('Clicking on "+" increments both counters', async ({ page }) => {
   const counterValue = await getCounterValue(page)
   await page.getByRole("button", { name: "+" }).click()
+  await page.getByText(`Counter: ${counterValue + 1}`).first().isVisible()
   await expect(page.getByText(`Counter: ${counterValue + 1}`)).toHaveCount(2)
 })
 

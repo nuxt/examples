@@ -1,10 +1,12 @@
+import { getSettingsForDeployment } from "@/utils"
 import { test, expect } from "@playwright/test"
 
-test.use({ baseURL: "https://pages.example.nuxt.space/" })
+test.use(getSettingsForDeployment('pages'))
 
 test.describe("Linked pages", () => {
   test.beforeEach(async ({ page }) => {
     await page.goto("/")
+    await page.waitForFunction(() => window.useNuxtApp?.().isHydrating === false)
   })
 
   test("Home page is shown", async ({ page }) => {
@@ -32,7 +34,7 @@ test.describe("Linked pages", () => {
 
   test("Navigating to keyed child page", async ({ page }) => {
     await page.getByRole("button", { name: "Keyed child", exact: true }).click()
-    await expect(page.getByText("Parent Child reloaded: 1")).toBeVisible()
+    await expect(page.getByText("Child reloaded: 1")).toBeVisible()
     await expect(page.getByText("Current route: /parent/reload-")).toBeVisible()
   })
 
@@ -40,31 +42,31 @@ test.describe("Linked pages", () => {
     page,
   }) => {
     await page.getByRole("button", { name: "Keyed child", exact: true }).click()
-    await expect(page.getByText("Parent Child reloaded: 1")).toBeVisible()
+    await expect(page.getByText("Child reloaded: 1")).toBeVisible()
 
     await page.getByRole("button", { name: "Keyed child", exact: true }).click()
-    await expect(page.getByText("Parent Child reloaded: 2")).toBeVisible()
+    await expect(page.getByText("Child reloaded: 2")).toBeVisible()
   })
 
   test("Navigating to non-keyed child child page", async ({ page }) => {
-    await page.getByRole("button", { name: "Non-keyed child" }).click()
-    await expect(page.getByText("Parent Child reloaded: 1")).toBeVisible()
-    await expect(page.getByText("Current route: /parent/static-")).toBeVisible()
+    await page.getByRole("button", { name: "Non-Keyed child" }).click()
+    await expect(page.getByText("Child reloaded: 1")).toBeVisible()
+        await expect(page.getByText("Current route: /parent/static-")).toBeVisible()
   })
 
   test("Navigating to non-keyed child child with different path param does not increases counter", async ({
     page,
   }) => {
-    await page.getByRole("button", { name: "Non-keyed child" }).click()
-    await expect(page.getByText("Parent Child reloaded: 1")).toBeVisible()
+    await page.getByRole("button", { name: "Non-Keyed child" }).click()
+    await expect(page.getByText("Child reloaded: 1")).toBeVisible()
 
-    await page.getByRole("button", { name: "Non-keyed child" }).click()
-    await expect(page.getByText("Parent Child reloaded: 1")).toBeVisible()
+    await page.getByRole("button", { name: "Non-Keyed child" }).click()
+    await expect(page.getByText("Child reloaded: 1")).toBeVisible()
   })
 })
 
 test("Navigating to catchall route", async ({ page }) => {
-  await page.goto("https://pages.example.nuxt.space/catchall/1")
+  await page.goto("/catchall/1")
   await expect(page.getByText('test-[ "1" ]')).toBeVisible()
   await expect(page.getByText("Current route: /catchall/1")).toBeVisible()
 })
