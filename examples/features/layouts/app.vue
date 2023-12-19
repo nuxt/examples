@@ -9,7 +9,7 @@ const nav = [
 
 
 <template>
-  <NuxtExampleLayout dir="features/layouts" :nav="nav">
+  <NuxtExample dir="features/layouts" :nav="nav">
     <NuxtLayout class="layouts">
       <NuxtPage />
     </NuxtLayout>
@@ -27,7 +27,7 @@ const nav = [
         Remove layout
       </UButton>
     </div>
-  </NuxtExampleLayout>
+  </NuxtExample>
 </template>
 
 <style scoped>

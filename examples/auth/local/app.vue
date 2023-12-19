@@ -5,7 +5,7 @@ const icon = computed(() => $auth.session.value?.email ? 'i-heroicons-lock-open'
 </script>
 
 <template>
-    <NuxtExampleLayout dir="auth/local" :icon="icon">
+    <NuxtExample dir="auth/local" :icon="icon">
     <template #nav>
       <NuxtLink to="/">Home</NuxtLink>
       <NuxtLink to="/secret">Secret</NuxtLink>
@@ -15,5 +15,5 @@ const icon = computed(() => $auth.session.value?.email ? 'i-heroicons-lock-open'
     <NuxtPage />
     <!-- to show toasts -->
     <UNotifications />
-  </NuxtExampleLayout>
+  </NuxtExample>
 </template>

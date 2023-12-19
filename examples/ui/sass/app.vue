@@ -1,10 +1,10 @@
 <template>
-  <NuxtExampleLayout>
+  <NuxtExample>
     <Head>
       <Title>Nuxt with SASS</Title>
     </Head>
     <NuxtPage />
-  </NuxtExampleLayout>
+  </NuxtExample>
 </template>
 
 <style lang="sass">

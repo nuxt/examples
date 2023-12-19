@@ -15,7 +15,7 @@ function triggerError() {
 </script>
 
 <template>
-  <NuxtExampleLayout dir="advanced/error-handling" current-route>
+  <NuxtExample dir="advanced/error-handling" current-route>
     <template #nav>
       <NuxtLink to="/" class="n-link-base">
         Home
@@ -37,5 +37,5 @@ function triggerError() {
       </button>
     </template>
     <NuxtPage />
-  </NuxtExampleLayout>
+  </NuxtExample>
 </template>

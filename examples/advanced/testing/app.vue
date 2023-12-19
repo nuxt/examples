@@ -1,7 +1,7 @@
 <template>
-  <NuxtExampleLayout dir="advanced/testing">
+  <NuxtExample dir="advanced/testing">
     <div class="text-7xl">
       Hello Nuxt!
     </div>
-  </NuxtExampleLayout>
+  </NuxtExample>
 </template>

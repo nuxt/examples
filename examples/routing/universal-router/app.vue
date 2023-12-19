@@ -3,7 +3,7 @@ const timer = useState('timer', () => 0)
 </script>
 
 <template>
-  <NuxtExampleLayout dir="routing/universal-router" current-route>
+  <NuxtExample dir="routing/universal-router" current-route>
     A page...
     <br>
 
@@ -29,5 +29,5 @@ const timer = useState('timer', () => 0)
         </template>
       </NuxtLink>
     </template>
-  </NuxtExampleLayout>
+  </NuxtExample>
 </template>
