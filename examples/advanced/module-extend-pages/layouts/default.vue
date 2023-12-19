@@ -1,5 +1,5 @@
 <template>
-  <NuxtExampleLayout dir="advanced/module-extend-pages" file="pages/index.vue">
+  <NuxtExample dir="advanced/module-extend-pages" file="pages/index.vue">
     <slot />
-  </NuxtExampleLayout>
+  </NuxtExample>
 </template>

@@ -15,7 +15,7 @@ const logout = () => {
 </script>
 
 <template>
-  <NuxtExampleLayout class="h-50" dir="advanced/use-cookie">
+  <NuxtExample class="h-50" dir="advanced/use-cookie">
     <template v-if="user">
       <h1 class="text-3xl mb-3">
         Welcome, {{ user.name }}! 👋
@@ -48,5 +48,5 @@ const logout = () => {
         </UButton>
       </div>
     </template>
-  </NuxtExampleLayout>
+  </NuxtExample>
 </template>

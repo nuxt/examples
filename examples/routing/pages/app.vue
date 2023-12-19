@@ -12,8 +12,8 @@ const nav = [
 </script>
 
 <template>
-  <NuxtExampleLayout dir="routing/pages" :nav="nav" current-route>
+  <NuxtExample dir="routing/pages" :nav="nav" current-route>
     <NuxtLoadingIndicator />
     <NuxtPage />
-  </NuxtExampleLayout>
+  </NuxtExample>
 </template>

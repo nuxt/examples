@@ -9,7 +9,7 @@ function handleError() {
 </script>
 
 <template>
-  <NuxtExampleLayout>
+  <NuxtExample>
     <div class="relative font-sans">
       <div class="container max-w-200 mx-auto py-10 px-4">
         <h1>{{ error?.message }}</h1>
@@ -29,5 +29,5 @@ function handleError() {
         </NuxtLink>
       </div>
     </div>
-  </NuxtExampleLayout>
+  </NuxtExample>
 </template>

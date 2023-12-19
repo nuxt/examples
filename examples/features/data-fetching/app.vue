@@ -16,9 +16,9 @@ const nav = [
 </script>
 
 <template>
-  <NuxtExampleLayout dir="features/data-fetching" :nav="nav">
+  <NuxtExample dir="features/data-fetching" :nav="nav">
     <!-- Show Nuxt progress indicator on page change -->
     <NuxtLoadingIndicator />
     <NuxtPage />
-  </NuxtExampleLayout>
+  </NuxtExample>
 </template>

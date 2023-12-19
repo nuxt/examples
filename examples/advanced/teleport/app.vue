@@ -1,5 +1,5 @@
 <template>
-  <NuxtExampleLayout dir="advanced/teleport">
+  <NuxtExample dir="advanced/teleport">
     <div>
       <!-- SSR Teleport -->
       <Teleport to="body">
@@ -22,5 +22,5 @@
         Hello from Modal teleport!
       </MyModal>
     </div>
-  </NuxtExampleLayout>
+  </NuxtExample>
 </template>

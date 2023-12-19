@@ -18,9 +18,9 @@ const InlineComponent = () => (
 </script>
 
 <template>
-  <NuxtExampleLayout dir="advanced/jsx" icon="i-simple-icons-react">
+  <NuxtExample dir="advanced/jsx" icon="i-simple-icons-react">
     <InlineComponent />
     <!-- Defined in components/jsx-component.ts -->
     <MyComponent message="This is an external JSX component" />
-  </NuxtExampleLayout>
+  </NuxtExample>
 </template>

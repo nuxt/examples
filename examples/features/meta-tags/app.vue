@@ -5,7 +5,7 @@ useHead({
 </script>
 
 <template>
-  <NuxtExampleLayout dir="features/meta-tags" file="pages/index.vue">
+  <NuxtExample dir="features/meta-tags" file="pages/index.vue">
     <NuxtPage />
-  </NuxtExampleLayout>
+  </NuxtExample>
 </template>
