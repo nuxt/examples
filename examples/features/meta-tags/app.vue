@@ -1,6 +1,6 @@
 <script setup>
 useHead({
-  titleTemplate: '%s - Meta Tags Example'
+  titleTemplate: '%s - Meta Tags Example',
 })
 </script>
 

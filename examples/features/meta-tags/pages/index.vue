@@ -2,8 +2,8 @@
 // Add a class to the body
 useHead({
   bodyAttrs: {
-    class: 'my-body-class'
-  }
+    class: 'my-body-class',
+  },
 })
 const number = ref(1)
 </script>
@@ -28,7 +28,11 @@ const number = ref(1)
       </button>
     </p>
 
-    <p><NuxtLink to="/about">About page</NuxtLink></p>
+    <p>
+      <NuxtLink to="/about">
+        About page
+      </NuxtLink>
+    </p>
   </div>
 </template>
 

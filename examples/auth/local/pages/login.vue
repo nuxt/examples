@@ -56,27 +56,27 @@ const onError = (err: any) => {
               </div>
             </template>
 
-              <UFormGroup label="Email" name="email" class="mb-3" required>
-                <UInput v-model="loginForm.email" placeholder="user@gmail.com" icon="i-heroicons-envelope" />
-              </UFormGroup>
-              <UFormGroup label="Password" name="password" required>
-                <UInput
-                  v-model="loginForm.password"
-                  placeholder="password"
-                  icon="i-heroicons-lock-closed"
-                  :type="hidden ? 'password' : 'text'"
-                  :ui="{ icon: { trailing: { pointer: '' } } }"
-                >
-                  <template #trailing>
-                    <UButton
-                      :icon="hidden ? 'i-heroicons-eye-slash' : 'i-heroicons-eye'"
-                      variant="link"
-                      :padded="false"
-                      @click="hidden = !hidden"
-                    />
-                  </template>
-                </UInput>
-              </UFormGroup>
+            <UFormGroup label="Email" name="email" class="mb-3" required>
+              <UInput v-model="loginForm.email" placeholder="user@gmail.com" icon="i-heroicons-envelope" />
+            </UFormGroup>
+            <UFormGroup label="Password" name="password" required>
+              <UInput
+                v-model="loginForm.password"
+                placeholder="password"
+                icon="i-heroicons-lock-closed"
+                :type="hidden ? 'password' : 'text'"
+                :ui="{ icon: { trailing: { pointer: '' } } }"
+              >
+                <template #trailing>
+                  <UButton
+                    :icon="hidden ? 'i-heroicons-eye-slash' : 'i-heroicons-eye'"
+                    variant="link"
+                    :padded="false"
+                    @click="hidden = !hidden"
+                  />
+                </template>
+              </UInput>
+            </UFormGroup>
 
             <template #footer>
               <UButton class="w-full justify-center" type="submit">

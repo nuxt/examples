@@ -1,7 +1,7 @@
 <script setup lang="ts">
 useHead({
-  title: "Home Page",
-});
+  title: 'Home Page',
+})
 </script>
 
 <template>

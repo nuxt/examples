@@ -9,7 +9,7 @@ if ('mounted' in route.query) {
     throw new Error('error in mounted')
   })
 }
-function triggerError() {
+function triggerError () {
   throw new Error('manually triggered error')
 }
 </script>
