@@ -1,9 +1,9 @@
 <script setup lang="ts">
 defineProps({
-  error: Object
+  error: Object,
 })
 
-function handleError() {
+function handleError () {
   clearError({ redirect: '/' })
 }
 </script>

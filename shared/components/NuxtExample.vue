@@ -28,7 +28,7 @@ const isDark = computed({
   },
   set () {
     colorMode.preference = colorMode.value === 'dark' ? 'light' : 'dark'
-  }
+  },
 })
 
 const title = computed(() => props.dir.split('/').map(i => i.split('-').join(' ')))
@@ -82,13 +82,13 @@ useSeoMeta({
           <nav v-if="nav?.length || $slots.nav" class="flex align-center justify-center gap-4 pb-4 border-b border-gray-200 dark:border-gray-800 mb-4">
             <slot name="nav">
               <component
+                :is="item.to ? NuxtLink : 'button'"
                 v-for="item of nav"
                 :key="item.label"
-                :is="item.to ? NuxtLink: 'button'"
                 :to="item.to"
                 class="hover:underline"
                 @click="item.onClick"
-                >
+              >
                 {{ item.label }}
               </component>
             </slot>

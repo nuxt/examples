@@ -8,8 +8,8 @@ export default defineNuxtModule({
       pages.push({
         name: 'Test',
         path: '/test',
-        file: resolve(__dirname, './pages/test.vue')
+        file: resolve(__dirname, './pages/test.vue'),
       })
     })
-  }
+  },
 })

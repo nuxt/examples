@@ -1,8 +1,8 @@
 export default defineNuxtConfig({
   extends: [
-    '@nuxt/examples-ui'
+    '@nuxt/examples-ui',
   ],
   modules: [
     '~/modules/pages/index',
-  ]
+  ],
 })

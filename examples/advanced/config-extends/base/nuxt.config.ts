@@ -1,13 +1,13 @@
 export default defineNuxtConfig({
   imports: {
-    dirs: ['utils']
+    dirs: ['utils'],
   },
   runtimeConfig: {
     public: {
       theme: {
         primaryColor: 'base_primary',
-        secondaryColor: 'base_secondary'
-      }
-    }
-  }
+        secondaryColor: 'base_secondary',
+      },
+    },
+  },
 })

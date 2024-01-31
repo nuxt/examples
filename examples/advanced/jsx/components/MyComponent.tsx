@@ -1,6 +1,6 @@
 export default defineComponent({
   props: {
-    message: String
+    message: String,
   },
   render: (props) => {
     return (
@@ -8,5 +8,5 @@ export default defineComponent({
       { props.message }
     </div>
     )
-  }
+  },
 })

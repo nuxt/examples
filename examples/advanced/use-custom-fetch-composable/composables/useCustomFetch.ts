@@ -24,7 +24,7 @@ export function useCustomFetch<T> (url: string | (() => string), options: UseFet
 
     onResponseError (_ctx) {
       // throw new myBusinessError()
-    }
+    },
   }
 
   // for nice deep defaults, please use unjs/defu

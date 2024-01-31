@@ -1,13 +1,15 @@
 <script setup>
 const props = defineProps({
-  id: Number
+  id: Number,
 })
 const { data: quote, pending, error } = await useFetch(() => `https://dummyjson.com/quotes/${props.id}`)
 </script>
 
 <template>
   <div>
-    <p v-if="pending">Fetching...</p>
+    <p v-if="pending">
+      Fetching...
+    </p>
     <pre v-else-if="error">Could not load quote: {{ error.data }}</pre>
     <figure v-else class="quote">
       <blockquote>{{ quote.quote }}</blockquote>

@@ -28,7 +28,7 @@ export const useLocales = () => {
     'zh-CN',
     'ar-EG',
     'fa-IR',
-    'ja-JP-u-ca-japanese'
+    'ja-JP-u-ca-japanese',
   ])
   if (!locales.value.includes(locale.value)) {
     locales.value.unshift(locale.value)

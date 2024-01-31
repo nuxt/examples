@@ -1,3 +1,3 @@
-export function sayHello(message = 'World') {
+export function sayHello (message = 'World') {
   alert(`Hello ${upperCase(message)}!`)
 }
