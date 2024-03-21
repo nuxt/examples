@@ -9,8 +9,8 @@
     "generate": "nuxt generate"
   },
   "devDependencies": {
-    "@mdi/font": "^7.3.67",
-    "nuxt": "^3.8.1",
+    "@mdi/font": "^7.4.47",
+    "nuxt": "^3.11.1",
     "sass": "^1.69.5",
     "vuetify": "^3.3.23"
   }
