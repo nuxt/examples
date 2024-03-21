@@ -44,7 +44,7 @@ test.describe("Component page", () => {
         "Your heart is the size of an ocean. Go find yourself in its hidden depths."
       )
     ).toBeVisible()
-    await expect(page.getByText("Kevin Kruse")).toBeVisible()
+    await expect(page.getByText("Rumi")).toBeVisible()
   })
 
   test('Visiting "Component Page" directly shows the first quote', async ({
@@ -57,6 +57,6 @@ test.describe("Component page", () => {
         "Your heart is the size of an ocean. Go find yourself in its hidden depths."
       )
     ).toBeVisible()
-    await expect(page.getByText("Kevin Kruse")).toBeVisible()
+    await expect(page.getByText("Rumi")).toBeVisible()
   })
 })
