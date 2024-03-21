@@ -41,7 +41,7 @@ test.describe("Component page", () => {
 
     await expect(
       page.getByText(
-        "Life isn’t about getting and having, it’s about giving and being."
+        "Your heart is the size of an ocean. Go find yourself in its hidden depths."
       )
     ).toBeVisible()
     await expect(page.getByText("Kevin Kruse")).toBeVisible()
@@ -54,7 +54,7 @@ test.describe("Component page", () => {
 
     await expect(
       page.getByText(
-        "Life isn’t about getting and having, it’s about giving and being."
+        "Your heart is the size of an ocean. Go find yourself in its hidden depths."
       )
     ).toBeVisible()
     await expect(page.getByText("Kevin Kruse")).toBeVisible()
