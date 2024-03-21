@@ -9,8 +9,8 @@
     "generate": "nuxt generate"
   },
   "devDependencies": {
-    "@nuxtjs/color-mode": "^3.3.0",
-    "@nuxtjs/tailwindcss": "^6.9.4",
-    "nuxt": "^3.8.1"
+    "@nuxtjs/color-mode": "^3.3.3",
+    "@nuxtjs/tailwindcss": "^6.11.4",
+    "nuxt": "^3.11.1"
   }
 }

@@ -14,10 +14,10 @@
     "nuxt.config.ts"
   ],
   "devDependencies": {
-    "nuxt": "^3.8.2"
+    "nuxt": "^3.11.1"
   },
   "dependencies": {
-    "@iconify-json/simple-icons": "^1.1.84",
-    "@nuxt/ui": "^2.11.1"
+    "@iconify-json/simple-icons": "^1.1.96",
+    "@nuxt/ui": "^2.14.2"
   }
 }
