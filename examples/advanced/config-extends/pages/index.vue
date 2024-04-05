@@ -1,5 +1,5 @@
 <script setup>
-const themeConfig = useRuntimeConfig().theme
+const themeConfig = useRuntimeConfig().public.theme
 const appConfig = useAppConfig()
 const foo = useFoo()
 const bar = getBar()
