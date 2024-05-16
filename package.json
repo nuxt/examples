@@ -8,11 +8,11 @@
   },
   "devDependencies": {
     "@nuxt/kit": "3.11.2",
-    "@types/node": "^20.11.30",
+    "@types/node": "^20.12.12",
     "globby": "^14.0.1",
     "pathe": "^1.1.2",
-    "pkg-types": "^1.0.3",
-    "turbo": "^1.12.5"
+    "pkg-types": "^1.1.1",
+    "turbo": "^1.13.3"
   },
   "resolutions": {
     "@nuxt/kit": "3.11.2",
@@ -21,7 +21,7 @@
     "ufo": "latest"
   },
   "engines": {
-    "node": ">=16.x"
+    "node": ">=16.20.2"
   },
   "packageManager": "pnpm@9.1.1"
 }
