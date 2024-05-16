@@ -1,7 +1,7 @@
 export default defineNuxtPlugin(() => {
   const timer = useState('timer', () => 0)
 
-  if (process.client) {
+  if (import.meta.client) {
     addRouteMiddleware(async () => {
       console.log('Starting timer...')
       timer.value = 5
@@ -25,7 +25,9 @@ export default defineNuxtPlugin(() => {
       console.log('Accessed runtime config within middleware.')
     }
 
-    if (to.path !== '/redirect') { return }
+    if (to.path !== '/redirect') {
+      return
+    }
 
     console.log('Heading to', to.path, 'but I think we should go somewhere else...')
     return '/secret'

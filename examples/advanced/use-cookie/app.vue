@@ -15,7 +15,10 @@ const logout = () => {
 </script>
 
 <template>
-  <NuxtExample class="h-50" dir="advanced/use-cookie">
+  <NuxtExample
+    class="h-50"
+    dir="advanced/use-cookie"
+  >
     <template v-if="user">
       <h1 class="text-3xl mb-3">
         Welcome, {{ user.name }}! 👋
@@ -32,7 +35,11 @@ const logout = () => {
         </UAlert>
       </div>
       <div class="mt-3">
-        <UButton color="orange" icon="i-heroicons-arrow-left" @click="logout">
+        <UButton
+          color="orange"
+          icon="i-heroicons-arrow-left"
+          @click="logout"
+        >
           Log out
         </UButton>
       </div>
@@ -41,9 +48,19 @@ const logout = () => {
       <h1 class="text-3xl mb-3">
         Login
       </h1>
-      <UInput v-model="name" class="w-100 m-auto" placeholder="Enter your name..." @keypress.enter="login()" />
+      <UInput
+        v-model="name"
+        class="w-100 m-auto"
+        placeholder="Enter your name..."
+        @keypress.enter="login()"
+      />
       <div class="mt-3">
-        <UButton icon="i-heroicons-user" :disabled="!name" name="Log in" @click="login">
+        <UButton
+          icon="i-heroicons-user"
+          :disabled="!name"
+          name="Log in"
+          @click="login"
+        >
           Log in
         </UButton>
       </div>

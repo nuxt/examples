@@ -4,7 +4,11 @@ const { data } = await useFetch('/api/hello')
 
 <template>
   <div>
-    <p>Result of <UKbd size="lg">/api/hello</UKbd>:</p>
+    <p>
+      Result of <UKbd size="lg">
+        /api/hello
+      </UKbd>:
+    </p>
     <pre>{{ data }}</pre>
   </div>
 </template>

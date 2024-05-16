@@ -3,7 +3,10 @@ const timer = useState('timer', () => 0)
 </script>
 
 <template>
-  <NuxtExample dir="routing/universal-router" current-route>
+  <NuxtExample
+    dir="routing/universal-router"
+    current-route
+  >
     A page...
     <br>
 
@@ -12,16 +15,28 @@ const timer = useState('timer', () => 0)
     </template>
 
     <template #nav>
-      <NuxtLink to="/" class="n-link-base">
+      <NuxtLink
+        to="/"
+        class="n-link-base"
+      >
         Home
       </NuxtLink>
-      <NuxtLink to="/forbidden" class="n-link-base">
+      <NuxtLink
+        to="/forbidden"
+        class="n-link-base"
+      >
         Forbidden
       </NuxtLink>
-      <NuxtLink to="/redirect" class="n-link-base">
+      <NuxtLink
+        to="/redirect"
+        class="n-link-base"
+      >
         Redirect
       </NuxtLink>
-      <NuxtLink custom to="/redirect">
+      <NuxtLink
+        custom
+        to="/redirect"
+      >
         <template #default="{ href, navigate }">
           <button @click="navigate">
             Custom: {{ href }}

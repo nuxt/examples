@@ -6,6 +6,6 @@ export default defineNuxtConfig({
   // https://tailwindcss.nuxtjs.org
   tailwindcss: {
     // Expose tailwind config with #tailwind-config
-    exposeConfig: true
-  }
+    exposeConfig: true,
+  },
 })
