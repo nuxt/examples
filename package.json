@@ -15,10 +15,13 @@
     "turbo": "^1.12.5"
   },
   "resolutions": {
+    "@nuxt/kit": "3.11.2",
     "destr": "latest",
+    "nuxt": "^3.11.2",
     "ufo": "latest"
   },
   "engines": {
-    "node": "20.x || 18.x || 16.x"
-  }
+    "node": ">=16.x"
+  },
+  "packageManager": "pnpm@9.1.1"
 }
