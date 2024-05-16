@@ -1,13 +1,13 @@
 <script setup lang="ts">
 useHead({
-  title: "Secret Page",
-});
+  title: 'Secret Page',
+})
 
 definePageMeta({
   auth: true,
-});
+})
 
-const { data: secretData } = await useFetch("/api/secret")
+const { data: secretData } = await useFetch('/api/secret')
 </script>
 
 <template>

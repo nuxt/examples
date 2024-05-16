@@ -6,7 +6,10 @@ const bar = getBar()
 </script>
 
 <template>
-  <NuxtExample dir="advanced/config-extends" file="nuxt.config.ts">
+  <NuxtExample
+    dir="advanced/config-extends"
+    file="nuxt.config.ts"
+  >
     appConfig:
     <pre>{{ JSON.stringify(appConfig, null, 2) }}</pre>
     runtimeConfig:

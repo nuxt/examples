@@ -6,5 +6,7 @@
 
 <script setup>
 const reloads = useState('reload', () => 0)
-onMounted(() => { reloads.value++ })
+onMounted(() => {
+  reloads.value++
+})
 </script>

@@ -1,19 +1,19 @@
-import { defineConfig, devices } from "@playwright/test"
+import { defineConfig, devices } from '@playwright/test'
 
 /**
  * See https://playwright.dev/docs/test-configuration.
  */
 export default defineConfig({
-  testDir: "./tests",
+  testDir: './tests',
   fullyParallel: true,
   forbidOnly: !!process.env.CI,
   retries: process.env.CI ? 3 : 1,
   workers: process.env.CI ? 1 : undefined,
-  reporter: [["html", { open: "never" }]],
-  snapshotPathTemplate: "{testDir}/../__snapshots__/{testFilePath}/{arg}{ext}",
+  reporter: [['html', { open: 'never' }]],
+  snapshotPathTemplate: '{testDir}/../__snapshots__/{testFilePath}/{arg}{ext}',
   use: {
-    trace: "on-first-retry",
-    screenshot: "only-on-failure",
+    trace: 'on-first-retry',
+    screenshot: 'only-on-failure',
   },
   expect: {
     toHaveScreenshot: {
@@ -22,8 +22,8 @@ export default defineConfig({
   },
   projects: [
     {
-      name: "chromium",
-      use: { ...devices["Desktop Chrome"] },
+      name: 'chromium',
+      use: { ...devices['Desktop Chrome'] },
     },
   ],
 })

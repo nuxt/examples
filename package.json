@@ -4,11 +4,15 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    "build": "turbo run build && node .scripts/build.mjs"
+    "build": "turbo run build && node .scripts/build.mjs",
+    "lint": "eslint",
+    "lint:fix": "eslint --fix"
   },
   "devDependencies": {
+    "@nuxt/eslint": "^0.3.12",
     "@nuxt/kit": "3.11.2",
     "@types/node": "^20.11.30",
+    "eslint": "^9.2.0",
     "globby": "^14.0.1",
     "pathe": "^1.1.2",
     "pkg-types": "^1.0.3",

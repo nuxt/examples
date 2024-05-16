@@ -5,6 +5,6 @@ export default defineAppConfig({
   array: [
     'user',
     'user',
-    'user'
-  ]
+    'user',
+  ],
 })

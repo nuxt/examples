@@ -1,5 +1,5 @@
-export default defineEventHandler(event => {
+export default defineEventHandler(() => {
   return {
-    hello: 'world'
+    hello: 'world',
   }
 })

@@ -2,13 +2,16 @@
 defineProps({
   color: {
     type: String,
-    default: 'black'
-  }
+    default: 'black',
+  },
 })
 </script>
 
 <template>
-  <button class="ui-button" :style="{ color }">
+  <button
+    class="ui-button"
+    :style="{ color }"
+  >
     <slot />
   </button>
 </template>

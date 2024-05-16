@@ -2,13 +2,13 @@ export default defineNuxtConfig({
   extends: [
     '@nuxt/examples-ui',
     './ui',
-    './base'
+    './base',
   ],
   runtimeConfig: {
     public: {
       theme: {
-        primaryColor: 'user_primary'
-      }
-    }
+        primaryColor: 'user_primary',
+      },
+    },
   },
 })

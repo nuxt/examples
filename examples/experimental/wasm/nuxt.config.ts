@@ -1,10 +1,10 @@
 export default defineNuxtConfig({
   nitro: {
     experimental: {
-      wasm: true
-    }
+      wasm: true,
+    },
   },
   extends: [
-    '@nuxt/examples-ui'
+    '@nuxt/examples-ui',
   ],
 })

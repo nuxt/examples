@@ -25,7 +25,8 @@ for (const config of packages) {
   try {
     const stats = await fsp.stat(output)
     if (!stats.isDirectory()) continue
-  } catch {
+  }
+  catch {
     continue
   }
 
@@ -37,7 +38,7 @@ for (const config of packages) {
     `.vercel/output/functions/${name}.func`,
     {
       recursive: true,
-    }
+    },
   )
   names.add(name)
 }
@@ -73,14 +74,14 @@ export default function middleware(req) {
     }
   })
 
-}`
+}`,
 )
 await fsp.writeFile(
   '.vercel/output/functions/_middleware.func/.vc-config.json',
   stringify({
     runtime: 'edge',
     entrypoint: 'index.js',
-  })
+  }),
 )
 await fsp.writeFile(
   '.vercel/output/config.json',
@@ -100,7 +101,7 @@ await fsp.writeFile(
         dest: `/${name}`,
       })),
     ],
-  })
+  }),
 )
 
 console.log('Successfully built nuxt/examples:')

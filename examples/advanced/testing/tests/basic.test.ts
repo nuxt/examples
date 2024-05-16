@@ -5,7 +5,7 @@ import { setup, $fetch, isDev } from '@nuxt/test-utils'
 describe('example', async () => {
   await setup({
     rootDir: fileURLToPath(new URL('..', import.meta.url)),
-    server: true
+    server: true,
   })
 
   it('Renders Hello Nuxt', async () => {

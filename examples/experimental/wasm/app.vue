@@ -3,7 +3,7 @@ const a = ref(100)
 const b = ref(250)
 
 const { data } = await useAsyncData(
-  () => $fetch('/api/sum', { params: { a: a.value, b: b.value } })
+  () => $fetch('/api/sum', { params: { a: a.value, b: b.value } }),
 )
 </script>
 

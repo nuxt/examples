@@ -12,7 +12,11 @@ const nav = [
 </script>
 
 <template>
-  <NuxtExample dir="routing/pages" :nav="nav" current-route>
+  <NuxtExample
+    dir="routing/pages"
+    :nav="nav"
+    current-route
+  >
     <NuxtLoadingIndicator />
     <NuxtPage />
   </NuxtExample>

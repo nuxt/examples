@@ -7,7 +7,7 @@
         class="w-full"
         src="https://tailwindcss.com/img/card-top.jpg"
         alt="Sunset in the mountains"
-      />
+      >
       <div class="px-6 py-4 pb-2">
         <div class="font-bold text-xl mb-2 dark:text-white">
           The Coldest Sunset

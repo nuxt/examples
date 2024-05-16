@@ -1,5 +1,5 @@
 export default defineNuxtConfig({
   extends: [
-    '@nuxt/examples-ui'
+    '@nuxt/examples-ui',
   ],
 })

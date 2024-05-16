@@ -1,4 +1,4 @@
-import { useNuxtApp } from 'nuxt/app'
+import type { useNuxtApp } from 'nuxt/app'
 
 declare global {
   interface Window {

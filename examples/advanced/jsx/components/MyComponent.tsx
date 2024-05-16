@@ -1,12 +1,12 @@
 export default defineComponent({
   props: {
-    message: String
+    message: String,
   },
   render: (props) => {
     return (
-    <div>
-      { props.message }
-    </div>
+      <div>
+        { props.message }
+      </div>
     )
-  }
+  },
 })

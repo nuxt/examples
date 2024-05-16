@@ -5,8 +5,7 @@
 </template>
 
 <script setup>
-
 definePageMeta({
-  middleware: 'redirect-me'
+  middleware: 'redirect-me',
 })
 </script>

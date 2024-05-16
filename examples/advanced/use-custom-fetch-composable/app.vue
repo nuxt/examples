@@ -1,10 +1,12 @@
-
 <script setup lang="ts">
 const { data } = await useCustomFetch<[]>('/contributors')
 </script>
 
 <template>
-  <NuxtExample dir="advanced/use-custom-fetch-composable" file="composables/useCustomFetch.ts">
+  <NuxtExample
+    dir="advanced/use-custom-fetch-composable"
+    file="composables/useCustomFetch.ts"
+  >
     <h1 class="text-xl">
       - Nuxt custom fetch:
     </h1>

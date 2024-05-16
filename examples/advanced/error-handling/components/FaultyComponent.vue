@@ -5,7 +5,6 @@ const fixIssue = (error) => {
   hasIssue.value = false
   error.value = null
 }
-
 </script>
 
 <template>
