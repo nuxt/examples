@@ -9,8 +9,8 @@
   },
   "devDependencies": {
     "@nuxt/examples-ui": "latest",
-    "@nuxt/test-utils": "^3.12.0",
-    "nuxt": "^3.11.1",
+    "@nuxt/test-utils": "^3.13.0",
+    "nuxt": "^3.11.2",
     "vitest": "latest"
   }
 }

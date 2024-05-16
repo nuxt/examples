@@ -14,10 +14,11 @@
     "nuxt.config.ts"
   ],
   "devDependencies": {
-    "nuxt": "^3.11.1"
+    "nuxt": "^3.11.2"
   },
   "dependencies": {
     "@iconify-json/simple-icons": "^1.1.96",
-    "@nuxt/ui": "^2.14.2"
+    "tailwindcss": "latest",
+    "@nuxt/ui": "^2.16.0"
   }
 }
