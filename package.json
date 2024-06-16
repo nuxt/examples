@@ -7,7 +7,7 @@
     "build": "turbo run build && node .scripts/build.mjs"
   },
   "devDependencies": {
-    "@nuxt/kit": "3.11.2",
+    "@nuxt/kit": "3.12.2",
     "@types/node": "^20.11.30",
     "globby": "^14.0.1",
     "pathe": "^1.1.2",
@@ -15,9 +15,9 @@
     "turbo": "^1.12.5"
   },
   "resolutions": {
-    "@nuxt/kit": "3.11.2",
+    "@nuxt/kit": "3.12.2",
     "destr": "latest",
-    "nuxt": "^3.11.2",
+    "nuxt": "^3.12.2",
     "ufo": "latest"
   },
   "engines": {
