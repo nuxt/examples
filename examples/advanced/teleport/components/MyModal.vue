@@ -10,7 +10,7 @@ const open = ref(false)
   <UButton @click="open = true">
     Open Modal
   </UButton>
-  <Teleport to="body">
+  <Teleport to="#teleports">
     <div v-if="open" class="fixed inset-0 bg-black/30 backdrop-blur" />
     <UCard v-if="open" class="modal p4">
       <template #header>
