@@ -12,7 +12,7 @@
     "globby": "^14.0.1",
     "pathe": "^1.1.2",
     "pkg-types": "^1.0.3",
-    "turbo": "^1.12.5"
+    "turbo": "^2.0.12"
   },
   "resolutions": {
     "@nuxt/kit": "3.12.2",
