@@ -4,15 +4,19 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    "build": "turbo run build && node .scripts/build.mjs"
+    "build": "turbo run build && node .scripts/build.mjs",
+    "typecheck": "node .scripts/typecheck.mjs"
   },
   "devDependencies": {
     "@nuxt/kit": "3.12.2",
     "@types/node": "^20.11.30",
+    "consola": "^3.2.3",
     "globby": "^14.0.1",
     "pathe": "^1.1.2",
     "pkg-types": "^1.0.3",
-    "turbo": "^2.1.2"
+    "tinyexec": "^0.3.0",
+    "turbo": "^2.1.2",
+    "typescript": "^5.6.2"
   },
   "resolutions": {
     "@nuxt/kit": "3.12.2",

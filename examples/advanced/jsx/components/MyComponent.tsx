@@ -2,7 +2,8 @@ export default defineComponent({
   props: {
     message: String
   },
-  render: (props) => {
+  // @ts-expect-error investigate why this is not typed
+  render(props) {
     return (
     <div>
       { props.message }
