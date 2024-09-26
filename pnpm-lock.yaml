@@ -45,7 +45,7 @@ importers:
   .e2e:
     devDependencies:
       '@playwright/test':
-        specifier: ^1.40.1
+        specifier: 1.40.1
         version: 1.40.1
 
   examples/advanced/config-extends:
