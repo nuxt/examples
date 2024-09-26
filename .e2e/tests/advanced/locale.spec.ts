@@ -13,7 +13,7 @@ test.describe("British Locale", () => {
   })
 
   test("Date is in british format", async ({ page }) => {
-    await expect(page.getByText("Wednesday, 26 October 2016")).toBeVisible()
+    await expect(page.getByText("Wednesday 26 October 2016")).toBeVisible()
   })
 
   test("British locale has been selected", async ({ page }) => {
