@@ -20,8 +20,5 @@
     "nuxt": "^3.12.2",
     "ufo": "latest"
   },
-  "engines": {
-    "node": ">=16.x"
-  },
-  "packageManager": "pnpm@9.0.4"
+  "packageManager": "pnpm@9.1.1"
 }
