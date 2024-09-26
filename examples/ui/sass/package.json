@@ -10,7 +10,7 @@
   },
   "devDependencies": {
     "@nuxt/examples-ui": "latest",
-    "nuxt": "^3.11.2",
+    "nuxt": "^3.13.2",
     "sass": "^1.69.5"
   }
 }
