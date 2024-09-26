@@ -13,6 +13,8 @@ jobs:
   test:
     timeout-minutes: 60
     runs-on: ubuntu-latest
+    container:
+      image: mcr.microsoft.com/playwright:v1.40.1-focal
     steps:
       - uses: actions/checkout@v4
       - run: corepack enable
@@ -24,8 +26,8 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
-      - name: Install Playwright Browsers
-        run: pnpm exec playwright install --with-deps
+      - name: Install playwright
+        run: pnpm playwright install
 
       - name: Run Playwright tests
         run: pnpm --filter e2e test:all
