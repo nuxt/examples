@@ -9,7 +9,7 @@
   },
   "devDependencies": {
     "@nuxt/kit": "3.12.2",
-    "@types/node": "^20.16.9",
+    "@types/node": "^20.16.10",
     "consola": "^3.2.3",
     "globby": "^14.0.2",
     "pathe": "^1.1.2",
