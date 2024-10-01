@@ -4,7 +4,7 @@ import { NuxtLink } from '#components'
 interface Nav {
   label: string
   to?: string
-  onClick?: Function
+  onClick?: () => unknown
 }
 
 const props = withDefaults(defineProps<{

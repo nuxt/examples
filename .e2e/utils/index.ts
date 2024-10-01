@@ -4,6 +4,7 @@ import { withoutProtocol } from 'ufo'
 export const wait = (ms: number) =>
   new Promise(resolve => setTimeout(resolve, ms))
 
+// eslint-disable-next-line @typescript-eslint/no-empty-object-type
 export const getSettingsForDeployment = (slug: string): Fixtures<{}, {}, PlaywrightTestArgs & PlaywrightTestOptions, PlaywrightWorkerArgs> => ({
   baseURL: process.env.DEPLOY_URL || `https://${slug}.example.nuxt.space/`,
   extraHTTPHeaders: { cookie: `forced=${slug}` },
