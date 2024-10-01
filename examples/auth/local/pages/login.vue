@@ -26,7 +26,8 @@ const hidden = ref(true)
 
 const toast = useToast()
 
-const onError = (err) => {
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+const onError = (err: any) => {
   toast.add({
     color: 'red',
     title: 'Error',

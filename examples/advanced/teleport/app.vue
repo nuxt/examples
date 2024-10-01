@@ -2,7 +2,7 @@
   <NuxtExample dir="advanced/teleport">
     <div>
       <!-- SSR Teleport -->
-      <Teleport to="body">
+      <Teleport to="#teleports">
         <UContainer>
           <UAlert
             class="mt-8"
@@ -15,7 +15,7 @@
 
       <!-- Client Teleport -->
       <ClientOnly>
-        <Teleport to="body">
+        <Teleport to="#teleports">
           <UContainer>
             <UAlert
               class="mb-8"
