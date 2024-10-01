@@ -9,7 +9,10 @@ const route = useRoute()
 </script>
 
 <template>
-  <NuxtExample dir="routing/middleware" :nav="nav">
+  <NuxtExample
+    dir="routing/middleware"
+    :nav="nav"
+  >
     <NuxtPage />
     <template #footer>
       <div class="text-center p-4 op-50">

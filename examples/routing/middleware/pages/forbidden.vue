@@ -10,6 +10,6 @@ definePageMeta({
   middleware: () => {
     console.log('Strictly forbidden.')
     return false
-  }
+  },
 })
 </script>

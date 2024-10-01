@@ -1,7 +1,7 @@
 import { basename } from 'node:path'
 import { globby } from 'globby'
 import { exec } from 'tinyexec'
-import {consola} from 'consola'
+import { consola } from 'consola'
 
 const packages = await globby([
   'shared/**/package.json',
@@ -22,7 +22,8 @@ for (const pkg of packages) {
   if (output) {
     consola.withTag(basename(cwd)).error(output)
     process.exit(1)
-  } else {
+  }
+  else {
     consola.success('type checked', basename(cwd))
   }
 }

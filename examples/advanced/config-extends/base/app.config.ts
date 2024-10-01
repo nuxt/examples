@@ -4,15 +4,15 @@ export default defineAppConfig({
   array: () => [
     'base',
     'base',
-    'base'
+    'base',
   ],
   arrayNested: {
     nested: {
       array: [
         'base',
         'base',
-        'base'
-      ]
-    }
-  }
+        'base',
+      ],
+    },
+  },
 })

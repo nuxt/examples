@@ -4,7 +4,12 @@
       <!-- SSR Teleport -->
       <Teleport to="#teleports">
         <UContainer>
-          <UAlert class="mt-8" icon="i-heroicons-server-stack" title="SSR Teleport" description="Hello from Server-side teleport!" />
+          <UAlert
+            class="mt-8"
+            icon="i-heroicons-server-stack"
+            title="SSR Teleport"
+            description="Hello from Server-side teleport!"
+          />
         </UContainer>
       </Teleport>
 
@@ -12,7 +17,12 @@
       <ClientOnly>
         <Teleport to="#teleports">
           <UContainer>
-            <UAlert class="mb-8" icon="i-heroicons-window" title="Client Teleport" description="Hello from Client-side teleport!" />
+            <UAlert
+              class="mb-8"
+              icon="i-heroicons-window"
+              title="Client Teleport"
+              description="Hello from Client-side teleport!"
+            />
           </UContainer>
         </Teleport>
       </ClientOnly>
