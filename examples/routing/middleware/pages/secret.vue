@@ -6,6 +6,6 @@
 
 <script setup>
 definePageMeta({
-  middleware: 'named-test'
+  middleware: 'named-test',
 })
 </script>

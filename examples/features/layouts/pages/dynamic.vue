@@ -1,6 +1,6 @@
 <script setup>
 definePageMeta({
-  layout: false
+  layout: false,
 })
 const layout = ref('custom')
 </script>
@@ -14,7 +14,10 @@ const layout = ref('custom')
         <p>Header slot</p>
       </template>
       <p>Default slot</p>
-      <button class="border p-1 rounded" @click="layout = layout ? null : 'custom'">
+      <button
+        class="border p-1 rounded"
+        @click="layout = layout ? null : 'custom'"
+      >
         Toggle layout
       </button>
     </NuxtLayout>

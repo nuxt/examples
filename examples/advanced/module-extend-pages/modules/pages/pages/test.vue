@@ -2,7 +2,10 @@
   <div>
     <p>
       Go to
-      <NuxtLink class="underline" to="/">
+      <NuxtLink
+        class="underline"
+        to="/"
+      >
         Homepage
       </NuxtLink>
     </p>

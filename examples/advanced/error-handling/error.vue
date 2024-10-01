@@ -1,6 +1,6 @@
 <script setup lang="ts">
 defineProps({
-  error: Object
+  error: Object,
 })
 
 function handleError() {
@@ -24,7 +24,10 @@ function handleError() {
           Trigger another error
         </NuxtLink>
         <br>
-        <NuxtLink class="text-primary" to="/">
+        <NuxtLink
+          class="text-primary"
+          to="/"
+        >
           Navigate home
         </NuxtLink>
       </div>

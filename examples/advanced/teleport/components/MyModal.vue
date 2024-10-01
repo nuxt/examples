@@ -11,8 +11,14 @@ const open = ref(false)
     Open Modal
   </UButton>
   <Teleport to="#teleports">
-    <div v-if="open" class="fixed inset-0 bg-black/30 backdrop-blur" />
-    <UCard v-if="open" class="modal p4">
+    <div
+      v-if="open"
+      class="fixed inset-0 bg-black/30 backdrop-blur"
+    />
+    <UCard
+      v-if="open"
+      class="modal p4"
+    >
       <template #header>
         {{ title }}
       </template>

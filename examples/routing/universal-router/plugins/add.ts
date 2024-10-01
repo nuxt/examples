@@ -1,13 +1,13 @@
 export default defineNuxtPlugin(() => {
   const timer = useState('timer', () => 0)
 
-  if (process.client) {
-    let timerRunning = false;
+  if (import.meta.client) {
+    let timerRunning = false
     addRouteMiddleware(async () => {
-      if (timerRunning) return;
+      if (timerRunning) return
 
       console.log('Starting timer...')
-      timerRunning = true;
+      timerRunning = true
       timer.value = 5
 
       do {
@@ -17,8 +17,8 @@ export default defineNuxtPlugin(() => {
       } while (timer.value > 0)
 
       console.log('...and navigating')
-      timerRunning = false;
-    });
+      timerRunning = false
+    })
   }
 
   addRouteMiddleware((to) => {
@@ -33,10 +33,11 @@ export default defineNuxtPlugin(() => {
       console.log('Accessed runtime config within middleware.')
     }
 
-    if (to.path !== '/redirect') { return }
+    if (to.path !== '/redirect') {
+      return
+    }
 
     console.log('Heading to', to.path, 'but I think we should go somewhere else...')
     return '/secret'
   })
 })
-

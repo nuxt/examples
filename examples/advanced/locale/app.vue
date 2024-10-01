@@ -8,7 +8,11 @@ const date = useLocaleDate(new Date('2016-10-26') /* NUXT_BIRTHDAY */)
 <template>
   <NuxtExample dir="advanced/locale">
     <div class="flex justify-center gap-8 items-center mt-2">
-      <USelect v-model="locale" :options="locales" icon="i-heroicons-calendar-days" />
+      <USelect
+        v-model="locale"
+        :options="locales"
+        icon="i-heroicons-calendar-days"
+      />
       <p class="text-4xl">
         {{ date }}
       </p>

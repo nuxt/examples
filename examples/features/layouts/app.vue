@@ -7,23 +7,37 @@ const nav = [
 ]
 </script>
 
-
 <template>
-  <NuxtExample dir="features/layouts" :nav="nav">
+  <NuxtExample
+    dir="features/layouts"
+    :nav="nav"
+  >
     <NuxtLayout class="layouts">
       <NuxtPage />
     </NuxtLayout>
     <div class="flex items-center gap-4 mt-4">
-      <UButton color="white" @click="setPageLayout('default')">
+      <UButton
+        color="white"
+        @click="setPageLayout('default')"
+      >
         layouts/default.vue
       </UButton>
-      <UButton color="white" @click="setPageLayout('custom')">
+      <UButton
+        color="white"
+        @click="setPageLayout('custom')"
+      >
         layouts/custom.vue
       </UButton>
-      <UButton color="white" @click="setPageLayout('other')">
+      <UButton
+        color="white"
+        @click="setPageLayout('other')"
+      >
         layouts/other.vue
       </UButton>
-      <UButton color="white" @click="setPageLayout(false)">
+      <UButton
+        color="white"
+        @click="setPageLayout(false)"
+      >
         Remove layout
       </UButton>
     </div>

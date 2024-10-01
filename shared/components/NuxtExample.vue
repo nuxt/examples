@@ -4,7 +4,7 @@ import { NuxtLink } from '#components'
 interface Nav {
   label: string
   to?: string
-  onClick?: Function
+  onClick?: () => unknown
 }
 
 const props = withDefaults(defineProps<{
@@ -23,12 +23,12 @@ const props = withDefaults(defineProps<{
 const colorMode = useColorMode()
 
 const isDark = computed({
-  get () {
+  get() {
     return colorMode.value === 'dark'
   },
-  set () {
+  set() {
     colorMode.preference = colorMode.value === 'dark' ? 'light' : 'dark'
-  }
+  },
 })
 
 const title = computed(() => props.dir.split('/').map(i => i.split('-').join(' ')))
@@ -57,7 +57,11 @@ useSeoMeta({
               </UTooltip>
             </div>
             <slot name="logo">
-              <Logo :icon="icon" :org="title[0]" :repo="title[1]" />
+              <Logo
+                :icon="icon"
+                :org="title[0]"
+                :repo="title[1]"
+              />
             </slot>
             <div class="flex gap-2">
               <ClientOnly>
@@ -79,16 +83,19 @@ useSeoMeta({
         </template>
 
         <main class="min-h-body">
-          <nav v-if="nav?.length || $slots.nav" class="flex align-center justify-center gap-4 pb-4 border-b border-gray-200 dark:border-gray-800 mb-4">
+          <nav
+            v-if="nav?.length || $slots.nav"
+            class="flex align-center justify-center gap-4 pb-4 border-b border-gray-200 dark:border-gray-800 mb-4"
+          >
             <slot name="nav">
               <component
+                :is="item.to ? NuxtLink: 'button'"
                 v-for="item of nav"
                 :key="item.label"
-                :is="item.to ? NuxtLink: 'button'"
                 :to="item.to"
                 class="hover:underline"
                 @click="item.onClick"
-                >
+              >
                 {{ item.label }}
               </component>
             </slot>
@@ -98,12 +105,25 @@ useSeoMeta({
 
         <template #footer>
           <slot name="footer" />
-          <div :class="[{ 'mt-4': $slots.footer }, currentRoute ? 'grid-cols-3' : 'grid-cols-2']" class="grid items-center">
+          <div
+            :class="[{ 'mt-4': $slots.footer }, currentRoute ? 'grid-cols-3' : 'grid-cols-2']"
+            class="grid items-center"
+          >
             <Logo class="justify-start" />
-            <div v-if="currentRoute" class="flex gap-2 items-center justify-center">
-              Current route: <UKbd :value="$route.path" size="md" />
+            <div
+              v-if="currentRoute"
+              class="flex gap-2 items-center justify-center"
+            >
+              Current route: <UKbd
+                :value="$route.path"
+                size="md"
+              />
             </div>
-            <NuxtLink :to="github" target="_blank" class="text-end text-xs opacity-40">
+            <NuxtLink
+              :to="github"
+              target="_blank"
+              class="text-end text-xs opacity-40"
+            >
               {{ dir }}
             </NuxtLink>
           </div>
