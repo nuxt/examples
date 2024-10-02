@@ -300,8 +300,8 @@ importers:
   shared:
     dependencies:
       '@iconify-json/simple-icons':
-        specifier: ^1.2.4
-        version: 1.2.4
+        specifier: ^1.2.5
+        version: 1.2.5
       '@nuxt/ui':
         specifier: ^2.17.0
         version: 2.17.0(focus-trap@7.5.4)(magicast@0.3.4)(nuxt@3.12.2(@parcel/watcher@2.4.1)(@types/node@20.16.10)(@unocss/reset@0.60.2)(encoding@0.1.13)(eslint@9.11.1(jiti@1.21.6))(floating-vue@5.2.2(@nuxt/kit@3.12.2(magicast@0.3.4)(rollup@4.17.2))(vue@3.4.29(typescript@5.6.2)))(fuse.js@6.6.2)(ioredis@5.3.2)(magicast@0.3.4)(optionator@0.9.4)(rollup@4.17.2)(sass@1.69.5)(terser@5.17.6)(typescript@5.6.2)(unocss@0.60.2(postcss@8.4.38)(rollup@4.17.2)(vite@5.3.1(@types/node@20.16.10)(sass@1.69.5)(terser@5.17.6)))(vite@5.3.1(@types/node@20.16.10)(sass@1.69.5)(terser@5.17.6)))(rollup@4.17.2)(vite@5.3.1(@types/node@20.16.10)(sass@1.69.5)(terser@5.17.6))(vue@3.4.29(typescript@5.6.2))
@@ -1046,8 +1046,8 @@ packages:
   '@iconify-json/simple-icons@1.1.96':
     resolution: {integrity: sha512-qwCTomQT5CgV5hhgYyb/4Brcx4suoe0h/Gs4N7/Yoz6trWMC+Hc17EzpFkvZcrGc1Qtra3fuinp1IWrcrQH2WA==}
 
-  '@iconify-json/simple-icons@1.2.4':
-    resolution: {integrity: sha512-AKUGO7cX2KykFEJ+P6tY3wGhGgbrL3RMqbxNTfutGsKojaSEFosN/cmWQ9l9hmUiS2IN7fVLsPMAIvV1uJyyVw==}
+  '@iconify-json/simple-icons@1.2.5':
+    resolution: {integrity: sha512-ucqBlm0GSjLpGQR+b61LtmHro0xkyjWl1v23AOzLTiymHK0chx7s7aeuE2s7/5/t/BzKdDu8iYuU2drawzCIQQ==}
 
   '@iconify/collections@1.0.422':
     resolution: {integrity: sha512-VTubzzAfXIHmdsfdHtnnP8PxboK2o4k56HQxas+j0WHxNUWsdwYI7IUIBfmwVEf4JF4wR72vsIBDPxpF5Y0xSQ==}
@@ -6474,7 +6474,7 @@ snapshots:
     dependencies:
       '@iconify/types': 2.0.0
 
-  '@iconify-json/simple-icons@1.2.4':
+  '@iconify-json/simple-icons@1.2.5':
     dependencies:
       '@iconify/types': 2.0.0
 
@@ -7824,7 +7824,7 @@ snapshots:
   '@unocss/cli@0.60.2(rollup@4.17.2)':
     dependencies:
       '@ampproject/remapping': 2.3.0
-      '@rollup/pluginutils': 5.1.0(rollup@4.17.2)
+      '@rollup/pluginutils': 5.1.2(rollup@4.17.2)
       '@unocss/config': 0.60.2
       '@unocss/core': 0.60.2
       '@unocss/preset-uno': 0.60.2
@@ -7951,7 +7951,7 @@ snapshots:
   '@unocss/vite@0.60.2(rollup@4.17.2)(vite@5.2.11(@types/node@20.16.10)(sass@1.69.5)(terser@5.17.6))':
     dependencies:
       '@ampproject/remapping': 2.3.0
-      '@rollup/pluginutils': 5.1.0(rollup@4.17.2)
+      '@rollup/pluginutils': 5.1.2(rollup@4.17.2)
       '@unocss/config': 0.60.2
       '@unocss/core': 0.60.2
       '@unocss/inspector': 0.60.2
@@ -7967,7 +7967,7 @@ snapshots:
   '@unocss/vite@0.60.2(rollup@4.17.2)(vite@5.3.1(@types/node@20.16.10)(sass@1.69.5)(terser@5.17.6))':
     dependencies:
       '@ampproject/remapping': 2.3.0
-      '@rollup/pluginutils': 5.1.0(rollup@4.17.2)
+      '@rollup/pluginutils': 5.1.2(rollup@4.17.2)
       '@unocss/config': 0.60.2
       '@unocss/core': 0.60.2
       '@unocss/inspector': 0.60.2
