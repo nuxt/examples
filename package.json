@@ -25,7 +25,7 @@
   "resolutions": {
     "@nuxt/kit": "3.12.2",
     "destr": "latest",
-    "nuxt": "^3.12.2",
+    "nuxt": "^3.13.2",
     "ufo": "latest"
   },
   "packageManager": "pnpm@9.12.0"
