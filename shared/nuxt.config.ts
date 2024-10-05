@@ -3,12 +3,6 @@ export default defineNuxtConfig({
     '@nuxt/ui',
   ],
 
-  ui: {
-    icons: [
-      'simple-icons',
-    ],
-  },
-
   tailwindcss: {
     viewer: false,
   },

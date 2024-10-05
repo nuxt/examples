@@ -1,1 +1,2 @@
 nitro.preset=vercel
+sourcemap=false
