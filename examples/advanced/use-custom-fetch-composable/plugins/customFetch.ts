@@ -7,8 +7,7 @@ export default defineNuxtPlugin(() => {
     onRequest({ request, options, error }) {
       if (userAuth.value) {
         // Add Authorization header
-        options.headers = options.headers || {}
-        options.headers.Authorization = `Bearer ${userAuth.value}`
+        options.headers.set('Authorization', `Bearer ${userAuth.value}`)
       }
     },
     onResponse({ response }) {
