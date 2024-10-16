@@ -18,7 +18,7 @@
   },
   "dependencies": {
     "@iconify-json/simple-icons": "^1.2.8",
-    "@nuxt/ui": "2.17.0",
+    "@nuxt/ui": "2.18.7",
     "tailwindcss": "latest"
   }
 }
