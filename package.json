@@ -12,7 +12,7 @@
   "devDependencies": {
     "@nuxt/eslint": "^0.5.7",
     "@nuxt/kit": "3.13.2",
-    "@types/node": "^20.16.13",
+    "@types/node": "^20.16.14",
     "consola": "^3.2.3",
     "eslint": "^9.13.0",
     "globby": "^14.0.2",
