@@ -14,7 +14,7 @@
     "@nuxt/kit": "3.13.2",
     "@types/node": "^22.8.6",
     "consola": "^3.2.3",
-    "eslint": "^9.13.0",
+    "eslint": "^9.14.0",
     "globby": "^14.0.2",
     "pathe": "^1.1.2",
     "pkg-types": "^1.2.1",
