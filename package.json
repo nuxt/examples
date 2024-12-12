@@ -10,8 +10,8 @@
     "typecheck": "node .scripts/typecheck.mjs"
   },
   "devDependencies": {
-    "@nuxt/eslint": "^0.5.7",
-    "@nuxt/kit": "3.13.2",
+    "@nuxt/eslint": "^0.7.3",
+    "@nuxt/kit": "3.14.1592",
     "@types/node": "^22.9.0",
     "consola": "^3.2.3",
     "eslint": "^9.14.0",
@@ -23,9 +23,9 @@
     "typescript": "^5.6.3"
   },
   "resolutions": {
-    "@nuxt/kit": "3.13.2",
+    "@nuxt/kit": "3.14.1592",
     "destr": "latest",
-    "nuxt": "^3.13.2",
+    "nuxt": "^3.14.1592",
     "ufo": "latest"
   },
   "packageManager": "pnpm@9.13.2"
