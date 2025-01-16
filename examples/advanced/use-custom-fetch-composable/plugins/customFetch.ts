@@ -15,7 +15,7 @@ export default defineNuxtPlugin((nuxtApp) => {
     },
     onResponseError({ response }) {
       if (response.status === 401) {
-        await nuxtApp.runWithContext(() => navigateTo('/login'))
+        return nuxtApp.runWithContext(() => navigateTo('/login'))
       }
     },
   })
