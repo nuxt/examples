@@ -1,4 +1,4 @@
-export default defineNuxtPlugin(() => {
+export default defineNuxtPlugin((nuxtApp) => {
   const userAuth = useCookie('token')
   const config = useRuntimeConfig()
 
@@ -15,7 +15,7 @@ export default defineNuxtPlugin(() => {
     },
     onResponseError({ response }) {
       if (response.status === 401) {
-        return navigateTo('/login')
+        await nuxtApp.runWithContext(() => navigateTo('/login'))
       }
     },
   })
