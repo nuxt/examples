@@ -9,6 +9,6 @@
     "ui": "playwright test --ui"
   },
   "devDependencies": {
-    "@playwright/test": "1.48.2"
+    "@playwright/test": "1.51.1"
   }
 }
