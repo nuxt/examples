@@ -6,7 +6,7 @@ This project uses [Nuxt Extend Layers](https://nuxt.com/docs/getting-started/lay
 
 Default database is using built-in key-value storage. You can rewrite it with a custom database by updating [`./auth/server/utils/db.ts`](./auth/server/utils/db.ts)
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more about Nuxt.
+Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more about Nuxt.
 
 ## Setup
 
