@@ -1,3 +1,3 @@
-# Nuxt 3 Examples
+# Nuxt Examples
 
 👉 https://nuxt.com/docs/examples
