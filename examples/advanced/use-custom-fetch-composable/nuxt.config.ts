@@ -3,5 +3,9 @@ export default defineNuxtConfig({
     '@nuxt/examples-ui',
   ],
 
+  runtimeConfig: {
+    baseURL: '',
+  },
+
   compatibilityDate: '2024-04-03',
 })

@@ -14,13 +14,11 @@ const packages = await globby([
 
 for (const pkg of packages) {
   const cwd = pkg.replace('/package.json', '')
-  const options = { nodeOptions: { cwd } }
 
-  await exec('nuxi', ['prepare'], options)
-  const res = await exec('tsc', ['--noEmit'], options)
-  const output = (res.stderr).trim()
-  if (output) {
-    consola.withTag(basename(cwd)).error(output)
+  await exec('nuxi', ['prepare'], { nodeOptions: { cwd }, throwOnError: true })
+  const res = await exec('tsc', ['--noEmit'], { nodeOptions: { cwd } })
+  if (res.exitCode !== 0) {
+    consola.withTag(basename(cwd)).error(res.stdout.trim())
     process.exit(1)
   }
   else {

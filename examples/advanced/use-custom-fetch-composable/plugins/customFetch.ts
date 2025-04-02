@@ -3,7 +3,7 @@ export default defineNuxtPlugin((nuxtApp) => {
   const config = useRuntimeConfig()
 
   const $customFetch = $fetch.create({
-    baseURL: config.baseUrl ?? 'https://api.nuxt.com',
+    baseURL: config.baseUrl as string ?? 'https://api.nuxt.com',
     onRequest({ request, options, error }) {
       if (userAuth.value) {
         // Add Authorization header
@@ -13,9 +13,9 @@ export default defineNuxtPlugin((nuxtApp) => {
     onResponse({ response }) {
       // response._data = new myBusinessResponse(response._data)
     },
-    onResponseError({ response }) {
+    async onResponseError({ response }) {
       if (response.status === 401) {
-        return nuxtApp.runWithContext(() => navigateTo('/login'))
+        await nuxtApp.runWithContext(() => navigateTo('/login'))
       }
     },
   })
