@@ -1,5 +1,8 @@
 packages:
-  - 'shared'
-  - 'examples/**'
-  - ".e2e"
+  - shared
+  - examples/**
+  - .e2e
   - '!**/.vercel/**'
+ignoredBuiltDependencies:
+  - esbuild
+  - vue-demi
