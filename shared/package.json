@@ -19,6 +19,6 @@
   "dependencies": {
     "@iconify-json/simple-icons": "^1.2.11",
     "@nuxt/ui": "2.17.0",
-    "tailwindcss": "latest"
+    "tailwindcss": "3.4.17"
   }
 }
