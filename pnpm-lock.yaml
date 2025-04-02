@@ -51,8 +51,8 @@ importers:
   .e2e:
     devDependencies:
       '@playwright/test':
-        specifier: 1.48.2
-        version: 1.48.2
+        specifier: 1.51.1
+        version: 1.51.1
 
   examples/advanced/config-extends:
     devDependencies:
@@ -115,7 +115,7 @@ importers:
         version: 0.0.2(magicast@0.3.5)(rollup@4.24.0)(vite@5.4.8(@types/node@22.9.0)(sass@1.69.5)(terser@5.34.1))(vue@3.5.11(typescript@5.6.3))(webpack-sources@3.2.3)
       '@nuxt/test-utils':
         specifier: ^3.14.2
-        version: 3.14.2(@playwright/test@1.48.2)(h3@1.13.0)(magicast@0.3.5)(nitropack@2.9.7(encoding@0.1.13)(magicast@0.3.5)(webpack-sources@3.2.3))(playwright-core@1.48.2)(rollup@4.24.0)(vite@5.4.8(@types/node@22.9.0)(sass@1.69.5)(terser@5.34.1))(vitest@2.1.8(@types/node@22.9.0)(sass@1.69.5)(terser@5.34.1))(vue-router@4.4.5(vue@3.5.11(typescript@5.6.3)))(vue@3.5.11(typescript@5.6.3))(webpack-sources@3.2.3)
+        version: 3.14.2(@playwright/test@1.51.1)(h3@1.13.0)(magicast@0.3.5)(nitropack@2.9.7(encoding@0.1.13)(magicast@0.3.5)(webpack-sources@3.2.3))(playwright-core@1.51.1)(rollup@4.24.0)(vite@5.4.8(@types/node@22.9.0)(sass@1.69.5)(terser@5.34.1))(vitest@2.1.8(@types/node@22.9.0)(sass@1.69.5)(terser@5.34.1))(vue-router@4.4.5(vue@3.5.11(typescript@5.6.3)))(vue@3.5.11(typescript@5.6.3))(webpack-sources@3.2.3)
       nuxt:
         specifier: ^3.13.2
         version: 3.13.2(@parcel/watcher@2.4.1)(@types/node@22.9.0)(encoding@0.1.13)(eslint@9.14.0(jiti@2.2.1))(ioredis@5.4.1)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.24.0)(sass@1.69.5)(terser@5.34.1)(typescript@5.6.3)(vite@5.4.8(@types/node@22.9.0)(sass@1.69.5)(terser@5.34.1))(webpack-sources@3.2.3)
@@ -1332,8 +1332,8 @@ packages:
     resolution: {integrity: sha512-cq8o4cWH0ibXh9VGi5P20Tu9XF/0fFXl9EUinr9QfTM7a7p0oTA4iJRCQWppXR1Pg8dSM0UCItCkPwsk9qWWYA==}
     engines: {node: ^12.20.0 || ^14.18.0 || >=16.0.0}
 
-  '@playwright/test@1.48.2':
-    resolution: {integrity: sha512-54w1xCWfXuax7dz4W2M9uw0gDyh+ti/0K/MxcCUxChFh37kkdxPdfZDw5QBbuPUJHr1CiHJ1hXgSs+GgeQc5Zw==}
+  '@playwright/test@1.51.1':
+    resolution: {integrity: sha512-nM+kEaTSAoVlXmMPH10017vn3FSiFqr/bh4fKg9vmAdMfd9SDqRZNvPSiAHADc/itWak+qPvMPZQOPwCBW7k7Q==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -3739,13 +3739,13 @@ packages:
   pkg-types@1.2.1:
     resolution: {integrity: sha512-sQoqa8alT3nHjGuTjuKgOnvjo4cljkufdtLMnO2LBP/wRwuDlo1tkaEdMxCRhyGRPacv/ztlZgDPm2b7FAmEvw==}
 
-  playwright-core@1.48.2:
-    resolution: {integrity: sha512-sjjw+qrLFlriJo64du+EK0kJgZzoQPsabGF4lBvsid+3CNIZIYLgnMj9V6JY5VhM2Peh20DJWIVpVljLLnlawA==}
+  playwright-core@1.51.1:
+    resolution: {integrity: sha512-/crRMj8+j/Nq5s8QcvegseuyeZPxpQCZb6HNk3Sos3BlZyAknRjoyJPFWkpNn8v0+P3WiwqFF8P+zQo4eqiNuw==}
     engines: {node: '>=18'}
     hasBin: true
 
-  playwright@1.48.2:
-    resolution: {integrity: sha512-NjYvYgp4BPmiwfe31j4gHLa3J7bD2WiBz8Lk2RoSsmX38SVIARZ18VYjxLjAcDsAhA+F4iSEXTSGgjua0rrlgQ==}
+  playwright@1.51.1:
+    resolution: {integrity: sha512-kkx+MB2KQRkyxjYPc3a0wLZZoDczmppyGJIvQ43l+aZihkaVvmu/21kiyaHeHjiFxjxNNFnUncKmcGIyOojsaw==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -5990,7 +5990,7 @@ snapshots:
       - supports-color
       - webpack-sources
 
-  '@nuxt/test-utils@3.14.2(@playwright/test@1.48.2)(h3@1.13.0)(magicast@0.3.5)(nitropack@2.9.7(encoding@0.1.13)(magicast@0.3.5)(webpack-sources@3.2.3))(playwright-core@1.48.2)(rollup@4.24.0)(vite@5.4.8(@types/node@22.9.0)(sass@1.69.5)(terser@5.34.1))(vitest@2.1.8(@types/node@22.9.0)(sass@1.69.5)(terser@5.34.1))(vue-router@4.4.5(vue@3.5.11(typescript@5.6.3)))(vue@3.5.11(typescript@5.6.3))(webpack-sources@3.2.3)':
+  '@nuxt/test-utils@3.14.2(@playwright/test@1.51.1)(h3@1.13.0)(magicast@0.3.5)(nitropack@2.9.7(encoding@0.1.13)(magicast@0.3.5)(webpack-sources@3.2.3))(playwright-core@1.51.1)(rollup@4.24.0)(vite@5.4.8(@types/node@22.9.0)(sass@1.69.5)(terser@5.34.1))(vitest@2.1.8(@types/node@22.9.0)(sass@1.69.5)(terser@5.34.1))(vue-router@4.4.5(vue@3.5.11(typescript@5.6.3)))(vue@3.5.11(typescript@5.6.3))(webpack-sources@3.2.3)':
     dependencies:
       '@nuxt/kit': 3.13.2(magicast@0.3.5)(rollup@4.24.0)(webpack-sources@3.2.3)
       '@nuxt/schema': 3.13.2(rollup@4.24.0)(webpack-sources@3.2.3)
@@ -6017,12 +6017,12 @@ snapshots:
       unenv: 1.10.0
       unplugin: 1.14.1(webpack-sources@3.2.3)
       vite: 5.4.8(@types/node@22.9.0)(sass@1.69.5)(terser@5.34.1)
-      vitest-environment-nuxt: 1.0.1(@playwright/test@1.48.2)(h3@1.13.0)(magicast@0.3.5)(nitropack@2.9.7(encoding@0.1.13)(magicast@0.3.5)(webpack-sources@3.2.3))(playwright-core@1.48.2)(rollup@4.24.0)(vite@5.4.8(@types/node@22.9.0)(sass@1.69.5)(terser@5.34.1))(vitest@2.1.8(@types/node@22.9.0)(sass@1.69.5)(terser@5.34.1))(vue-router@4.4.5(vue@3.5.11(typescript@5.6.3)))(vue@3.5.11(typescript@5.6.3))(webpack-sources@3.2.3)
+      vitest-environment-nuxt: 1.0.1(@playwright/test@1.51.1)(h3@1.13.0)(magicast@0.3.5)(nitropack@2.9.7(encoding@0.1.13)(magicast@0.3.5)(webpack-sources@3.2.3))(playwright-core@1.51.1)(rollup@4.24.0)(vite@5.4.8(@types/node@22.9.0)(sass@1.69.5)(terser@5.34.1))(vitest@2.1.8(@types/node@22.9.0)(sass@1.69.5)(terser@5.34.1))(vue-router@4.4.5(vue@3.5.11(typescript@5.6.3)))(vue@3.5.11(typescript@5.6.3))(webpack-sources@3.2.3)
       vue: 3.5.11(typescript@5.6.3)
       vue-router: 4.4.5(vue@3.5.11(typescript@5.6.3))
     optionalDependencies:
-      '@playwright/test': 1.48.2
-      playwright-core: 1.48.2
+      '@playwright/test': 1.51.1
+      playwright-core: 1.51.1
       vitest: 2.1.8(@types/node@22.9.0)(sass@1.69.5)(terser@5.34.1)
     transitivePeerDependencies:
       - magicast
@@ -6281,9 +6281,9 @@ snapshots:
 
   '@pkgr/core@0.1.1': {}
 
-  '@playwright/test@1.48.2':
+  '@playwright/test@1.51.1':
     dependencies:
-      playwright: 1.48.2
+      playwright: 1.51.1
 
   '@polka/url@1.0.0-next.28': {}
 
@@ -9039,11 +9039,11 @@ snapshots:
       mlly: 1.7.2
       pathe: 1.1.2
 
-  playwright-core@1.48.2: {}
+  playwright-core@1.51.1: {}
 
-  playwright@1.48.2:
+  playwright@1.51.1:
     dependencies:
-      playwright-core: 1.48.2
+      playwright-core: 1.51.1
     optionalDependencies:
       fsevents: 2.3.2
 
@@ -10172,9 +10172,9 @@ snapshots:
       sass: 1.69.5
       terser: 5.34.1
 
-  vitest-environment-nuxt@1.0.1(@playwright/test@1.48.2)(h3@1.13.0)(magicast@0.3.5)(nitropack@2.9.7(encoding@0.1.13)(magicast@0.3.5)(webpack-sources@3.2.3))(playwright-core@1.48.2)(rollup@4.24.0)(vite@5.4.8(@types/node@22.9.0)(sass@1.69.5)(terser@5.34.1))(vitest@2.1.8(@types/node@22.9.0)(sass@1.69.5)(terser@5.34.1))(vue-router@4.4.5(vue@3.5.11(typescript@5.6.3)))(vue@3.5.11(typescript@5.6.3))(webpack-sources@3.2.3):
+  vitest-environment-nuxt@1.0.1(@playwright/test@1.51.1)(h3@1.13.0)(magicast@0.3.5)(nitropack@2.9.7(encoding@0.1.13)(magicast@0.3.5)(webpack-sources@3.2.3))(playwright-core@1.51.1)(rollup@4.24.0)(vite@5.4.8(@types/node@22.9.0)(sass@1.69.5)(terser@5.34.1))(vitest@2.1.8(@types/node@22.9.0)(sass@1.69.5)(terser@5.34.1))(vue-router@4.4.5(vue@3.5.11(typescript@5.6.3)))(vue@3.5.11(typescript@5.6.3))(webpack-sources@3.2.3):
     dependencies:
-      '@nuxt/test-utils': 3.14.2(@playwright/test@1.48.2)(h3@1.13.0)(magicast@0.3.5)(nitropack@2.9.7(encoding@0.1.13)(magicast@0.3.5)(webpack-sources@3.2.3))(playwright-core@1.48.2)(rollup@4.24.0)(vite@5.4.8(@types/node@22.9.0)(sass@1.69.5)(terser@5.34.1))(vitest@2.1.8(@types/node@22.9.0)(sass@1.69.5)(terser@5.34.1))(vue-router@4.4.5(vue@3.5.11(typescript@5.6.3)))(vue@3.5.11(typescript@5.6.3))(webpack-sources@3.2.3)
+      '@nuxt/test-utils': 3.14.2(@playwright/test@1.51.1)(h3@1.13.0)(magicast@0.3.5)(nitropack@2.9.7(encoding@0.1.13)(magicast@0.3.5)(webpack-sources@3.2.3))(playwright-core@1.51.1)(rollup@4.24.0)(vite@5.4.8(@types/node@22.9.0)(sass@1.69.5)(terser@5.34.1))(vitest@2.1.8(@types/node@22.9.0)(sass@1.69.5)(terser@5.34.1))(vue-router@4.4.5(vue@3.5.11(typescript@5.6.3)))(vue@3.5.11(typescript@5.6.3))(webpack-sources@3.2.3)
     transitivePeerDependencies:
       - '@cucumber/cucumber'
       - '@jest/globals'
