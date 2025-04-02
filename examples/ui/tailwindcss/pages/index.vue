@@ -3,9 +3,10 @@
     <div
       class="max-w-sm rounded overflow-hidden shadow-lg mb-4 dark:bg-gray-900"
     >
+      <!-- Photo by Samuel Ferrara on https://unsplash.com/photos/aerial-photo-of-foggy-mountains-1527pjeb6jg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash -->
       <img
         class="w-full"
-        src="https://tailwindcss.com/img/card-top.jpg"
+        src="/mountains.jpg"
         alt="Sunset in the mountains"
       >
       <div class="px-6 py-4 pb-2">
