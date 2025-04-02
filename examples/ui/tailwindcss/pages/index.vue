@@ -5,7 +5,7 @@
     >
       <img
         class="w-full"
-        src="https://tailwindcss.com/img/card-top.jpg"
+        src="/mountains.jpg"
         alt="Sunset in the mountains"
       >
       <div class="px-6 py-4 pb-2">
