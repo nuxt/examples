@@ -3,6 +3,7 @@
     <div
       class="max-w-sm rounded overflow-hidden shadow-lg mb-4 dark:bg-gray-900"
     >
+      <!-- Photo by Samuel Ferrara on https://unsplash.com/photos/aerial-photo-of-foggy-mountains-1527pjeb6jg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash -->
       <img
         class="w-full"
         src="/mountains.jpg"
