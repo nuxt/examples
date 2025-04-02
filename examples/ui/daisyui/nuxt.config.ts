@@ -9,4 +9,6 @@ export default defineNuxtConfig({
     dataValue: 'theme', // activate data-theme in <html> tag
     classSuffix: '',
   },
+
+  compatibilityDate: '2024-04-03',
 })

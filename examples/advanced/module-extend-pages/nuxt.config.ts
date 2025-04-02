@@ -5,4 +5,6 @@ export default defineNuxtConfig({
   modules: [
     '~/modules/pages/index',
   ],
+
+  compatibilityDate: '2024-04-03',
 })

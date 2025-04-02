@@ -13,6 +13,8 @@ export default defineNuxtConfig({
       password: process.env.NUXT_AUTH_PASSWORD || '',
     },
   },
+
+  compatibilityDate: '2024-04-03',
   nitro: {
     storage: {
       '.data:auth': { driver: 'fs', base: './.data/auth' },

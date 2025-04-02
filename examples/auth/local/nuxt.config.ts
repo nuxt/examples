@@ -12,4 +12,6 @@ export default defineNuxtConfig({
     '@nuxt/examples-ui',
     './auth',
   ],
+
+  compatibilityDate: '2024-04-03',
 })

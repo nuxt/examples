@@ -3,6 +3,8 @@ export default defineNuxtConfig({
   colorMode: {
     classSuffix: '',
   },
+
+  compatibilityDate: '2024-04-03',
   // https://tailwindcss.nuxtjs.org
   tailwindcss: {
     // Expose tailwind config with #tailwind-config
