@@ -13,6 +13,6 @@
 </template>
 
 <style lang="sass">
-@import 'vuetify/lib/styles/main.sass'
-@import '@mdi/font/css/materialdesignicons.min.css'
+@use 'vuetify/lib/styles/main.sass'
+@use '@mdi/font/css/materialdesignicons.min.css'
 </style>
