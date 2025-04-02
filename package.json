@@ -28,5 +28,5 @@
     "nuxt": "^3.13.2",
     "ufo": "latest"
   },
-  "packageManager": "pnpm@9.13.2"
+  "packageManager": "pnpm@10.7.1"
 }
