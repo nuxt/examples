@@ -1,5 +1,5 @@
 packages:
-  - 'shared/**'
+  - 'shared'
   - 'examples/**'
-  - ".e2e/"
+  - ".e2e"
   - '!**/.vercel/**'
