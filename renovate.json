@@ -10,11 +10,14 @@
       "groupName": "nuxt core",
       "groupSlug": "nuxt",
       "matchPackageNames": [
-        "nuxt",
-        "nuxt3"
+        "nuxt"
       ],
       "matchPackagePatterns": [
-        "^@nuxt/"
+        "^@nuxt/kit",
+        "^@nuxt/schema",
+        "^@nuxt/vite-builder",
+        "^@nuxt/webpack-builder",
+        "^@nuxt/rspack-builder"
       ]
     }
   ]
