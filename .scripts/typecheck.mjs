@@ -1,9 +1,9 @@
 import { basename } from 'node:path'
-import { globby } from 'globby'
+import { glob } from 'tinyglobby'
 import { exec } from 'tinyexec'
 import { consola } from 'consola'
 
-const packages = await globby([
+const packages = await glob([
   'shared/**/package.json',
   'examples/**/package.json',
   '!**/node_modules',

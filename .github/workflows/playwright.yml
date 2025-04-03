@@ -28,6 +28,7 @@ jobs:
 
       - name: Install playwright
         run: pnpm playwright install
+        working-directory: .e2e
 
       - name: Run Playwright tests
         run: pnpm --filter e2e test:all
