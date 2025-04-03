@@ -10,6 +10,7 @@
   },
   "main": "./nuxt.config.ts",
   "files": [
+    "assets",
     "components",
     "nuxt.config.ts"
   ],
