@@ -71,7 +71,7 @@ useSeoMeta({
                     <UButton
                       :icon="isDark ? 'i-heroicons-moon-solid' : 'i-heroicons-sun-solid'"
                       color="neutral"
-                      variant="solid"
+                      variant="outline"
                       aria-label="Theme"
                       @click="isDark = !isDark"
                     />
