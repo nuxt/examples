@@ -17,6 +17,13 @@
         "@nuxt/webpack-builder",
         "@nuxt/rspack-builder"
       ]
+    },
+    {
+      "groupName": "nuxt ui",
+      "groupSlug": "nuxt-ui",
+      "matchPackageNames": [
+        "@nuxt/ui"
+      ]
     }
   ]
 }
