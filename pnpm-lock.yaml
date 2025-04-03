@@ -56,9 +56,6 @@ importers:
       '@playwright/test':
         specifier: 1.51.1
         version: 1.51.1
-      vue:
-        specifier: 3.5.13
-        version: 3.5.13(typescript@5.8.2)
 
   examples/advanced/config-extends:
     devDependencies:
