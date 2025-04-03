@@ -9,6 +9,7 @@
   "devDependencies": {
     "@nuxt/examples-ui": "latest",
     "nuxt": "^3.16.2",
-    "uncrypto": "^0.1.3"
+    "uncrypto": "^0.1.3",
+    "vue": "3.5.13"
   }
 }

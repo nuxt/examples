@@ -56,6 +56,9 @@ importers:
       '@playwright/test':
         specifier: 1.51.1
         version: 1.51.1
+      vue:
+        specifier: 3.5.13
+        version: 3.5.13(typescript@5.8.2)
 
   examples/advanced/config-extends:
     devDependencies:
@@ -65,51 +68,69 @@ importers:
       nuxt:
         specifier: 3.16.2
         version: 3.16.2(@parcel/watcher@2.4.1)(@types/node@22.14.0)(db0@0.3.1)(encoding@0.1.13)(eslint@9.23.0(jiti@2.4.2))(ioredis@5.6.0)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.39.0)(sass@1.69.5)(terser@5.34.1)(typescript@5.8.2)(vite@6.2.4(@types/node@22.14.0)(jiti@2.4.2)(sass@1.69.5)(terser@5.34.1)(yaml@2.7.1))(webpack-sources@3.2.3)(yaml@2.7.1)
+      vue:
+        specifier: 3.5.13
+        version: 3.5.13(typescript@5.8.2)
 
   examples/advanced/error-handling:
     devDependencies:
       '@nuxt/examples-ui':
         specifier: latest
-        version: 0.0.2(magicast@0.3.5)(vite@6.2.4(@types/node@22.14.0)(jiti@2.4.2)(sass@1.69.5)(terser@5.34.1)(yaml@2.7.1))
+        version: 0.0.2(magicast@0.3.5)(vite@6.2.4(@types/node@22.14.0)(jiti@2.4.2)(sass@1.69.5)(terser@5.34.1)(yaml@2.7.1))(vue@3.5.13(typescript@5.8.2))
       nuxt:
         specifier: 3.16.2
         version: 3.16.2(@parcel/watcher@2.4.1)(@types/node@22.14.0)(db0@0.3.1)(encoding@0.1.13)(eslint@9.23.0(jiti@2.4.2))(ioredis@5.6.0)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.39.0)(sass@1.69.5)(terser@5.34.1)(typescript@5.8.2)(vite@6.2.4(@types/node@22.14.0)(jiti@2.4.2)(sass@1.69.5)(terser@5.34.1)(yaml@2.7.1))(webpack-sources@3.2.3)(yaml@2.7.1)
+      vue:
+        specifier: 3.5.13
+        version: 3.5.13(typescript@5.8.2)
 
   examples/advanced/jsx:
     devDependencies:
       '@nuxt/examples-ui':
         specifier: latest
-        version: 0.0.2(magicast@0.3.5)(vite@6.2.4(@types/node@22.14.0)(jiti@2.4.2)(sass@1.69.5)(terser@5.34.1)(yaml@2.7.1))
+        version: 0.0.2(magicast@0.3.5)(vite@6.2.4(@types/node@22.14.0)(jiti@2.4.2)(sass@1.69.5)(terser@5.34.1)(yaml@2.7.1))(vue@3.5.13(typescript@5.8.2))
       nuxt:
         specifier: 3.16.2
         version: 3.16.2(@parcel/watcher@2.4.1)(@types/node@22.14.0)(db0@0.3.1)(encoding@0.1.13)(eslint@9.23.0(jiti@2.4.2))(ioredis@5.6.0)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.39.0)(sass@1.69.5)(terser@5.34.1)(typescript@5.8.2)(vite@6.2.4(@types/node@22.14.0)(jiti@2.4.2)(sass@1.69.5)(terser@5.34.1)(yaml@2.7.1))(webpack-sources@3.2.3)(yaml@2.7.1)
+      vue:
+        specifier: 3.5.13
+        version: 3.5.13(typescript@5.8.2)
 
   examples/advanced/locale:
     devDependencies:
       '@nuxt/examples-ui':
         specifier: latest
-        version: 0.0.2(magicast@0.3.5)(vite@6.2.4(@types/node@22.14.0)(jiti@2.4.2)(sass@1.69.5)(terser@5.34.1)(yaml@2.7.1))
+        version: 0.0.2(magicast@0.3.5)(vite@6.2.4(@types/node@22.14.0)(jiti@2.4.2)(sass@1.69.5)(terser@5.34.1)(yaml@2.7.1))(vue@3.5.13(typescript@5.8.2))
       nuxt:
         specifier: 3.16.2
         version: 3.16.2(@parcel/watcher@2.4.1)(@types/node@22.14.0)(db0@0.3.1)(encoding@0.1.13)(eslint@9.23.0(jiti@2.4.2))(ioredis@5.6.0)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.39.0)(sass@1.69.5)(terser@5.34.1)(typescript@5.8.2)(vite@6.2.4(@types/node@22.14.0)(jiti@2.4.2)(sass@1.69.5)(terser@5.34.1)(yaml@2.7.1))(webpack-sources@3.2.3)(yaml@2.7.1)
+      vue:
+        specifier: 3.5.13
+        version: 3.5.13(typescript@5.8.2)
 
   examples/advanced/module-extend-pages:
     devDependencies:
       '@nuxt/examples-ui':
         specifier: latest
-        version: 0.0.2(magicast@0.3.5)(vite@6.2.4(@types/node@22.14.0)(jiti@2.4.2)(sass@1.69.5)(terser@5.34.1)(yaml@2.7.1))
+        version: 0.0.2(magicast@0.3.5)(vite@6.2.4(@types/node@22.14.0)(jiti@2.4.2)(sass@1.69.5)(terser@5.34.1)(yaml@2.7.1))(vue@3.5.13(typescript@5.8.2))
       nuxt:
         specifier: 3.16.2
         version: 3.16.2(@parcel/watcher@2.4.1)(@types/node@22.14.0)(db0@0.3.1)(encoding@0.1.13)(eslint@9.23.0(jiti@2.4.2))(ioredis@5.6.0)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.39.0)(sass@1.69.5)(terser@5.34.1)(typescript@5.8.2)(vite@6.2.4(@types/node@22.14.0)(jiti@2.4.2)(sass@1.69.5)(terser@5.34.1)(yaml@2.7.1))(webpack-sources@3.2.3)(yaml@2.7.1)
+      vue:
+        specifier: 3.5.13
+        version: 3.5.13(typescript@5.8.2)
 
   examples/advanced/teleport:
     devDependencies:
       '@nuxt/examples-ui':
         specifier: latest
-        version: 0.0.2(magicast@0.3.5)(vite@6.2.4(@types/node@22.14.0)(jiti@2.4.2)(sass@1.69.5)(terser@5.34.1)(yaml@2.7.1))
+        version: 0.0.2(magicast@0.3.5)(vite@6.2.4(@types/node@22.14.0)(jiti@2.4.2)(sass@1.69.5)(terser@5.34.1)(yaml@2.7.1))(vue@3.5.13(typescript@5.8.2))
       nuxt:
         specifier: 3.16.2
         version: 3.16.2(@parcel/watcher@2.4.1)(@types/node@22.14.0)(db0@0.3.1)(encoding@0.1.13)(eslint@9.23.0(jiti@2.4.2))(ioredis@5.6.0)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.39.0)(sass@1.69.5)(terser@5.34.1)(typescript@5.8.2)(vite@6.2.4(@types/node@22.14.0)(jiti@2.4.2)(sass@1.69.5)(terser@5.34.1)(yaml@2.7.1))(webpack-sources@3.2.3)(yaml@2.7.1)
+      vue:
+        specifier: 3.5.13
+        version: 3.5.13(typescript@5.8.2)
 
   examples/advanced/testing:
     devDependencies:
@@ -125,126 +146,168 @@ importers:
       vitest:
         specifier: 3.1.1
         version: 3.1.1(@types/node@22.14.0)(jiti@2.4.2)(sass@1.69.5)(terser@5.34.1)(yaml@2.7.1)
+      vue:
+        specifier: 3.5.13
+        version: 3.5.13(typescript@5.8.2)
 
   examples/advanced/use-cookie:
     devDependencies:
       '@nuxt/examples-ui':
         specifier: latest
-        version: 0.0.2(magicast@0.3.5)(vite@6.2.4(@types/node@22.14.0)(jiti@2.4.2)(sass@1.69.5)(terser@5.34.1)(yaml@2.7.1))
+        version: 0.0.2(magicast@0.3.5)(vite@6.2.4(@types/node@22.14.0)(jiti@2.4.2)(sass@1.69.5)(terser@5.34.1)(yaml@2.7.1))(vue@3.5.13(typescript@5.8.2))
       nuxt:
         specifier: 3.16.2
         version: 3.16.2(@parcel/watcher@2.4.1)(@types/node@22.14.0)(db0@0.3.1)(encoding@0.1.13)(eslint@9.23.0(jiti@2.4.2))(ioredis@5.6.0)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.39.0)(sass@1.69.5)(terser@5.34.1)(typescript@5.8.2)(vite@6.2.4(@types/node@22.14.0)(jiti@2.4.2)(sass@1.69.5)(terser@5.34.1)(yaml@2.7.1))(webpack-sources@3.2.3)(yaml@2.7.1)
+      vue:
+        specifier: 3.5.13
+        version: 3.5.13(typescript@5.8.2)
 
   examples/advanced/use-custom-fetch-composable:
     devDependencies:
       '@nuxt/examples-ui':
         specifier: latest
-        version: 0.0.2(magicast@0.3.5)(vite@6.2.4(@types/node@22.14.0)(jiti@2.4.2)(sass@1.69.5)(terser@5.34.1)(yaml@2.7.1))
+        version: 0.0.2(magicast@0.3.5)(vite@6.2.4(@types/node@22.14.0)(jiti@2.4.2)(sass@1.69.5)(terser@5.34.1)(yaml@2.7.1))(vue@3.5.13(typescript@5.8.2))
       nuxt:
         specifier: 3.16.2
         version: 3.16.2(@parcel/watcher@2.4.1)(@types/node@22.14.0)(db0@0.3.1)(encoding@0.1.13)(eslint@9.23.0(jiti@2.4.2))(ioredis@5.6.0)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.39.0)(sass@1.69.5)(terser@5.34.1)(typescript@5.8.2)(vite@6.2.4(@types/node@22.14.0)(jiti@2.4.2)(sass@1.69.5)(terser@5.34.1)(yaml@2.7.1))(webpack-sources@3.2.3)(yaml@2.7.1)
+      vue:
+        specifier: 3.5.13
+        version: 3.5.13(typescript@5.8.2)
 
   examples/auth/local:
     devDependencies:
       '@nuxt/examples-ui':
         specifier: latest
-        version: 0.0.2(magicast@0.3.5)(vite@6.2.4(@types/node@22.14.0)(jiti@2.4.2)(sass@1.69.5)(terser@5.34.1)(yaml@2.7.1))
+        version: 0.0.2(magicast@0.3.5)(vite@6.2.4(@types/node@22.14.0)(jiti@2.4.2)(sass@1.69.5)(terser@5.34.1)(yaml@2.7.1))(vue@3.5.13(typescript@5.8.2))
       nuxt:
         specifier: 3.16.2
         version: 3.16.2(@parcel/watcher@2.4.1)(@types/node@22.14.0)(db0@0.3.1)(encoding@0.1.13)(eslint@9.23.0(jiti@2.4.2))(ioredis@5.6.0)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.39.0)(sass@1.69.5)(terser@5.34.1)(typescript@5.8.2)(vite@6.2.4(@types/node@22.14.0)(jiti@2.4.2)(sass@1.69.5)(terser@5.34.1)(yaml@2.7.1))(webpack-sources@3.2.3)(yaml@2.7.1)
       uncrypto:
         specifier: ^0.1.3
         version: 0.1.3
+      vue:
+        specifier: 3.5.13
+        version: 3.5.13(typescript@5.8.2)
 
   examples/experimental/wasm:
     devDependencies:
       '@nuxt/examples-ui':
         specifier: latest
-        version: 0.0.2(magicast@0.3.5)(vite@6.2.4(@types/node@22.14.0)(jiti@2.4.2)(sass@1.69.5)(terser@5.34.1)(yaml@2.7.1))
+        version: 0.0.2(magicast@0.3.5)(vite@6.2.4(@types/node@22.14.0)(jiti@2.4.2)(sass@1.69.5)(terser@5.34.1)(yaml@2.7.1))(vue@3.5.13(typescript@5.8.2))
       nuxt:
         specifier: 3.16.2
         version: 3.16.2(@parcel/watcher@2.4.1)(@types/node@22.14.0)(db0@0.3.1)(encoding@0.1.13)(eslint@9.23.0(jiti@2.4.2))(ioredis@5.6.0)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.39.0)(sass@1.69.5)(terser@5.34.1)(typescript@5.8.2)(vite@6.2.4(@types/node@22.14.0)(jiti@2.4.2)(sass@1.69.5)(terser@5.34.1)(yaml@2.7.1))(webpack-sources@3.2.3)(yaml@2.7.1)
+      vue:
+        specifier: 3.5.13
+        version: 3.5.13(typescript@5.8.2)
 
   examples/features/auto-imports:
     devDependencies:
       '@nuxt/examples-ui':
         specifier: latest
-        version: 0.0.2(magicast@0.3.5)(vite@6.2.4(@types/node@22.14.0)(jiti@2.4.2)(sass@1.69.5)(terser@5.34.1)(yaml@2.7.1))
+        version: 0.0.2(magicast@0.3.5)(vite@6.2.4(@types/node@22.14.0)(jiti@2.4.2)(sass@1.69.5)(terser@5.34.1)(yaml@2.7.1))(vue@3.5.13(typescript@5.8.2))
       nuxt:
         specifier: 3.16.2
         version: 3.16.2(@parcel/watcher@2.4.1)(@types/node@22.14.0)(db0@0.3.1)(encoding@0.1.13)(eslint@9.23.0(jiti@2.4.2))(ioredis@5.6.0)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.39.0)(sass@1.69.5)(terser@5.34.1)(typescript@5.8.2)(vite@6.2.4(@types/node@22.14.0)(jiti@2.4.2)(sass@1.69.5)(terser@5.34.1)(yaml@2.7.1))(webpack-sources@3.2.3)(yaml@2.7.1)
+      vue:
+        specifier: 3.5.13
+        version: 3.5.13(typescript@5.8.2)
 
   examples/features/data-fetching:
     devDependencies:
       '@nuxt/examples-ui':
         specifier: latest
-        version: 0.0.2(magicast@0.3.5)(vite@6.2.4(@types/node@22.14.0)(jiti@2.4.2)(sass@1.69.5)(terser@5.34.1)(yaml@2.7.1))
+        version: 0.0.2(magicast@0.3.5)(vite@6.2.4(@types/node@22.14.0)(jiti@2.4.2)(sass@1.69.5)(terser@5.34.1)(yaml@2.7.1))(vue@3.5.13(typescript@5.8.2))
       nuxt:
         specifier: 3.16.2
         version: 3.16.2(@parcel/watcher@2.4.1)(@types/node@22.14.0)(db0@0.3.1)(encoding@0.1.13)(eslint@9.23.0(jiti@2.4.2))(ioredis@5.6.0)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.39.0)(sass@1.69.5)(terser@5.34.1)(typescript@5.8.2)(vite@6.2.4(@types/node@22.14.0)(jiti@2.4.2)(sass@1.69.5)(terser@5.34.1)(yaml@2.7.1))(webpack-sources@3.2.3)(yaml@2.7.1)
+      vue:
+        specifier: 3.5.13
+        version: 3.5.13(typescript@5.8.2)
 
   examples/features/layouts:
     devDependencies:
       '@nuxt/examples-ui':
         specifier: latest
-        version: 0.0.2(magicast@0.3.5)(vite@6.2.4(@types/node@22.14.0)(jiti@2.4.2)(sass@1.69.5)(terser@5.34.1)(yaml@2.7.1))
+        version: 0.0.2(magicast@0.3.5)(vite@6.2.4(@types/node@22.14.0)(jiti@2.4.2)(sass@1.69.5)(terser@5.34.1)(yaml@2.7.1))(vue@3.5.13(typescript@5.8.2))
       nuxt:
         specifier: 3.16.2
         version: 3.16.2(@parcel/watcher@2.4.1)(@types/node@22.14.0)(db0@0.3.1)(encoding@0.1.13)(eslint@9.23.0(jiti@2.4.2))(ioredis@5.6.0)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.39.0)(sass@1.69.5)(terser@5.34.1)(typescript@5.8.2)(vite@6.2.4(@types/node@22.14.0)(jiti@2.4.2)(sass@1.69.5)(terser@5.34.1)(yaml@2.7.1))(webpack-sources@3.2.3)(yaml@2.7.1)
+      vue:
+        specifier: 3.5.13
+        version: 3.5.13(typescript@5.8.2)
 
   examples/features/meta-tags:
     devDependencies:
       '@nuxt/examples-ui':
         specifier: latest
-        version: 0.0.2(magicast@0.3.5)(vite@6.2.4(@types/node@22.14.0)(jiti@2.4.2)(sass@1.69.5)(terser@5.34.1)(yaml@2.7.1))
+        version: 0.0.2(magicast@0.3.5)(vite@6.2.4(@types/node@22.14.0)(jiti@2.4.2)(sass@1.69.5)(terser@5.34.1)(yaml@2.7.1))(vue@3.5.13(typescript@5.8.2))
       nuxt:
         specifier: 3.16.2
         version: 3.16.2(@parcel/watcher@2.4.1)(@types/node@22.14.0)(db0@0.3.1)(encoding@0.1.13)(eslint@9.23.0(jiti@2.4.2))(ioredis@5.6.0)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.39.0)(sass@1.69.5)(terser@5.34.1)(typescript@5.8.2)(vite@6.2.4(@types/node@22.14.0)(jiti@2.4.2)(sass@1.69.5)(terser@5.34.1)(yaml@2.7.1))(webpack-sources@3.2.3)(yaml@2.7.1)
+      vue:
+        specifier: 3.5.13
+        version: 3.5.13(typescript@5.8.2)
 
   examples/features/state-management:
     devDependencies:
       '@nuxt/examples-ui':
         specifier: latest
-        version: 0.0.2(magicast@0.3.5)(vite@6.2.4(@types/node@22.14.0)(jiti@2.4.2)(sass@1.69.5)(terser@5.34.1)(yaml@2.7.1))
+        version: 0.0.2(magicast@0.3.5)(vite@6.2.4(@types/node@22.14.0)(jiti@2.4.2)(sass@1.69.5)(terser@5.34.1)(yaml@2.7.1))(vue@3.5.13(typescript@5.8.2))
       nuxt:
         specifier: 3.16.2
         version: 3.16.2(@parcel/watcher@2.4.1)(@types/node@22.14.0)(db0@0.3.1)(encoding@0.1.13)(eslint@9.23.0(jiti@2.4.2))(ioredis@5.6.0)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.39.0)(sass@1.69.5)(terser@5.34.1)(typescript@5.8.2)(vite@6.2.4(@types/node@22.14.0)(jiti@2.4.2)(sass@1.69.5)(terser@5.34.1)(yaml@2.7.1))(webpack-sources@3.2.3)(yaml@2.7.1)
+      vue:
+        specifier: 3.5.13
+        version: 3.5.13(typescript@5.8.2)
 
   examples/hello-world:
     devDependencies:
       '@nuxt/examples-ui':
         specifier: latest
-        version: 0.0.2(magicast@0.3.5)(vite@6.2.4(@types/node@22.14.0)(jiti@2.4.2)(sass@1.69.5)(terser@5.34.1)(yaml@2.7.1))
+        version: 0.0.2(magicast@0.3.5)(vite@6.2.4(@types/node@22.14.0)(jiti@2.4.2)(sass@1.69.5)(terser@5.34.1)(yaml@2.7.1))(vue@3.5.13(typescript@5.8.2))
       nuxt:
         specifier: 3.16.2
         version: 3.16.2(@parcel/watcher@2.4.1)(@types/node@22.14.0)(db0@0.3.1)(encoding@0.1.13)(eslint@9.23.0(jiti@2.4.2))(ioredis@5.6.0)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.39.0)(sass@1.69.5)(terser@5.34.1)(typescript@5.8.2)(vite@6.2.4(@types/node@22.14.0)(jiti@2.4.2)(sass@1.69.5)(terser@5.34.1)(yaml@2.7.1))(webpack-sources@3.2.3)(yaml@2.7.1)
+      vue:
+        specifier: 3.5.13
+        version: 3.5.13(typescript@5.8.2)
 
   examples/routing/middleware:
     devDependencies:
       '@nuxt/examples-ui':
         specifier: latest
-        version: 0.0.2(magicast@0.3.5)(vite@6.2.4(@types/node@22.14.0)(jiti@2.4.2)(sass@1.69.5)(terser@5.34.1)(yaml@2.7.1))
+        version: 0.0.2(magicast@0.3.5)(vite@6.2.4(@types/node@22.14.0)(jiti@2.4.2)(sass@1.69.5)(terser@5.34.1)(yaml@2.7.1))(vue@3.5.13(typescript@5.8.2))
       nuxt:
         specifier: 3.16.2
         version: 3.16.2(@parcel/watcher@2.4.1)(@types/node@22.14.0)(db0@0.3.1)(encoding@0.1.13)(eslint@9.23.0(jiti@2.4.2))(ioredis@5.6.0)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.39.0)(sass@1.69.5)(terser@5.34.1)(typescript@5.8.2)(vite@6.2.4(@types/node@22.14.0)(jiti@2.4.2)(sass@1.69.5)(terser@5.34.1)(yaml@2.7.1))(webpack-sources@3.2.3)(yaml@2.7.1)
+      vue:
+        specifier: 3.5.13
+        version: 3.5.13(typescript@5.8.2)
 
   examples/routing/pages:
     devDependencies:
       '@nuxt/examples-ui':
         specifier: latest
-        version: 0.0.2(magicast@0.3.5)(vite@6.2.4(@types/node@22.14.0)(jiti@2.4.2)(sass@1.69.5)(terser@5.34.1)(yaml@2.7.1))
+        version: 0.0.2(magicast@0.3.5)(vite@6.2.4(@types/node@22.14.0)(jiti@2.4.2)(sass@1.69.5)(terser@5.34.1)(yaml@2.7.1))(vue@3.5.13(typescript@5.8.2))
       nuxt:
         specifier: 3.16.2
         version: 3.16.2(@parcel/watcher@2.4.1)(@types/node@22.14.0)(db0@0.3.1)(encoding@0.1.13)(eslint@9.23.0(jiti@2.4.2))(ioredis@5.6.0)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.39.0)(sass@1.69.5)(terser@5.34.1)(typescript@5.8.2)(vite@6.2.4(@types/node@22.14.0)(jiti@2.4.2)(sass@1.69.5)(terser@5.34.1)(yaml@2.7.1))(webpack-sources@3.2.3)(yaml@2.7.1)
+      vue:
+        specifier: 3.5.13
+        version: 3.5.13(typescript@5.8.2)
 
   examples/routing/universal-router:
     devDependencies:
       '@nuxt/examples-ui':
         specifier: latest
-        version: 0.0.2(magicast@0.3.5)(vite@6.2.4(@types/node@22.14.0)(jiti@2.4.2)(sass@1.69.5)(terser@5.34.1)(yaml@2.7.1))
+        version: 0.0.2(magicast@0.3.5)(vite@6.2.4(@types/node@22.14.0)(jiti@2.4.2)(sass@1.69.5)(terser@5.34.1)(yaml@2.7.1))(vue@3.5.13(typescript@5.8.2))
       nuxt:
         specifier: 3.16.2
         version: 3.16.2(@parcel/watcher@2.4.1)(@types/node@22.14.0)(db0@0.3.1)(encoding@0.1.13)(eslint@9.23.0(jiti@2.4.2))(ioredis@5.6.0)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.39.0)(sass@1.69.5)(terser@5.34.1)(typescript@5.8.2)(vite@6.2.4(@types/node@22.14.0)(jiti@2.4.2)(sass@1.69.5)(terser@5.34.1)(yaml@2.7.1))(webpack-sources@3.2.3)(yaml@2.7.1)
+      vue:
+        specifier: 3.5.13
+        version: 3.5.13(typescript@5.8.2)
 
   examples/ui/daisyui:
     devDependencies:
@@ -260,18 +323,24 @@ importers:
       nuxt:
         specifier: 3.16.2
         version: 3.16.2(@parcel/watcher@2.4.1)(@types/node@22.14.0)(db0@0.3.1)(encoding@0.1.13)(eslint@9.23.0(jiti@2.4.2))(ioredis@5.6.0)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.39.0)(sass@1.69.5)(terser@5.34.1)(typescript@5.8.2)(vite@6.2.4(@types/node@22.14.0)(jiti@2.4.2)(sass@1.69.5)(terser@5.34.1)(yaml@2.7.1))(webpack-sources@3.2.3)(yaml@2.7.1)
+      vue:
+        specifier: 3.5.13
+        version: 3.5.13(typescript@5.8.2)
 
   examples/ui/sass:
     devDependencies:
       '@nuxt/examples-ui':
         specifier: latest
-        version: 0.0.2(magicast@0.3.5)(vite@6.2.4(@types/node@22.14.0)(jiti@2.4.2)(sass@1.69.5)(terser@5.34.1)(yaml@2.7.1))
+        version: 0.0.2(magicast@0.3.5)(vite@6.2.4(@types/node@22.14.0)(jiti@2.4.2)(sass@1.69.5)(terser@5.34.1)(yaml@2.7.1))(vue@3.5.13(typescript@5.8.2))
       nuxt:
         specifier: 3.16.2
         version: 3.16.2(@parcel/watcher@2.4.1)(@types/node@22.14.0)(db0@0.3.1)(encoding@0.1.13)(eslint@9.23.0(jiti@2.4.2))(ioredis@5.6.0)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.39.0)(sass@1.69.5)(terser@5.34.1)(typescript@5.8.2)(vite@6.2.4(@types/node@22.14.0)(jiti@2.4.2)(sass@1.69.5)(terser@5.34.1)(yaml@2.7.1))(webpack-sources@3.2.3)(yaml@2.7.1)
       sass:
         specifier: ^1.69.5
         version: 1.69.5
+      vue:
+        specifier: 3.5.13
+        version: 3.5.13(typescript@5.8.2)
 
   examples/ui/tailwindcss:
     devDependencies:
@@ -284,6 +353,9 @@ importers:
       nuxt:
         specifier: 3.16.2
         version: 3.16.2(@parcel/watcher@2.4.1)(@types/node@22.14.0)(db0@0.3.1)(encoding@0.1.13)(eslint@9.23.0(jiti@2.4.2))(ioredis@5.6.0)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.39.0)(sass@1.69.5)(terser@5.34.1)(typescript@5.8.2)(vite@6.2.4(@types/node@22.14.0)(jiti@2.4.2)(sass@1.69.5)(terser@5.34.1)(yaml@2.7.1))(webpack-sources@3.2.3)(yaml@2.7.1)
+      vue:
+        specifier: 3.5.13
+        version: 3.5.13(typescript@5.8.2)
 
   examples/ui/vuetify:
     devDependencies:
@@ -296,6 +368,9 @@ importers:
       sass:
         specifier: ^1.69.5
         version: 1.69.5
+      vue:
+        specifier: 3.5.13
+        version: 3.5.13(typescript@5.8.2)
       vuetify:
         specifier: ^3.3.23
         version: 3.3.23(typescript@5.8.2)(vue@3.5.13(typescript@5.8.2))
@@ -315,6 +390,9 @@ importers:
       nuxt:
         specifier: 3.16.2
         version: 3.16.2(@parcel/watcher@2.4.1)(@types/node@22.14.0)(db0@0.3.1)(encoding@0.1.13)(eslint@9.23.0(jiti@2.4.2))(ioredis@5.6.0)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.39.0)(sass@1.69.5)(terser@5.34.1)(typescript@5.8.2)(vite@6.2.4(@types/node@22.14.0)(jiti@2.4.2)(sass@1.69.5)(terser@5.34.1)(yaml@2.7.1))(webpack-sources@3.2.3)(yaml@2.7.1)
+      vue:
+        specifier: 3.5.13
+        version: 3.5.13(typescript@5.8.2)
 
 packages:
 
@@ -5479,29 +5557,6 @@ snapshots:
       - utf-8-validate
       - vite
 
-  '@nuxt/examples-ui@0.0.2(magicast@0.3.5)(vite@6.2.4(@types/node@22.14.0)(jiti@2.4.2)(sass@1.69.5)(terser@5.34.1)(yaml@2.7.1))':
-    dependencies:
-      '@iconify-json/simple-icons': 1.2.30
-      '@nuxt/ui': 2.17.0(magicast@0.3.5)(vite@6.2.4(@types/node@22.14.0)(jiti@2.4.2)(sass@1.69.5)(terser@5.34.1)(yaml@2.7.1))
-    transitivePeerDependencies:
-      - '@vue/composition-api'
-      - async-validator
-      - axios
-      - change-case
-      - drauu
-      - focus-trap
-      - idb-keyval
-      - jwt-decode
-      - magicast
-      - nprogress
-      - qrcode
-      - sortablejs
-      - supports-color
-      - ts-node
-      - universal-cookie
-      - vite
-      - vue
-
   '@nuxt/examples-ui@0.0.2(magicast@0.3.5)(vite@6.2.4(@types/node@22.14.0)(jiti@2.4.2)(sass@1.69.5)(terser@5.34.1)(yaml@2.7.1))(vue@3.5.13(typescript@5.8.2))':
     dependencies:
       '@iconify-json/simple-icons': 1.2.30
@@ -5630,50 +5685,6 @@ snapshots:
       '@tailwindcss/typography': 0.5.16(tailwindcss@3.4.17)
       '@vueuse/core': 10.11.0(vue@3.5.13(typescript@5.8.2))
       '@vueuse/integrations': 10.11.0(focus-trap@7.5.4)(fuse.js@6.6.2)(vue@3.5.13(typescript@5.8.2))
-      '@vueuse/math': 10.11.0(vue@3.5.13(typescript@5.8.2))
-      defu: 6.1.4
-      fuse.js: 6.6.2
-      nuxt-icon: 0.6.10(magicast@0.3.5)(vite@6.2.4(@types/node@22.14.0)(jiti@2.4.2)(sass@1.69.5)(terser@5.34.1)(yaml@2.7.1))(vue@3.5.13(typescript@5.8.2))
-      ohash: 1.1.4
-      pathe: 1.1.2
-      scule: 1.3.0
-      tailwind-merge: 2.6.0
-      tailwindcss: 3.4.17
-    transitivePeerDependencies:
-      - '@vue/composition-api'
-      - async-validator
-      - axios
-      - change-case
-      - drauu
-      - focus-trap
-      - idb-keyval
-      - jwt-decode
-      - magicast
-      - nprogress
-      - qrcode
-      - sortablejs
-      - supports-color
-      - ts-node
-      - universal-cookie
-      - vite
-      - vue
-
-  '@nuxt/ui@2.17.0(magicast@0.3.5)(vite@6.2.4(@types/node@22.14.0)(jiti@2.4.2)(sass@1.69.5)(terser@5.34.1)(yaml@2.7.1))':
-    dependencies:
-      '@egoist/tailwindcss-icons': 1.8.1(tailwindcss@3.4.17)
-      '@headlessui/tailwindcss': 0.2.2(tailwindcss@3.4.17)
-      '@headlessui/vue': 1.7.23(vue@3.5.13(typescript@5.8.2))
-      '@iconify-json/heroicons': 1.2.2
-      '@nuxt/kit': 3.16.2(magicast@0.3.5)
-      '@nuxtjs/color-mode': 3.5.2(magicast@0.3.5)
-      '@nuxtjs/tailwindcss': 6.13.2(magicast@0.3.5)
-      '@popperjs/core': 2.11.8
-      '@tailwindcss/aspect-ratio': 0.4.2(tailwindcss@3.4.17)
-      '@tailwindcss/container-queries': 0.1.1(tailwindcss@3.4.17)
-      '@tailwindcss/forms': 0.5.10(tailwindcss@3.4.17)
-      '@tailwindcss/typography': 0.5.16(tailwindcss@3.4.17)
-      '@vueuse/core': 10.11.0(vue@3.5.13(typescript@5.8.2))
-      '@vueuse/integrations': 10.11.0(fuse.js@6.6.2)
       '@vueuse/math': 10.11.0(vue@3.5.13(typescript@5.8.2))
       defu: 6.1.4
       fuse.js: 6.6.2
@@ -6458,17 +6469,6 @@ snapshots:
       vue-demi: 0.14.8(vue@3.5.13(typescript@5.8.2))
     optionalDependencies:
       focus-trap: 7.5.4
-      fuse.js: 6.6.2
-    transitivePeerDependencies:
-      - '@vue/composition-api'
-      - vue
-
-  '@vueuse/integrations@10.11.0(fuse.js@6.6.2)':
-    dependencies:
-      '@vueuse/core': 10.11.0(vue@3.5.13(typescript@5.8.2))
-      '@vueuse/shared': 10.11.0(vue@3.5.13(typescript@5.8.2))
-      vue-demi: 0.14.8(vue@3.5.13(typescript@5.8.2))
-    optionalDependencies:
       fuse.js: 6.6.2
     transitivePeerDependencies:
       - '@vue/composition-api'
