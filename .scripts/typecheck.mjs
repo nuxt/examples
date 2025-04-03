@@ -16,7 +16,7 @@ for (const pkg of packages) {
   const cwd = pkg.replace('/package.json', '')
 
   await exec('nuxi', ['prepare'], { nodeOptions: { cwd }, throwOnError: true })
-  const res = await exec('tsc', ['--noEmit'], { nodeOptions: { cwd } })
+  const res = await exec('vue-tsc', ['--noEmit'], { nodeOptions: { cwd } })
   if (res.exitCode !== 0) {
     consola.withTag(basename(cwd)).error(res.stdout.trim())
     process.exit(1)

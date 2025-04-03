@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const user = useCookie<{ name: string }>('user')
+const user = useCookie<{ name: string } | null>('user')
 const logins = useCookie<number>('logins')
 
 const name = ref('')
