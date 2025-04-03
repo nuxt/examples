@@ -22,9 +22,9 @@
     "typescript": "5.8.2"
   },
   "resolutions": {
-    "@nuxt/kit": "3.13.2",
+    "@nuxt/kit": "3.16.2",
     "@nuxt/ui": "2.17.0",
-    "nuxt": "^3.13.2",
+    "nuxt": "3.16.2",
     "vue": "3.5.13"
   },
   "packageManager": "pnpm@10.7.1"
