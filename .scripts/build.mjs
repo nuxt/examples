@@ -1,11 +1,11 @@
 import fsp from 'node:fs/promises'
-import { globby } from 'globby'
+import { glob } from 'tinyglobby'
 import { readPackageJSON } from 'pkg-types'
 import { join, resolve } from 'pathe'
 
 const stringify = contents => JSON.stringify(contents, null, 2)
 
-const packages = await globby([
+const packages = await glob([
   'examples/**/package.json',
   '!**/node_modules',
   '!**/.nitro',
