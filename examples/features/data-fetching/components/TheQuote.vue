@@ -13,7 +13,7 @@ const { data: quote, pending, error } = await useFetch(() => `https://dummyjson.
     <pre v-else-if="error">Could not load quote: {{ error.data }}</pre>
     <figure
       v-else
-      class="bg-neutral-100 dark:bg-neutral-800 border border-neutral-200 dark:border-neutral-700 rounded-lg p-4 my-6 max-w-xl text-lg"
+      class="bg-(--ui-bg-elevated) border border-(--ui-border-muted) rounded-lg p-4 my-6 max-w-xl text-lg"
     >
       <blockquote class="m-4">
         {{ quote.quote }}

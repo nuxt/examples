@@ -55,10 +55,10 @@ const onError = (err: any) => {
                   name="i-heroicons-user"
                 />
                 <div>
-                  <p class="text-base font-semibold leading-6 text-neutral-900 dark:text-white">
+                  <p class="text-base font-semibold leading-6 text-(--ui-text-highlighted)">
                     {{ item.label }}
                   </p>
-                  <p class="mt-1 text-sm text-neutral-500 dark:text-neutral-400">
+                  <p class="mt-1 text-sm text-(--ui-text-muted)">
                     Log in to your account.
                   </p>
                 </div>
@@ -124,10 +124,10 @@ const onError = (err: any) => {
                   name="i-heroicons-user-plus"
                 />
                 <div>
-                  <p class="text-base font-semibold leading-6 text-neutral-900 dark:text-white">
+                  <p class="text-base font-semibold leading-6 text-(--ui-text-highlighted)">
                     {{ item.label }}
                   </p>
-                  <p class="mt-1 text-sm text-neutral-500 dark:text-neutral-400">
+                  <p class="mt-1 text-sm text-(--ui-text-muted)">
                     Create an account
                   </p>
                 </div>
