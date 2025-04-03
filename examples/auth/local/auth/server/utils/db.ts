@@ -11,7 +11,7 @@ export interface User {
 export async function findUserByEmail(email: string): Promise<User> {
   const storage = useStorage()
   const key = getUserKey(email!)
-  return (await storage.getItem(key))!
+  return await storage.getItem(key) as User
 }
 
 export async function createUser(user: Partial<User>) {
