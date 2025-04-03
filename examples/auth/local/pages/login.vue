@@ -51,21 +51,21 @@ const onError = (err: any) => {
             <template #header>
               <div class="flex">
                 <UIcon
-                  class="w-12 h-12 mr-2 bg-primary"
+                  class="w-12 h-12 mr-2 bg-(--ui-primary)"
                   name="i-heroicons-user"
                 />
                 <div>
-                  <p class="text-base font-semibold leading-6 text-gray-900 dark:text-white">
+                  <p class="text-base font-semibold leading-6 text-neutral-900 dark:text-white">
                     {{ item.label }}
                   </p>
-                  <p class="mt-1 text-sm text-gray-500 dark:text-gray-400">
+                  <p class="mt-1 text-sm text-neutral-500 dark:text-neutral-400">
                     Log in to your account.
                   </p>
                 </div>
               </div>
             </template>
 
-            <UFormGroup
+            <UFormField
               label="Email"
               name="email"
               class="mb-3"
@@ -76,8 +76,8 @@ const onError = (err: any) => {
                 placeholder="user@gmail.com"
                 icon="i-heroicons-envelope"
               />
-            </UFormGroup>
-            <UFormGroup
+            </UFormField>
+            <UFormField
               label="Password"
               name="password"
               required
@@ -98,7 +98,7 @@ const onError = (err: any) => {
                   />
                 </template>
               </UInput>
-            </UFormGroup>
+            </UFormField>
 
             <template #footer>
               <UButton
@@ -124,17 +124,17 @@ const onError = (err: any) => {
                   name="i-heroicons-user-plus"
                 />
                 <div>
-                  <p class="text-base font-semibold leading-6 text-gray-900 dark:text-white">
+                  <p class="text-base font-semibold leading-6 text-neutral-900 dark:text-white">
                     {{ item.label }}
                   </p>
-                  <p class="mt-1 text-sm text-gray-500 dark:text-gray-400">
+                  <p class="mt-1 text-sm text-neutral-500 dark:text-neutral-400">
                     Create an account
                   </p>
                 </div>
               </div>
             </template>
 
-            <UFormGroup
+            <UFormField
               label="Email"
               name="email"
               class="mb-3"
@@ -145,8 +145,8 @@ const onError = (err: any) => {
                 placeholder="user@gmail.com"
                 icon="i-heroicons-envelope"
               />
-            </UFormGroup>
-            <UFormGroup
+            </UFormField>
+            <UFormField
               label="Password"
               name="password"
               required
@@ -167,13 +167,13 @@ const onError = (err: any) => {
                   />
                 </template>
               </UInput>
-            </UFormGroup>
+            </UFormField>
 
             <template #footer>
               <UButton
                 class="w-full justify-center"
                 type="submit"
-                color="cyan"
+                color="secondary"
               >
                 Register
               </UButton>

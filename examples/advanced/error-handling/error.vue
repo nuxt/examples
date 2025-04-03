@@ -25,7 +25,7 @@ function handleError() {
         </NuxtLink>
         <br>
         <NuxtLink
-          class="text-primary"
+          class="text-(--ui-primary)"
           to="/"
         >
           Navigate home

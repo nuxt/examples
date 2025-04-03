@@ -4,7 +4,7 @@ const Welcome = () => <span>Welcome </span>
 
 // Or using defineComponent setup that returns render function with JSX syntax
 const Nuxt3 = defineComponent(() => {
-  return () => <span class="text-primary font-bold">Nuxt 3</span>
+  return () => <span class="text-(--ui-primary) font-bold">Nuxt 3</span>
 })
 
 // We can combine components with JSX syntax too

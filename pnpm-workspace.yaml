@@ -6,3 +6,5 @@ packages:
 ignoredBuiltDependencies:
   - esbuild
   - vue-demi
+patchedDependencies:
+  '@nuxtjs/tailwindcss': patches/@nuxtjs__tailwindcss.patch

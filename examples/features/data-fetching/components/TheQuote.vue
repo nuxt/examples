@@ -23,7 +23,7 @@ const { data: quote, pending, error } = await useFetch(() => `https://dummyjson.
 
 <style scoped>
 .quote {
-  @apply bg-gray-100 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg p-4 my-6 max-w-xl text-lg;
+  @apply bg-neutral-100 dark:bg-neutral-800 border border-neutral-200 dark:border-neutral-700 rounded-lg p-4 my-6 max-w-xl text-lg;
 }
 .quote figcaption,
 .quote blockquote {

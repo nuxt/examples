@@ -36,7 +36,7 @@ const logout = () => {
       </div>
       <div class="mt-3">
         <UButton
-          color="orange"
+          color="warning"
           icon="i-heroicons-arrow-left"
           @click="logout"
         >

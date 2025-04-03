@@ -18,6 +18,6 @@ defineProps({
 
 <style>
 .ui-button {
-  @apply bg-primary p-2 rounded-lg !text-white
+  @apply bg-(--ui-primary) p-2 rounded-lg !text-white
 }
 </style>
