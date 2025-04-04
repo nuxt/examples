@@ -9,15 +9,9 @@ defineProps({
 
 <template>
   <button
-    class="ui-button"
+    class="bg-(--ui-primary) p-2 rounded-lg !text-white"
     :style="{ color }"
   >
     <slot />
   </button>
 </template>
-
-<style>
-.ui-button {
-  @apply bg-primary p-2 rounded-lg !text-white
-}
-</style>

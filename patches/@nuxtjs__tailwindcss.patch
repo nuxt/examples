@@ -1,0 +1,13 @@
+diff --git a/dist/module.mjs b/dist/module.mjs
+index 5f10c126846f6dafef05339f9097ee1c1bc0b2b2..4da27fdd488c12b382921bed8004ca74341f9e46 100644
+--- a/dist/module.mjs
++++ b/dist/module.mjs
+@@ -21,7 +21,7 @@ const compatibility = {
+ async function resolveCSSPath(cssPath, nuxt = useNuxt()) {
+   if (typeof cssPath === "string") {
+     const _cssPath = await resolvePath(cssPath, { extensions: [".css", ".sass", ".scss", ".less", ".styl"] });
+-    return existsSync(_cssPath) ? [_cssPath, `Using Tailwind CSS from ~/${relative(nuxt.options.srcDir, _cssPath)}`] : await tryResolveModule("tailwindcss/package.json").then((twLocation) => twLocation ? [join(twLocation, "../tailwind.css"), "Using default Tailwind CSS file"] : Promise.reject("Unable to resolve tailwindcss. Is it installed?"));
++    return existsSync(_cssPath) ? [_cssPath, `Using Tailwind CSS from ~/${relative(nuxt.options.srcDir, _cssPath)}`] : await tryResolveModule("tailwindcss/package.json", import.meta.url).then((twLocation) => twLocation ? [join(twLocation, "../tailwind.css"), "Using default Tailwind CSS file"] : Promise.reject("Unable to resolve tailwindcss. Is it installed?"));
+   } else {
+     return [
+       false,

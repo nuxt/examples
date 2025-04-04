@@ -10,7 +10,7 @@ const { data } = await useCustomFetch<[]>('/contributors')
     <h1 class="text-xl">
       - Nuxt custom fetch:
     </h1>
-    <div class="max-h-96 overflow-auto mt-4 p-4 border border-gray-200 dark:border-gray-800 rounded-lg">
+    <div class="max-h-96 overflow-auto mt-4 p-4 border border-(--ui-border) rounded-lg">
       <pre class="text-left text-xs">{{ data }}</pre>
     </div>
   </NuxtExample>

@@ -29,7 +29,7 @@ withDefaults(defineProps<{
     </svg>
     <UIcon
       v-else
-      class="text-primary w-10 h-10"
+      class="text-(--ui-primary) w-10 h-10"
       :name="icon"
     />
     <div class="flex gap-1 font-bold text-2xl capitalize ml-1">
@@ -38,7 +38,7 @@ withDefaults(defineProps<{
         v-text="org"
       />
       <span
-        class="md:text-primary"
+        class="md:text-(--ui-primary)"
         v-text="repo"
       />
     </div>

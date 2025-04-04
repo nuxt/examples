@@ -33,9 +33,7 @@ test('Fancy button from base layer is overridden', async ({ page }) => {
 
 test('UI button is shown', async ({ page }) => {
   await page.goto('/')
-  await expect(page.getByRole('button', { name: 'UI Button' })).toHaveClass(
-    'ui-button',
-  )
+  await expect(page.getByRole('button', { name: 'UI Button' })).toBeVisible()
 })
 
 test('"useFoo()" composable and "getBar()" util is usable from base layer', async ({
