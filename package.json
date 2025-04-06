@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    "build": "turbo run build && node .scripts/build.mjs",
+    "build": "turbo run build --env-mode=loose && node .scripts/build.mjs",
     "lint": "eslint",
     "lint:fix": "eslint --fix",
     "typecheck": "node .scripts/typecheck.mjs"
