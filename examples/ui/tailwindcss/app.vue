@@ -1,12 +1,12 @@
 <template>
-  <div class="dark:bg-gray-800 dark:text-gray-200 min-h-screen">
+  <div class="dark:bg-neutral-800 dark:text-neutral-200 min-h-screen">
     <Head>
       <Title>Nuxt with TailwindCSS</Title>
     </Head>
     <p class="p-4 pb-2">
       <select
         v-model="$colorMode.preference"
-        class="border w-24 h-8 dark:bg-gray-900 dark:text-white dark:border-gray-700"
+        class="border w-24 h-8 dark:bg-neutral-900 dark:text-white dark:border-neutral-700"
       >
         <option value="system">
           System

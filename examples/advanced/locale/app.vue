@@ -1,8 +1,8 @@
 <script setup lang="ts">
 // see ./composables/locale.ts for the implementation
-const locales = useLocales()
-const locale = useLocale()
-const date = useLocaleDate(new Date('2016-10-26') /* NUXT_BIRTHDAY */)
+const locales = useNuxtLocales()
+const locale = useNuxtLocale()
+const date = useNuxtLocaleDate(new Date('2016-10-26') /* NUXT_BIRTHDAY */)
 </script>
 
 <template>
@@ -10,7 +10,7 @@ const date = useLocaleDate(new Date('2016-10-26') /* NUXT_BIRTHDAY */)
     <div class="flex justify-center gap-8 items-center mt-2">
       <USelect
         v-model="locale"
-        :options="locales"
+        :items="locales"
         icon="i-heroicons-calendar-days"
       />
       <p class="text-4xl">

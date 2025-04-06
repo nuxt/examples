@@ -1,6 +1,6 @@
 import type { Ref } from 'vue'
 
-export const useLocale = () => useState<string>('locale', () => useDefaultLocale().value)
+export const useNuxtLocale = () => useState<string>('locale', () => useDefaultLocale().value)
 
 export const useDefaultLocale = (fallback = 'en-US') => {
   const locale = ref(fallback)
@@ -20,8 +20,8 @@ export const useDefaultLocale = (fallback = 'en-US') => {
   return locale
 }
 
-export const useLocales = () => {
-  const locale = useLocale()
+export const useNuxtLocales = () => {
+  const locale = useNuxtLocale()
   const locales = ref([
     'en-US',
     'en-GB',
@@ -39,6 +39,6 @@ export const useLocales = () => {
 
 // Using Intl.DateTimeFormat for language-sensitive date and time formatting
 // Learn more: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat
-export const useLocaleDate = (date: Ref<Date> | Date, locale = useLocale()) => {
+export const useNuxtLocaleDate = (date: Ref<Date> | Date, locale = useNuxtLocale()) => {
   return computed(() => new Intl.DateTimeFormat(locale.value, { dateStyle: 'full' }).format(unref(date)))
 }

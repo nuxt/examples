@@ -17,25 +17,29 @@ const nav = [
     </NuxtLayout>
     <div class="flex items-center gap-4 mt-4">
       <UButton
-        color="white"
+        color="neutral"
+        variant="outline"
         @click="setPageLayout('default')"
       >
         layouts/default.vue
       </UButton>
       <UButton
-        color="white"
+        color="neutral"
+        variant="outline"
         @click="setPageLayout('custom')"
       >
         layouts/custom.vue
       </UButton>
       <UButton
-        color="white"
+        color="neutral"
+        variant="outline"
         @click="setPageLayout('other')"
       >
         layouts/other.vue
       </UButton>
       <UButton
-        color="white"
+        color="neutral"
+        variant="outline"
         @click="setPageLayout(false)"
       >
         Remove layout
