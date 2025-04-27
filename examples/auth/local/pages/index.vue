@@ -6,6 +6,6 @@ useHead({
 
 <template>
   <div class="text-lg">
-    Welcome to the example of <span class="text-primary">Nuxt</span> with <span class="text-orange-400">Local Authentication.</span>
+    Welcome to the example of <span class="text-(--ui-primary)">Nuxt</span> with <span class="text-orange-400">Local Authentication.</span>
   </div>
 </template>

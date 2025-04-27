@@ -29,7 +29,7 @@ const toast = useToast()
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 const onError = (err: any) => {
   toast.add({
-    color: 'red',
+    color: 'warning',
     title: 'Error',
     description: err?.data.message ?? err?.message ?? err,
   })
@@ -51,21 +51,22 @@ const onError = (err: any) => {
             <template #header>
               <div class="flex">
                 <UIcon
-                  class="w-12 h-12 mr-2 bg-primary"
+                  class="w-12 h-12 mr-2 bg-(--ui-primary)"
                   name="i-heroicons-user"
                 />
                 <div>
-                  <p class="text-base font-semibold leading-6 text-gray-900 dark:text-white">
+                  <p class="text-base font-semibold leading-6 text-(--ui-text-highlighted)">
+                    <!-- @vue-expect-error -->
                     {{ item.label }}
                   </p>
-                  <p class="mt-1 text-sm text-gray-500 dark:text-gray-400">
+                  <p class="mt-1 text-sm text-(--ui-text-muted)">
                     Log in to your account.
                   </p>
                 </div>
               </div>
             </template>
 
-            <UFormGroup
+            <UFormField
               label="Email"
               name="email"
               class="mb-3"
@@ -76,8 +77,8 @@ const onError = (err: any) => {
                 placeholder="user@gmail.com"
                 icon="i-heroicons-envelope"
               />
-            </UFormGroup>
-            <UFormGroup
+            </UFormField>
+            <UFormField
               label="Password"
               name="password"
               required
@@ -87,18 +88,18 @@ const onError = (err: any) => {
                 placeholder="password"
                 icon="i-heroicons-lock-closed"
                 :type="hidden ? 'password' : 'text'"
-                :ui="{ icon: { trailing: { pointer: '' } } }"
               >
                 <template #trailing>
                   <UButton
                     :icon="hidden ? 'i-heroicons-eye-slash' : 'i-heroicons-eye'"
                     variant="link"
                     :padded="false"
+                    class="cursor-pointer"
                     @click="hidden = !hidden"
                   />
                 </template>
               </UInput>
-            </UFormGroup>
+            </UFormField>
 
             <template #footer>
               <UButton
@@ -124,17 +125,18 @@ const onError = (err: any) => {
                   name="i-heroicons-user-plus"
                 />
                 <div>
-                  <p class="text-base font-semibold leading-6 text-gray-900 dark:text-white">
+                  <p class="text-base font-semibold leading-6 text-(--ui-text-highlighted)">
+                    <!-- @vue-expect-error -->
                     {{ item.label }}
                   </p>
-                  <p class="mt-1 text-sm text-gray-500 dark:text-gray-400">
+                  <p class="mt-1 text-sm text-(--ui-text-muted)">
                     Create an account
                   </p>
                 </div>
               </div>
             </template>
 
-            <UFormGroup
+            <UFormField
               label="Email"
               name="email"
               class="mb-3"
@@ -145,8 +147,8 @@ const onError = (err: any) => {
                 placeholder="user@gmail.com"
                 icon="i-heroicons-envelope"
               />
-            </UFormGroup>
-            <UFormGroup
+            </UFormField>
+            <UFormField
               label="Password"
               name="password"
               required
@@ -155,25 +157,26 @@ const onError = (err: any) => {
                 v-model="registerForm.password"
                 placeholder="password"
                 icon="i-heroicons-lock-closed"
+                class="pointer-"
                 :type="hidden ? 'password' : 'text'"
-                :ui="{ icon: { trailing: { pointer: '' } } }"
               >
                 <template #trailing>
                   <UButton
                     :icon="hidden ? 'i-heroicons-eye-slash' : 'i-heroicons-eye'"
                     variant="link"
                     :padded="false"
+                    class="cursor-pointer"
                     @click="hidden = !hidden"
                   />
                 </template>
               </UInput>
-            </UFormGroup>
+            </UFormField>
 
             <template #footer>
               <UButton
                 class="w-full justify-center"
                 type="submit"
-                color="cyan"
+                color="secondary"
               >
                 Register
               </UButton>
