@@ -29,7 +29,7 @@ const toast = useToast()
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 const onError = (err: any) => {
   toast.add({
-    color: 'red',
+    color: 'warning',
     title: 'Error',
     description: err?.data.message ?? err?.message ?? err,
   })
@@ -56,6 +56,7 @@ const onError = (err: any) => {
                 />
                 <div>
                   <p class="text-base font-semibold leading-6 text-(--ui-text-highlighted)">
+                    <!-- @vue-expect-error -->
                     {{ item.label }}
                   </p>
                   <p class="mt-1 text-sm text-(--ui-text-muted)">
@@ -87,13 +88,13 @@ const onError = (err: any) => {
                 placeholder="password"
                 icon="i-heroicons-lock-closed"
                 :type="hidden ? 'password' : 'text'"
-                :ui="{ icon: { trailing: { pointer: '' } } }"
               >
                 <template #trailing>
                   <UButton
                     :icon="hidden ? 'i-heroicons-eye-slash' : 'i-heroicons-eye'"
                     variant="link"
                     :padded="false"
+                    class="cursor-pointer"
                     @click="hidden = !hidden"
                   />
                 </template>
@@ -125,6 +126,7 @@ const onError = (err: any) => {
                 />
                 <div>
                   <p class="text-base font-semibold leading-6 text-(--ui-text-highlighted)">
+                    <!-- @vue-expect-error -->
                     {{ item.label }}
                   </p>
                   <p class="mt-1 text-sm text-(--ui-text-muted)">
@@ -155,14 +157,15 @@ const onError = (err: any) => {
                 v-model="registerForm.password"
                 placeholder="password"
                 icon="i-heroicons-lock-closed"
+                class="pointer-"
                 :type="hidden ? 'password' : 'text'"
-                :ui="{ icon: { trailing: { pointer: '' } } }"
               >
                 <template #trailing>
                   <UButton
                     :icon="hidden ? 'i-heroicons-eye-slash' : 'i-heroicons-eye'"
                     variant="link"
                     :padded="false"
+                    class="cursor-pointer"
                     @click="hidden = !hidden"
                   />
                 </template>
