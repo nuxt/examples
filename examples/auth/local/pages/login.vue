@@ -56,7 +56,6 @@ const onError = (err: any) => {
                 />
                 <div>
                   <p class="text-base font-semibold leading-6 text-(--ui-text-highlighted)">
-                    <!-- @vue-expect-error -->
                     {{ item.label }}
                   </p>
                   <p class="mt-1 text-sm text-(--ui-text-muted)">
@@ -126,7 +125,6 @@ const onError = (err: any) => {
                 />
                 <div>
                   <p class="text-base font-semibold leading-6 text-(--ui-text-highlighted)">
-                    <!-- @vue-expect-error -->
                     {{ item.label }}
                   </p>
                   <p class="mt-1 text-sm text-(--ui-text-muted)">
