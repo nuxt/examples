@@ -11,7 +11,7 @@
   "devDependencies": {
     "@nuxt/examples-ui": "latest",
     "nuxt": "^3.16.2",
-    "sass": "^1.69.5",
+    "sass-embedded": "^1.89.2",
     "vue": "3.5.13"
   }
 }
