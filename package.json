@@ -11,8 +11,8 @@
   },
   "devDependencies": {
     "@nuxt/cli": "^3.25.1",
-    "@nuxt/eslint": "^1.5.0",
-    "@nuxt/eslint-config": "^1.5.0",
+    "@nuxt/eslint": "^1.5.2",
+    "@nuxt/eslint-config": "^1.5.2",
     "@types/node": "^22.16.0",
     "consola": "^3.4.2",
     "eslint": "^9.30.1",
