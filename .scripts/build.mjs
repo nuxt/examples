@@ -34,7 +34,7 @@ for (const config of packages) {
     recursive: true,
   })
   await fsp.cp(
-    join(output, 'functions/__nitro.func'),
+    join(output, 'functions/__fallback.func'),
     `.vercel/output/functions/${name}.func`,
     {
       recursive: true,
