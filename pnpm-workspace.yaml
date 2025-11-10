@@ -8,3 +8,5 @@ ignoredBuiltDependencies:
   - vue-demi
 patchedDependencies:
   '@nuxtjs/tailwindcss': patches/@nuxtjs__tailwindcss.patch
+trustPolicy: no-downgrade
+
