@@ -11,6 +11,9 @@ on:
 
 jobs:
   test:
+    if: >-
+      github.event_name == 'workflow_dispatch' ||
+      github.event.deployment_status.state == 'success'
     timeout-minutes: 60
     runs-on: ubuntu-latest
     container:
