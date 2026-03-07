@@ -7,7 +7,7 @@ export default defineNuxtPlugin(async (nuxtApp) => {
   }
 
   const { data: session, refresh: updateSession }
-   = await useFetch<AuthSession>('/api/auth/session')
+    = await useFetch<AuthSession>('/api/auth/session')
 
   const loggedIn = computed(() => !!session.value?.email)
 
