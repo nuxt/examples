@@ -15,14 +15,14 @@
     "@nuxt/eslint-config": "^1.15.2",
     "@types/node": "^24.12.0",
     "consola": "^3.4.2",
-    "eslint": "^10.0.3",
+    "eslint": "^10.1.0",
     "pathe": "^2.0.3",
     "pkg-types": "^2.3.0",
     "tinyexec": "^1.0.4",
     "tinyglobby": "^0.2.15",
-    "turbo": "2.8.17",
+    "turbo": "2.8.20",
     "typescript": "5.9.3",
-    "vue-tsc": "3.2.5"
+    "vue-tsc": "3.2.6"
   },
   "resolutions": {
     "@nuxt/examples-ui": "workspace:*",
