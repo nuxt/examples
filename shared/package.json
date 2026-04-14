@@ -19,7 +19,7 @@
     "vue": "3.5.32"
   },
   "dependencies": {
-    "@iconify-json/lucide": "^1.2.101",
+    "@iconify-json/lucide": "^1.2.102",
     "@nuxt/ui": "4.5.1",
     "tailwindcss": "4.2.2"
   }
