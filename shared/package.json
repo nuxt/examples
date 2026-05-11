@@ -16,11 +16,11 @@
   ],
   "devDependencies": {
     "nuxt": "^4.0.1",
-    "vue": "3.5.33"
+    "vue": "3.5.34"
   },
   "dependencies": {
-    "@iconify-json/lucide": "^1.2.105",
+    "@iconify-json/lucide": "^1.2.106",
     "@nuxt/ui": "4.5.1",
-    "tailwindcss": "4.2.4"
+    "tailwindcss": "4.3.0"
   }
 }
