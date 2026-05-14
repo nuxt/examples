@@ -3258,8 +3258,8 @@ packages:
     resolution: {integrity: sha512-Btj2BOOO83o3WyH59e8MgXsxEQVcarkUOpEYrubB0urwnN10yQ364rsiByU11nZlqWYZm05i/of7io4mzihBtQ==}
     engines: {node: '>=8'}
 
-  devalue@5.3.2:
-    resolution: {integrity: sha512-UDsjUbpQn9kvm68slnrs+mfxwFkIflOhkanmyabZ8zOYk8SMEIbJ3TK+88g70hSIeytu4y18f0z/hYHMTrXIWw==}
+  devalue@5.8.1:
+    resolution: {integrity: sha512-4CXDYRBGqN+57wVJkuXBYmpAVUSg3L6JAQa/DFqm238G73E1wuyc/JhGQJzN7vUf/CMphYau2zXbfWzDR5aTEw==}
 
   didyoumean@1.2.2:
     resolution: {integrity: sha512-gxtyfqMg7GKyhQmb056K7M3xszy/myH8w+B4RT+QXBQsvAOdc3XymqDDPHx1BgPgsdAA5SIifona89YtRATDzw==}
@@ -9257,7 +9257,7 @@ snapshots:
 
   detect-libc@2.1.2: {}
 
-  devalue@5.3.2: {}
+  devalue@5.8.1: {}
 
   didyoumean@1.2.2: {}
 
@@ -10725,7 +10725,7 @@ snapshots:
       cookie-es: 2.0.0
       defu: 6.1.7
       destr: 2.0.5
-      devalue: 5.3.2
+      devalue: 5.8.1
       errx: 0.1.0
       esbuild: 0.25.10
       escape-string-regexp: 5.0.0
