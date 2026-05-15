@@ -3,12 +3,8 @@ packages:
   - examples/**
   - .e2e
   - '!**/.vercel/**'
-ignoredBuiltDependencies:
-  - esbuild
-  - vue-demi
 patchedDependencies:
   '@nuxtjs/tailwindcss': patches/@nuxtjs__tailwindcss.patch
-
 
 overrides:
   "@nuxt/examples-ui": "workspace:*"
@@ -16,3 +12,9 @@ overrides:
   "@vue/shared": "3.5.34"
   nuxt: "4.1.0"
   vue: "3.5.34"
+
+shellEmulator: true
+
+allowBuilds:
+  esbuild: false
+  vue-demi: false
