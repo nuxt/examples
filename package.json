@@ -22,7 +22,7 @@
     "tinyglobby": "^0.2.16",
     "turbo": "2.9.14",
     "typescript": "6.0.3",
-    "vue-tsc": "3.2.9"
+    "vue-tsc": "3.3.0"
   },
-  "packageManager": "pnpm@11.1.2"
+  "packageManager": "pnpm@11.1.3"
 }

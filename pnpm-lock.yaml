@@ -55,8 +55,8 @@ importers:
         specifier: 6.0.3
         version: 6.0.3
       vue-tsc:
-        specifier: 3.2.9
-        version: 3.2.9(typescript@6.0.3)
+        specifier: 3.3.0
+        version: 3.3.0(typescript@6.0.3)
 
   .e2e:
     devDependencies:
@@ -71,7 +71,7 @@ importers:
         version: link:../../../shared
       nuxt:
         specifier: 4.1.0
-        version: 4.1.0(@parcel/watcher@2.5.6)(@types/node@24.12.4)(@vue/compiler-sfc@3.5.34)(cac@6.7.14)(db0@0.3.4)(eslint@10.4.0(jiti@2.7.0))(ioredis@5.8.1)(lightningcss@1.31.1)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.52.4)(sass-embedded@1.89.2)(terser@5.44.0)(typescript@6.0.3)(vite@7.1.9(@types/node@24.12.4)(jiti@2.7.0)(lightningcss@1.31.1)(sass-embedded@1.89.2)(terser@5.44.0)(yaml@2.8.1))(vue-tsc@3.2.9(typescript@6.0.3))(yaml@2.8.1)
+        version: 4.1.0(@parcel/watcher@2.5.6)(@types/node@24.12.4)(@vue/compiler-sfc@3.5.34)(cac@6.7.14)(db0@0.3.4)(eslint@10.4.0(jiti@2.7.0))(ioredis@5.8.1)(lightningcss@1.31.1)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.52.4)(sass-embedded@1.89.2)(terser@5.44.0)(typescript@6.0.3)(vite@7.1.9(@types/node@24.12.4)(jiti@2.7.0)(lightningcss@1.31.1)(sass-embedded@1.89.2)(terser@5.44.0)(yaml@2.8.1))(vue-tsc@3.3.0(typescript@6.0.3))(yaml@2.8.1)
       vue:
         specifier: 3.5.34
         version: 3.5.34(typescript@6.0.3)
@@ -83,7 +83,7 @@ importers:
         version: link:../../../shared
       nuxt:
         specifier: 4.1.0
-        version: 4.1.0(@parcel/watcher@2.5.6)(@types/node@24.12.4)(@vue/compiler-sfc@3.5.34)(cac@6.7.14)(db0@0.3.4)(eslint@10.4.0(jiti@2.7.0))(ioredis@5.8.1)(lightningcss@1.31.1)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.52.4)(sass-embedded@1.89.2)(terser@5.44.0)(typescript@6.0.3)(vite@7.1.9(@types/node@24.12.4)(jiti@2.7.0)(lightningcss@1.31.1)(sass-embedded@1.89.2)(terser@5.44.0)(yaml@2.8.1))(vue-tsc@3.2.9(typescript@6.0.3))(yaml@2.8.1)
+        version: 4.1.0(@parcel/watcher@2.5.6)(@types/node@24.12.4)(@vue/compiler-sfc@3.5.34)(cac@6.7.14)(db0@0.3.4)(eslint@10.4.0(jiti@2.7.0))(ioredis@5.8.1)(lightningcss@1.31.1)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.52.4)(sass-embedded@1.89.2)(terser@5.44.0)(typescript@6.0.3)(vite@7.1.9(@types/node@24.12.4)(jiti@2.7.0)(lightningcss@1.31.1)(sass-embedded@1.89.2)(terser@5.44.0)(yaml@2.8.1))(vue-tsc@3.3.0(typescript@6.0.3))(yaml@2.8.1)
       vue:
         specifier: 3.5.34
         version: 3.5.34(typescript@6.0.3)
@@ -95,7 +95,7 @@ importers:
         version: link:../../../shared
       nuxt:
         specifier: 4.1.0
-        version: 4.1.0(@parcel/watcher@2.5.6)(@types/node@24.12.4)(@vue/compiler-sfc@3.5.34)(cac@6.7.14)(db0@0.3.4)(eslint@10.4.0(jiti@2.7.0))(ioredis@5.8.1)(lightningcss@1.31.1)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.52.4)(sass-embedded@1.89.2)(terser@5.44.0)(typescript@6.0.3)(vite@7.1.9(@types/node@24.12.4)(jiti@2.7.0)(lightningcss@1.31.1)(sass-embedded@1.89.2)(terser@5.44.0)(yaml@2.8.1))(vue-tsc@3.2.9(typescript@6.0.3))(yaml@2.8.1)
+        version: 4.1.0(@parcel/watcher@2.5.6)(@types/node@24.12.4)(@vue/compiler-sfc@3.5.34)(cac@6.7.14)(db0@0.3.4)(eslint@10.4.0(jiti@2.7.0))(ioredis@5.8.1)(lightningcss@1.31.1)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.52.4)(sass-embedded@1.89.2)(terser@5.44.0)(typescript@6.0.3)(vite@7.1.9(@types/node@24.12.4)(jiti@2.7.0)(lightningcss@1.31.1)(sass-embedded@1.89.2)(terser@5.44.0)(yaml@2.8.1))(vue-tsc@3.3.0(typescript@6.0.3))(yaml@2.8.1)
       vue:
         specifier: 3.5.34
         version: 3.5.34(typescript@6.0.3)
@@ -107,7 +107,7 @@ importers:
         version: link:../../../shared
       nuxt:
         specifier: 4.1.0
-        version: 4.1.0(@parcel/watcher@2.5.6)(@types/node@24.12.4)(@vue/compiler-sfc@3.5.34)(cac@6.7.14)(db0@0.3.4)(eslint@10.4.0(jiti@2.7.0))(ioredis@5.8.1)(lightningcss@1.31.1)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.52.4)(sass-embedded@1.89.2)(terser@5.44.0)(typescript@6.0.3)(vite@7.1.9(@types/node@24.12.4)(jiti@2.7.0)(lightningcss@1.31.1)(sass-embedded@1.89.2)(terser@5.44.0)(yaml@2.8.1))(vue-tsc@3.2.9(typescript@6.0.3))(yaml@2.8.1)
+        version: 4.1.0(@parcel/watcher@2.5.6)(@types/node@24.12.4)(@vue/compiler-sfc@3.5.34)(cac@6.7.14)(db0@0.3.4)(eslint@10.4.0(jiti@2.7.0))(ioredis@5.8.1)(lightningcss@1.31.1)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.52.4)(sass-embedded@1.89.2)(terser@5.44.0)(typescript@6.0.3)(vite@7.1.9(@types/node@24.12.4)(jiti@2.7.0)(lightningcss@1.31.1)(sass-embedded@1.89.2)(terser@5.44.0)(yaml@2.8.1))(vue-tsc@3.3.0(typescript@6.0.3))(yaml@2.8.1)
       vue:
         specifier: 3.5.34
         version: 3.5.34(typescript@6.0.3)
@@ -119,7 +119,7 @@ importers:
         version: link:../../../shared
       nuxt:
         specifier: 4.1.0
-        version: 4.1.0(@parcel/watcher@2.5.6)(@types/node@24.12.4)(@vue/compiler-sfc@3.5.34)(cac@6.7.14)(db0@0.3.4)(eslint@10.4.0(jiti@2.7.0))(ioredis@5.8.1)(lightningcss@1.31.1)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.52.4)(sass-embedded@1.89.2)(terser@5.44.0)(typescript@6.0.3)(vite@7.1.9(@types/node@24.12.4)(jiti@2.7.0)(lightningcss@1.31.1)(sass-embedded@1.89.2)(terser@5.44.0)(yaml@2.8.1))(vue-tsc@3.2.9(typescript@6.0.3))(yaml@2.8.1)
+        version: 4.1.0(@parcel/watcher@2.5.6)(@types/node@24.12.4)(@vue/compiler-sfc@3.5.34)(cac@6.7.14)(db0@0.3.4)(eslint@10.4.0(jiti@2.7.0))(ioredis@5.8.1)(lightningcss@1.31.1)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.52.4)(sass-embedded@1.89.2)(terser@5.44.0)(typescript@6.0.3)(vite@7.1.9(@types/node@24.12.4)(jiti@2.7.0)(lightningcss@1.31.1)(sass-embedded@1.89.2)(terser@5.44.0)(yaml@2.8.1))(vue-tsc@3.3.0(typescript@6.0.3))(yaml@2.8.1)
       vue:
         specifier: 3.5.34
         version: 3.5.34(typescript@6.0.3)
@@ -131,7 +131,7 @@ importers:
         version: link:../../../shared
       nuxt:
         specifier: 4.1.0
-        version: 4.1.0(@parcel/watcher@2.5.6)(@types/node@24.12.4)(@vue/compiler-sfc@3.5.34)(cac@6.7.14)(db0@0.3.4)(eslint@10.4.0(jiti@2.7.0))(ioredis@5.8.1)(lightningcss@1.31.1)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.52.4)(sass-embedded@1.89.2)(terser@5.44.0)(typescript@6.0.3)(vite@7.1.9(@types/node@24.12.4)(jiti@2.7.0)(lightningcss@1.31.1)(sass-embedded@1.89.2)(terser@5.44.0)(yaml@2.8.1))(vue-tsc@3.2.9(typescript@6.0.3))(yaml@2.8.1)
+        version: 4.1.0(@parcel/watcher@2.5.6)(@types/node@24.12.4)(@vue/compiler-sfc@3.5.34)(cac@6.7.14)(db0@0.3.4)(eslint@10.4.0(jiti@2.7.0))(ioredis@5.8.1)(lightningcss@1.31.1)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.52.4)(sass-embedded@1.89.2)(terser@5.44.0)(typescript@6.0.3)(vite@7.1.9(@types/node@24.12.4)(jiti@2.7.0)(lightningcss@1.31.1)(sass-embedded@1.89.2)(terser@5.44.0)(yaml@2.8.1))(vue-tsc@3.3.0(typescript@6.0.3))(yaml@2.8.1)
       vue:
         specifier: 3.5.34
         version: 3.5.34(typescript@6.0.3)
@@ -146,7 +146,7 @@ importers:
         version: 3.19.2(@playwright/test@1.60.0)(magicast@0.3.5)(playwright-core@1.60.0)(typescript@6.0.3)(vitest@3.1.2(@types/node@24.12.4)(jiti@2.7.0)(lightningcss@1.31.1)(sass-embedded@1.89.2)(terser@5.44.0)(yaml@2.8.1))
       nuxt:
         specifier: 4.1.0
-        version: 4.1.0(@parcel/watcher@2.5.6)(@types/node@24.12.4)(@vue/compiler-sfc@3.5.34)(cac@6.7.14)(db0@0.3.4)(eslint@10.4.0(jiti@2.7.0))(ioredis@5.8.1)(lightningcss@1.31.1)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.52.4)(sass-embedded@1.89.2)(terser@5.44.0)(typescript@6.0.3)(vite@7.1.9(@types/node@24.12.4)(jiti@2.7.0)(lightningcss@1.31.1)(sass-embedded@1.89.2)(terser@5.44.0)(yaml@2.8.1))(vue-tsc@3.2.9(typescript@6.0.3))(yaml@2.8.1)
+        version: 4.1.0(@parcel/watcher@2.5.6)(@types/node@24.12.4)(@vue/compiler-sfc@3.5.34)(cac@6.7.14)(db0@0.3.4)(eslint@10.4.0(jiti@2.7.0))(ioredis@5.8.1)(lightningcss@1.31.1)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.52.4)(sass-embedded@1.89.2)(terser@5.44.0)(typescript@6.0.3)(vite@7.1.9(@types/node@24.12.4)(jiti@2.7.0)(lightningcss@1.31.1)(sass-embedded@1.89.2)(terser@5.44.0)(yaml@2.8.1))(vue-tsc@3.3.0(typescript@6.0.3))(yaml@2.8.1)
       vitest:
         specifier: 3.1.2
         version: 3.1.2(@types/node@24.12.4)(jiti@2.7.0)(lightningcss@1.31.1)(sass-embedded@1.89.2)(terser@5.44.0)(yaml@2.8.1)
@@ -161,7 +161,7 @@ importers:
         version: link:../../../shared
       nuxt:
         specifier: 4.1.0
-        version: 4.1.0(@parcel/watcher@2.5.6)(@types/node@24.12.4)(@vue/compiler-sfc@3.5.34)(cac@6.7.14)(db0@0.3.4)(eslint@10.4.0(jiti@2.7.0))(ioredis@5.8.1)(lightningcss@1.31.1)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.52.4)(sass-embedded@1.89.2)(terser@5.44.0)(typescript@6.0.3)(vite@7.1.9(@types/node@24.12.4)(jiti@2.7.0)(lightningcss@1.31.1)(sass-embedded@1.89.2)(terser@5.44.0)(yaml@2.8.1))(vue-tsc@3.2.9(typescript@6.0.3))(yaml@2.8.1)
+        version: 4.1.0(@parcel/watcher@2.5.6)(@types/node@24.12.4)(@vue/compiler-sfc@3.5.34)(cac@6.7.14)(db0@0.3.4)(eslint@10.4.0(jiti@2.7.0))(ioredis@5.8.1)(lightningcss@1.31.1)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.52.4)(sass-embedded@1.89.2)(terser@5.44.0)(typescript@6.0.3)(vite@7.1.9(@types/node@24.12.4)(jiti@2.7.0)(lightningcss@1.31.1)(sass-embedded@1.89.2)(terser@5.44.0)(yaml@2.8.1))(vue-tsc@3.3.0(typescript@6.0.3))(yaml@2.8.1)
       vue:
         specifier: 3.5.34
         version: 3.5.34(typescript@6.0.3)
@@ -173,7 +173,7 @@ importers:
         version: link:../../../shared
       nuxt:
         specifier: 4.1.0
-        version: 4.1.0(@parcel/watcher@2.5.6)(@types/node@24.12.4)(@vue/compiler-sfc@3.5.34)(cac@6.7.14)(db0@0.3.4)(eslint@10.4.0(jiti@2.7.0))(ioredis@5.8.1)(lightningcss@1.31.1)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.52.4)(sass-embedded@1.89.2)(terser@5.44.0)(typescript@6.0.3)(vite@7.1.9(@types/node@24.12.4)(jiti@2.7.0)(lightningcss@1.31.1)(sass-embedded@1.89.2)(terser@5.44.0)(yaml@2.8.1))(vue-tsc@3.2.9(typescript@6.0.3))(yaml@2.8.1)
+        version: 4.1.0(@parcel/watcher@2.5.6)(@types/node@24.12.4)(@vue/compiler-sfc@3.5.34)(cac@6.7.14)(db0@0.3.4)(eslint@10.4.0(jiti@2.7.0))(ioredis@5.8.1)(lightningcss@1.31.1)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.52.4)(sass-embedded@1.89.2)(terser@5.44.0)(typescript@6.0.3)(vite@7.1.9(@types/node@24.12.4)(jiti@2.7.0)(lightningcss@1.31.1)(sass-embedded@1.89.2)(terser@5.44.0)(yaml@2.8.1))(vue-tsc@3.3.0(typescript@6.0.3))(yaml@2.8.1)
       vue:
         specifier: 3.5.34
         version: 3.5.34(typescript@6.0.3)
@@ -185,7 +185,7 @@ importers:
         version: link:../../../shared
       nuxt:
         specifier: 4.1.0
-        version: 4.1.0(@parcel/watcher@2.5.6)(@types/node@24.12.4)(@vue/compiler-sfc@3.5.34)(cac@6.7.14)(db0@0.3.4)(eslint@10.4.0(jiti@2.7.0))(ioredis@5.8.1)(lightningcss@1.31.1)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.52.4)(sass-embedded@1.89.2)(terser@5.44.0)(typescript@6.0.3)(vite@7.1.9(@types/node@24.12.4)(jiti@2.7.0)(lightningcss@1.31.1)(sass-embedded@1.89.2)(terser@5.44.0)(yaml@2.8.1))(vue-tsc@3.2.9(typescript@6.0.3))(yaml@2.8.1)
+        version: 4.1.0(@parcel/watcher@2.5.6)(@types/node@24.12.4)(@vue/compiler-sfc@3.5.34)(cac@6.7.14)(db0@0.3.4)(eslint@10.4.0(jiti@2.7.0))(ioredis@5.8.1)(lightningcss@1.31.1)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.52.4)(sass-embedded@1.89.2)(terser@5.44.0)(typescript@6.0.3)(vite@7.1.9(@types/node@24.12.4)(jiti@2.7.0)(lightningcss@1.31.1)(sass-embedded@1.89.2)(terser@5.44.0)(yaml@2.8.1))(vue-tsc@3.3.0(typescript@6.0.3))(yaml@2.8.1)
       uncrypto:
         specifier: ^0.1.3
         version: 0.1.3
@@ -200,7 +200,7 @@ importers:
         version: link:../../../shared
       nuxt:
         specifier: 4.1.0
-        version: 4.1.0(@parcel/watcher@2.5.6)(@types/node@24.12.4)(@vue/compiler-sfc@3.5.34)(cac@6.7.14)(db0@0.3.4)(eslint@10.4.0(jiti@2.7.0))(ioredis@5.8.1)(lightningcss@1.31.1)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.52.4)(sass-embedded@1.89.2)(terser@5.44.0)(typescript@6.0.3)(vite@7.1.9(@types/node@24.12.4)(jiti@2.7.0)(lightningcss@1.31.1)(sass-embedded@1.89.2)(terser@5.44.0)(yaml@2.8.1))(vue-tsc@3.2.9(typescript@6.0.3))(yaml@2.8.1)
+        version: 4.1.0(@parcel/watcher@2.5.6)(@types/node@24.12.4)(@vue/compiler-sfc@3.5.34)(cac@6.7.14)(db0@0.3.4)(eslint@10.4.0(jiti@2.7.0))(ioredis@5.8.1)(lightningcss@1.31.1)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.52.4)(sass-embedded@1.89.2)(terser@5.44.0)(typescript@6.0.3)(vite@7.1.9(@types/node@24.12.4)(jiti@2.7.0)(lightningcss@1.31.1)(sass-embedded@1.89.2)(terser@5.44.0)(yaml@2.8.1))(vue-tsc@3.3.0(typescript@6.0.3))(yaml@2.8.1)
       vue:
         specifier: 3.5.34
         version: 3.5.34(typescript@6.0.3)
@@ -212,7 +212,7 @@ importers:
         version: link:../../../shared
       nuxt:
         specifier: 4.1.0
-        version: 4.1.0(@parcel/watcher@2.5.6)(@types/node@24.12.4)(@vue/compiler-sfc@3.5.34)(cac@6.7.14)(db0@0.3.4)(eslint@10.4.0(jiti@2.7.0))(ioredis@5.8.1)(lightningcss@1.31.1)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.52.4)(sass-embedded@1.89.2)(terser@5.44.0)(typescript@6.0.3)(vite@7.1.9(@types/node@24.12.4)(jiti@2.7.0)(lightningcss@1.31.1)(sass-embedded@1.89.2)(terser@5.44.0)(yaml@2.8.1))(vue-tsc@3.2.9(typescript@6.0.3))(yaml@2.8.1)
+        version: 4.1.0(@parcel/watcher@2.5.6)(@types/node@24.12.4)(@vue/compiler-sfc@3.5.34)(cac@6.7.14)(db0@0.3.4)(eslint@10.4.0(jiti@2.7.0))(ioredis@5.8.1)(lightningcss@1.31.1)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.52.4)(sass-embedded@1.89.2)(terser@5.44.0)(typescript@6.0.3)(vite@7.1.9(@types/node@24.12.4)(jiti@2.7.0)(lightningcss@1.31.1)(sass-embedded@1.89.2)(terser@5.44.0)(yaml@2.8.1))(vue-tsc@3.3.0(typescript@6.0.3))(yaml@2.8.1)
       vue:
         specifier: 3.5.34
         version: 3.5.34(typescript@6.0.3)
@@ -224,7 +224,7 @@ importers:
         version: link:../../../shared
       nuxt:
         specifier: 4.1.0
-        version: 4.1.0(@parcel/watcher@2.5.6)(@types/node@24.12.4)(@vue/compiler-sfc@3.5.34)(cac@6.7.14)(db0@0.3.4)(eslint@10.4.0(jiti@2.7.0))(ioredis@5.8.1)(lightningcss@1.31.1)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.52.4)(sass-embedded@1.89.2)(terser@5.44.0)(typescript@6.0.3)(vite@7.1.9(@types/node@24.12.4)(jiti@2.7.0)(lightningcss@1.31.1)(sass-embedded@1.89.2)(terser@5.44.0)(yaml@2.8.1))(vue-tsc@3.2.9(typescript@6.0.3))(yaml@2.8.1)
+        version: 4.1.0(@parcel/watcher@2.5.6)(@types/node@24.12.4)(@vue/compiler-sfc@3.5.34)(cac@6.7.14)(db0@0.3.4)(eslint@10.4.0(jiti@2.7.0))(ioredis@5.8.1)(lightningcss@1.31.1)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.52.4)(sass-embedded@1.89.2)(terser@5.44.0)(typescript@6.0.3)(vite@7.1.9(@types/node@24.12.4)(jiti@2.7.0)(lightningcss@1.31.1)(sass-embedded@1.89.2)(terser@5.44.0)(yaml@2.8.1))(vue-tsc@3.3.0(typescript@6.0.3))(yaml@2.8.1)
       vue:
         specifier: 3.5.34
         version: 3.5.34(typescript@6.0.3)
@@ -236,7 +236,7 @@ importers:
         version: link:../../../shared
       nuxt:
         specifier: 4.1.0
-        version: 4.1.0(@parcel/watcher@2.5.6)(@types/node@24.12.4)(@vue/compiler-sfc@3.5.34)(cac@6.7.14)(db0@0.3.4)(eslint@10.4.0(jiti@2.7.0))(ioredis@5.8.1)(lightningcss@1.31.1)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.52.4)(sass-embedded@1.89.2)(terser@5.44.0)(typescript@6.0.3)(vite@7.1.9(@types/node@24.12.4)(jiti@2.7.0)(lightningcss@1.31.1)(sass-embedded@1.89.2)(terser@5.44.0)(yaml@2.8.1))(vue-tsc@3.2.9(typescript@6.0.3))(yaml@2.8.1)
+        version: 4.1.0(@parcel/watcher@2.5.6)(@types/node@24.12.4)(@vue/compiler-sfc@3.5.34)(cac@6.7.14)(db0@0.3.4)(eslint@10.4.0(jiti@2.7.0))(ioredis@5.8.1)(lightningcss@1.31.1)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.52.4)(sass-embedded@1.89.2)(terser@5.44.0)(typescript@6.0.3)(vite@7.1.9(@types/node@24.12.4)(jiti@2.7.0)(lightningcss@1.31.1)(sass-embedded@1.89.2)(terser@5.44.0)(yaml@2.8.1))(vue-tsc@3.3.0(typescript@6.0.3))(yaml@2.8.1)
       vue:
         specifier: 3.5.34
         version: 3.5.34(typescript@6.0.3)
@@ -248,7 +248,7 @@ importers:
         version: link:../../../shared
       nuxt:
         specifier: 4.1.0
-        version: 4.1.0(@parcel/watcher@2.5.6)(@types/node@24.12.4)(@vue/compiler-sfc@3.5.34)(cac@6.7.14)(db0@0.3.4)(eslint@10.4.0(jiti@2.7.0))(ioredis@5.8.1)(lightningcss@1.31.1)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.52.4)(sass-embedded@1.89.2)(terser@5.44.0)(typescript@6.0.3)(vite@7.1.9(@types/node@24.12.4)(jiti@2.7.0)(lightningcss@1.31.1)(sass-embedded@1.89.2)(terser@5.44.0)(yaml@2.8.1))(vue-tsc@3.2.9(typescript@6.0.3))(yaml@2.8.1)
+        version: 4.1.0(@parcel/watcher@2.5.6)(@types/node@24.12.4)(@vue/compiler-sfc@3.5.34)(cac@6.7.14)(db0@0.3.4)(eslint@10.4.0(jiti@2.7.0))(ioredis@5.8.1)(lightningcss@1.31.1)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.52.4)(sass-embedded@1.89.2)(terser@5.44.0)(typescript@6.0.3)(vite@7.1.9(@types/node@24.12.4)(jiti@2.7.0)(lightningcss@1.31.1)(sass-embedded@1.89.2)(terser@5.44.0)(yaml@2.8.1))(vue-tsc@3.3.0(typescript@6.0.3))(yaml@2.8.1)
       vue:
         specifier: 3.5.34
         version: 3.5.34(typescript@6.0.3)
@@ -260,7 +260,7 @@ importers:
         version: link:../../../shared
       nuxt:
         specifier: 4.1.0
-        version: 4.1.0(@parcel/watcher@2.5.6)(@types/node@24.12.4)(@vue/compiler-sfc@3.5.34)(cac@6.7.14)(db0@0.3.4)(eslint@10.4.0(jiti@2.7.0))(ioredis@5.8.1)(lightningcss@1.31.1)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.52.4)(sass-embedded@1.89.2)(terser@5.44.0)(typescript@6.0.3)(vite@7.1.9(@types/node@24.12.4)(jiti@2.7.0)(lightningcss@1.31.1)(sass-embedded@1.89.2)(terser@5.44.0)(yaml@2.8.1))(vue-tsc@3.2.9(typescript@6.0.3))(yaml@2.8.1)
+        version: 4.1.0(@parcel/watcher@2.5.6)(@types/node@24.12.4)(@vue/compiler-sfc@3.5.34)(cac@6.7.14)(db0@0.3.4)(eslint@10.4.0(jiti@2.7.0))(ioredis@5.8.1)(lightningcss@1.31.1)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.52.4)(sass-embedded@1.89.2)(terser@5.44.0)(typescript@6.0.3)(vite@7.1.9(@types/node@24.12.4)(jiti@2.7.0)(lightningcss@1.31.1)(sass-embedded@1.89.2)(terser@5.44.0)(yaml@2.8.1))(vue-tsc@3.3.0(typescript@6.0.3))(yaml@2.8.1)
       vue:
         specifier: 3.5.34
         version: 3.5.34(typescript@6.0.3)
@@ -272,7 +272,7 @@ importers:
         version: link:../../shared
       nuxt:
         specifier: 4.1.0
-        version: 4.1.0(@parcel/watcher@2.5.6)(@types/node@24.12.4)(@vue/compiler-sfc@3.5.34)(cac@6.7.14)(db0@0.3.4)(eslint@10.4.0(jiti@2.7.0))(ioredis@5.8.1)(lightningcss@1.31.1)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.52.4)(sass-embedded@1.89.2)(terser@5.44.0)(typescript@6.0.3)(vite@7.1.9(@types/node@24.12.4)(jiti@2.7.0)(lightningcss@1.31.1)(sass-embedded@1.89.2)(terser@5.44.0)(yaml@2.8.1))(vue-tsc@3.2.9(typescript@6.0.3))(yaml@2.8.1)
+        version: 4.1.0(@parcel/watcher@2.5.6)(@types/node@24.12.4)(@vue/compiler-sfc@3.5.34)(cac@6.7.14)(db0@0.3.4)(eslint@10.4.0(jiti@2.7.0))(ioredis@5.8.1)(lightningcss@1.31.1)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.52.4)(sass-embedded@1.89.2)(terser@5.44.0)(typescript@6.0.3)(vite@7.1.9(@types/node@24.12.4)(jiti@2.7.0)(lightningcss@1.31.1)(sass-embedded@1.89.2)(terser@5.44.0)(yaml@2.8.1))(vue-tsc@3.3.0(typescript@6.0.3))(yaml@2.8.1)
       vue:
         specifier: 3.5.34
         version: 3.5.34(typescript@6.0.3)
@@ -284,7 +284,7 @@ importers:
         version: link:../../../shared
       nuxt:
         specifier: 4.1.0
-        version: 4.1.0(@parcel/watcher@2.5.6)(@types/node@24.12.4)(@vue/compiler-sfc@3.5.34)(cac@6.7.14)(db0@0.3.4)(eslint@10.4.0(jiti@2.7.0))(ioredis@5.8.1)(lightningcss@1.31.1)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.52.4)(sass-embedded@1.89.2)(terser@5.44.0)(typescript@6.0.3)(vite@7.1.9(@types/node@24.12.4)(jiti@2.7.0)(lightningcss@1.31.1)(sass-embedded@1.89.2)(terser@5.44.0)(yaml@2.8.1))(vue-tsc@3.2.9(typescript@6.0.3))(yaml@2.8.1)
+        version: 4.1.0(@parcel/watcher@2.5.6)(@types/node@24.12.4)(@vue/compiler-sfc@3.5.34)(cac@6.7.14)(db0@0.3.4)(eslint@10.4.0(jiti@2.7.0))(ioredis@5.8.1)(lightningcss@1.31.1)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.52.4)(sass-embedded@1.89.2)(terser@5.44.0)(typescript@6.0.3)(vite@7.1.9(@types/node@24.12.4)(jiti@2.7.0)(lightningcss@1.31.1)(sass-embedded@1.89.2)(terser@5.44.0)(yaml@2.8.1))(vue-tsc@3.3.0(typescript@6.0.3))(yaml@2.8.1)
       vue:
         specifier: 3.5.34
         version: 3.5.34(typescript@6.0.3)
@@ -296,7 +296,7 @@ importers:
         version: link:../../../shared
       nuxt:
         specifier: 4.1.0
-        version: 4.1.0(@parcel/watcher@2.5.6)(@types/node@24.12.4)(@vue/compiler-sfc@3.5.34)(cac@6.7.14)(db0@0.3.4)(eslint@10.4.0(jiti@2.7.0))(ioredis@5.8.1)(lightningcss@1.31.1)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.52.4)(sass-embedded@1.89.2)(terser@5.44.0)(typescript@6.0.3)(vite@7.1.9(@types/node@24.12.4)(jiti@2.7.0)(lightningcss@1.31.1)(sass-embedded@1.89.2)(terser@5.44.0)(yaml@2.8.1))(vue-tsc@3.2.9(typescript@6.0.3))(yaml@2.8.1)
+        version: 4.1.0(@parcel/watcher@2.5.6)(@types/node@24.12.4)(@vue/compiler-sfc@3.5.34)(cac@6.7.14)(db0@0.3.4)(eslint@10.4.0(jiti@2.7.0))(ioredis@5.8.1)(lightningcss@1.31.1)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.52.4)(sass-embedded@1.89.2)(terser@5.44.0)(typescript@6.0.3)(vite@7.1.9(@types/node@24.12.4)(jiti@2.7.0)(lightningcss@1.31.1)(sass-embedded@1.89.2)(terser@5.44.0)(yaml@2.8.1))(vue-tsc@3.3.0(typescript@6.0.3))(yaml@2.8.1)
       vue:
         specifier: 3.5.34
         version: 3.5.34(typescript@6.0.3)
@@ -308,7 +308,7 @@ importers:
         version: link:../../../shared
       nuxt:
         specifier: 4.1.0
-        version: 4.1.0(@parcel/watcher@2.5.6)(@types/node@24.12.4)(@vue/compiler-sfc@3.5.34)(cac@6.7.14)(db0@0.3.4)(eslint@10.4.0(jiti@2.7.0))(ioredis@5.8.1)(lightningcss@1.31.1)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.52.4)(sass-embedded@1.89.2)(terser@5.44.0)(typescript@6.0.3)(vite@7.1.9(@types/node@24.12.4)(jiti@2.7.0)(lightningcss@1.31.1)(sass-embedded@1.89.2)(terser@5.44.0)(yaml@2.8.1))(vue-tsc@3.2.9(typescript@6.0.3))(yaml@2.8.1)
+        version: 4.1.0(@parcel/watcher@2.5.6)(@types/node@24.12.4)(@vue/compiler-sfc@3.5.34)(cac@6.7.14)(db0@0.3.4)(eslint@10.4.0(jiti@2.7.0))(ioredis@5.8.1)(lightningcss@1.31.1)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.52.4)(sass-embedded@1.89.2)(terser@5.44.0)(typescript@6.0.3)(vite@7.1.9(@types/node@24.12.4)(jiti@2.7.0)(lightningcss@1.31.1)(sass-embedded@1.89.2)(terser@5.44.0)(yaml@2.8.1))(vue-tsc@3.3.0(typescript@6.0.3))(yaml@2.8.1)
       vue:
         specifier: 3.5.34
         version: 3.5.34(typescript@6.0.3)
@@ -326,7 +326,7 @@ importers:
         version: 4.12.24(postcss@8.5.14)
       nuxt:
         specifier: 4.1.0
-        version: 4.1.0(@parcel/watcher@2.5.6)(@types/node@24.12.4)(@vue/compiler-sfc@3.5.34)(cac@6.7.14)(db0@0.3.4)(eslint@10.4.0(jiti@2.7.0))(ioredis@5.8.1)(lightningcss@1.31.1)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.52.4)(sass-embedded@1.89.2)(terser@5.44.0)(typescript@6.0.3)(vite@7.1.9(@types/node@24.12.4)(jiti@2.7.0)(lightningcss@1.31.1)(sass-embedded@1.89.2)(terser@5.44.0)(yaml@2.8.1))(vue-tsc@3.2.9(typescript@6.0.3))(yaml@2.8.1)
+        version: 4.1.0(@parcel/watcher@2.5.6)(@types/node@24.12.4)(@vue/compiler-sfc@3.5.34)(cac@6.7.14)(db0@0.3.4)(eslint@10.4.0(jiti@2.7.0))(ioredis@5.8.1)(lightningcss@1.31.1)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.52.4)(sass-embedded@1.89.2)(terser@5.44.0)(typescript@6.0.3)(vite@7.1.9(@types/node@24.12.4)(jiti@2.7.0)(lightningcss@1.31.1)(sass-embedded@1.89.2)(terser@5.44.0)(yaml@2.8.1))(vue-tsc@3.3.0(typescript@6.0.3))(yaml@2.8.1)
       tailwindcss:
         specifier: 3.4.17
         version: 3.4.17
@@ -341,7 +341,7 @@ importers:
         version: link:../../../shared
       nuxt:
         specifier: 4.1.0
-        version: 4.1.0(@parcel/watcher@2.5.6)(@types/node@24.12.4)(@vue/compiler-sfc@3.5.34)(cac@6.7.14)(db0@0.3.4)(eslint@10.4.0(jiti@2.7.0))(ioredis@5.8.1)(lightningcss@1.31.1)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.52.4)(sass-embedded@1.89.2)(terser@5.44.0)(typescript@6.0.3)(vite@7.1.9(@types/node@24.12.4)(jiti@2.7.0)(lightningcss@1.31.1)(sass-embedded@1.89.2)(terser@5.44.0)(yaml@2.8.1))(vue-tsc@3.2.9(typescript@6.0.3))(yaml@2.8.1)
+        version: 4.1.0(@parcel/watcher@2.5.6)(@types/node@24.12.4)(@vue/compiler-sfc@3.5.34)(cac@6.7.14)(db0@0.3.4)(eslint@10.4.0(jiti@2.7.0))(ioredis@5.8.1)(lightningcss@1.31.1)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.52.4)(sass-embedded@1.89.2)(terser@5.44.0)(typescript@6.0.3)(vite@7.1.9(@types/node@24.12.4)(jiti@2.7.0)(lightningcss@1.31.1)(sass-embedded@1.89.2)(terser@5.44.0)(yaml@2.8.1))(vue-tsc@3.3.0(typescript@6.0.3))(yaml@2.8.1)
       sass-embedded:
         specifier: ^1.89.2
         version: 1.89.2
@@ -359,7 +359,7 @@ importers:
         version: 6.14.0(patch_hash=d624b97cbd71ff24447bfd852ee60673073ecd6ff4286c68da405d66179e66cb)(magicast@0.3.5)
       nuxt:
         specifier: 4.1.0
-        version: 4.1.0(@parcel/watcher@2.5.6)(@types/node@24.12.4)(@vue/compiler-sfc@3.5.34)(cac@6.7.14)(db0@0.3.4)(eslint@10.4.0(jiti@2.7.0))(ioredis@5.8.1)(lightningcss@1.31.1)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.52.4)(sass-embedded@1.89.2)(terser@5.44.0)(typescript@6.0.3)(vite@7.1.9(@types/node@24.12.4)(jiti@2.7.0)(lightningcss@1.31.1)(sass-embedded@1.89.2)(terser@5.44.0)(yaml@2.8.1))(vue-tsc@3.2.9(typescript@6.0.3))(yaml@2.8.1)
+        version: 4.1.0(@parcel/watcher@2.5.6)(@types/node@24.12.4)(@vue/compiler-sfc@3.5.34)(cac@6.7.14)(db0@0.3.4)(eslint@10.4.0(jiti@2.7.0))(ioredis@5.8.1)(lightningcss@1.31.1)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.52.4)(sass-embedded@1.89.2)(terser@5.44.0)(typescript@6.0.3)(vite@7.1.9(@types/node@24.12.4)(jiti@2.7.0)(lightningcss@1.31.1)(sass-embedded@1.89.2)(terser@5.44.0)(yaml@2.8.1))(vue-tsc@3.3.0(typescript@6.0.3))(yaml@2.8.1)
       tailwindcss:
         specifier: 3.4.17
         version: 3.4.17
@@ -374,7 +374,7 @@ importers:
         version: 7.4.47
       nuxt:
         specifier: 4.1.0
-        version: 4.1.0(@parcel/watcher@2.5.6)(@types/node@24.12.4)(@vue/compiler-sfc@3.5.34)(cac@6.7.14)(db0@0.3.4)(eslint@10.4.0(jiti@2.7.0))(ioredis@5.8.1)(lightningcss@1.31.1)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.52.4)(sass-embedded@1.89.2)(terser@5.44.0)(typescript@6.0.3)(vite@7.1.9(@types/node@24.12.4)(jiti@2.7.0)(lightningcss@1.31.1)(sass-embedded@1.89.2)(terser@5.44.0)(yaml@2.8.1))(vue-tsc@3.2.9(typescript@6.0.3))(yaml@2.8.1)
+        version: 4.1.0(@parcel/watcher@2.5.6)(@types/node@24.12.4)(@vue/compiler-sfc@3.5.34)(cac@6.7.14)(db0@0.3.4)(eslint@10.4.0(jiti@2.7.0))(ioredis@5.8.1)(lightningcss@1.31.1)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.52.4)(sass-embedded@1.89.2)(terser@5.44.0)(typescript@6.0.3)(vite@7.1.9(@types/node@24.12.4)(jiti@2.7.0)(lightningcss@1.31.1)(sass-embedded@1.89.2)(terser@5.44.0)(yaml@2.8.1))(vue-tsc@3.3.0(typescript@6.0.3))(yaml@2.8.1)
       sass-embedded:
         specifier: ^1.89.2
         version: 1.89.2
@@ -399,7 +399,7 @@ importers:
     devDependencies:
       nuxt:
         specifier: 4.1.0
-        version: 4.1.0(@parcel/watcher@2.5.6)(@types/node@24.12.4)(@vue/compiler-sfc@3.5.34)(cac@6.7.14)(db0@0.3.4)(eslint@10.4.0(jiti@2.7.0))(ioredis@5.8.1)(lightningcss@1.31.1)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.52.4)(sass-embedded@1.89.2)(terser@5.44.0)(typescript@6.0.3)(vite@7.1.9(@types/node@24.12.4)(jiti@2.7.0)(lightningcss@1.31.1)(sass-embedded@1.89.2)(terser@5.44.0)(yaml@2.8.1))(vue-tsc@3.2.9(typescript@6.0.3))(yaml@2.8.1)
+        version: 4.1.0(@parcel/watcher@2.5.6)(@types/node@24.12.4)(@vue/compiler-sfc@3.5.34)(cac@6.7.14)(db0@0.3.4)(eslint@10.4.0(jiti@2.7.0))(ioredis@5.8.1)(lightningcss@1.31.1)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.52.4)(sass-embedded@1.89.2)(terser@5.44.0)(typescript@6.0.3)(vite@7.1.9(@types/node@24.12.4)(jiti@2.7.0)(lightningcss@1.31.1)(sass-embedded@1.89.2)(terser@5.44.0)(yaml@2.8.1))(vue-tsc@3.3.0(typescript@6.0.3))(yaml@2.8.1)
       vue:
         specifier: 3.5.34
         version: 3.5.34(typescript@6.0.3)
@@ -2558,8 +2558,8 @@ packages:
   '@vue/devtools-shared@7.7.7':
     resolution: {integrity: sha512-+udSj47aRl5aKb0memBvcUG9koarqnxNM5yjuREvqwK6T3ap4mn3Zqqc17QrBFTqSMjr3HK1cvStEZpMDpfdyw==}
 
-  '@vue/language-core@3.2.9':
-    resolution: {integrity: sha512-ie0ojt/0fU/GfIogh+zgHbaYRPlt9S+cLOxcWwF7nTSFh897BVgnFKL2byT4kpp1mlqYWZ2psGwSniyE2xsxYw==}
+  '@vue/language-core@3.3.0':
+    resolution: {integrity: sha512-EyUxq1b8Yoxk6hQ6X33BIRnfFLb9Rbm9w/8G8y6uMxlQu7CW7yy9JS/z54xSpIvBvVWX6Lt5v1aBGwmrqD4aJw==}
 
   '@vue/reactivity@3.5.34':
     resolution: {integrity: sha512-y9XDjCEuBp+98k+UL5dbYkh57AHU4o6cxZedOPXw3bmrZZYLQsVHguGurq7hVrPCSrQtrnz1f9dssyFr+dMXfQ==}
@@ -6029,8 +6029,8 @@ packages:
     peerDependencies:
       vue: 3.5.34
 
-  vue-tsc@3.2.9:
-    resolution: {integrity: sha512-qm8/nbo+9eZc1SCndm9wT+gq23pM+wRIdHY0wjm83B3lIginHTwcdrLUyTrKjDWXbMVNjKegNrnymhpdqnCL3A==}
+  vue-tsc@3.3.0:
+    resolution: {integrity: sha512-kY8RcoTOENASi0P1GLPvJgA2+hoGF+t8We1UGgmnAb1r/GjTUMSE3zz+WGfjPORZNnBHdAt67sVPhBLXWunkeg==}
     hasBin: true
     peerDependencies:
       typescript: '>=5.0.0'
@@ -7240,7 +7240,7 @@ snapshots:
       - vue
       - yjs
 
-  '@nuxt/vite-builder@4.1.0(@types/node@24.12.4)(eslint@10.4.0(jiti@2.7.0))(lightningcss@1.31.1)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.52.4)(sass-embedded@1.89.2)(terser@5.44.0)(typescript@6.0.3)(vue-tsc@3.2.9(typescript@6.0.3))(vue@3.5.34(typescript@6.0.3))(yaml@2.8.1)':
+  '@nuxt/vite-builder@4.1.0(@types/node@24.12.4)(eslint@10.4.0(jiti@2.7.0))(lightningcss@1.31.1)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.52.4)(sass-embedded@1.89.2)(terser@5.44.0)(typescript@6.0.3)(vue-tsc@3.3.0(typescript@6.0.3))(vue@3.5.34(typescript@6.0.3))(yaml@2.8.1)':
     dependencies:
       '@nuxt/kit': 4.1.3(magicast@0.3.5)
       '@rollup/plugin-replace': 6.0.2(rollup@4.52.4)
@@ -7269,7 +7269,7 @@ snapshots:
       unenv: 2.0.0-rc.21
       vite: 7.1.9(@types/node@24.12.4)(jiti@2.7.0)(lightningcss@1.31.1)(sass-embedded@1.89.2)(terser@5.44.0)(yaml@2.8.1)
       vite-node: 3.2.4(@types/node@24.12.4)(jiti@2.7.0)(lightningcss@1.31.1)(sass-embedded@1.89.2)(terser@5.44.0)(yaml@2.8.1)
-      vite-plugin-checker: 0.10.3(eslint@10.4.0(jiti@2.7.0))(optionator@0.9.4)(typescript@6.0.3)(vite@7.1.9(@types/node@24.12.4)(jiti@2.7.0)(lightningcss@1.31.1)(sass-embedded@1.89.2)(terser@5.44.0)(yaml@2.8.1))(vue-tsc@3.2.9(typescript@6.0.3))
+      vite-plugin-checker: 0.10.3(eslint@10.4.0(jiti@2.7.0))(optionator@0.9.4)(typescript@6.0.3)(vite@7.1.9(@types/node@24.12.4)(jiti@2.7.0)(lightningcss@1.31.1)(sass-embedded@1.89.2)(terser@5.44.0)(yaml@2.8.1))(vue-tsc@3.3.0(typescript@6.0.3))
       vue: 3.5.34(typescript@6.0.3)
       vue-bundle-renderer: 2.2.0
     transitivePeerDependencies:
@@ -8435,7 +8435,7 @@ snapshots:
     dependencies:
       rfdc: 1.4.1
 
-  '@vue/language-core@3.2.9':
+  '@vue/language-core@3.3.0':
     dependencies:
       '@volar/language-core': 2.4.28
       '@vue/compiler-dom': 3.5.34
@@ -10419,7 +10419,7 @@ snapshots:
     dependencies:
       boolbase: 1.0.0
 
-  nuxt@4.1.0(@parcel/watcher@2.5.6)(@types/node@24.12.4)(@vue/compiler-sfc@3.5.34)(cac@6.7.14)(db0@0.3.4)(eslint@10.4.0(jiti@2.7.0))(ioredis@5.8.1)(lightningcss@1.31.1)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.52.4)(sass-embedded@1.89.2)(terser@5.44.0)(typescript@6.0.3)(vite@7.1.9(@types/node@24.12.4)(jiti@2.7.0)(lightningcss@1.31.1)(sass-embedded@1.89.2)(terser@5.44.0)(yaml@2.8.1))(vue-tsc@3.2.9(typescript@6.0.3))(yaml@2.8.1):
+  nuxt@4.1.0(@parcel/watcher@2.5.6)(@types/node@24.12.4)(@vue/compiler-sfc@3.5.34)(cac@6.7.14)(db0@0.3.4)(eslint@10.4.0(jiti@2.7.0))(ioredis@5.8.1)(lightningcss@1.31.1)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.52.4)(sass-embedded@1.89.2)(terser@5.44.0)(typescript@6.0.3)(vite@7.1.9(@types/node@24.12.4)(jiti@2.7.0)(lightningcss@1.31.1)(sass-embedded@1.89.2)(terser@5.44.0)(yaml@2.8.1))(vue-tsc@3.3.0(typescript@6.0.3))(yaml@2.8.1):
     dependencies:
       '@nuxt/cli': 3.35.2(@nuxt/schema@4.1.0)(cac@6.7.14)(magicast@0.3.5)
       '@nuxt/devalue': 2.0.2
@@ -10427,7 +10427,7 @@ snapshots:
       '@nuxt/kit': 4.1.3(magicast@0.3.5)
       '@nuxt/schema': 4.1.0
       '@nuxt/telemetry': 2.6.6(magicast@0.3.5)
-      '@nuxt/vite-builder': 4.1.0(@types/node@24.12.4)(eslint@10.4.0(jiti@2.7.0))(lightningcss@1.31.1)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.52.4)(sass-embedded@1.89.2)(terser@5.44.0)(typescript@6.0.3)(vue-tsc@3.2.9(typescript@6.0.3))(vue@3.5.34(typescript@6.0.3))(yaml@2.8.1)
+      '@nuxt/vite-builder': 4.1.0(@types/node@24.12.4)(eslint@10.4.0(jiti@2.7.0))(lightningcss@1.31.1)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.52.4)(sass-embedded@1.89.2)(terser@5.44.0)(typescript@6.0.3)(vue-tsc@3.3.0(typescript@6.0.3))(vue@3.5.34(typescript@6.0.3))(yaml@2.8.1)
       '@unhead/vue': 2.1.10(vue@3.5.34(typescript@6.0.3))
       '@vue/shared': 3.5.34
       c12: 3.3.4(magicast@0.3.5)
@@ -11844,7 +11844,7 @@ snapshots:
     dependencies:
       '@vue-macros/common': 3.0.0-beta.16(vue@3.5.34(typescript@6.0.3))
       '@vue/compiler-sfc': 3.5.34
-      '@vue/language-core': 3.2.9
+      '@vue/language-core': 3.3.0
       ast-walker-scope: 0.8.3
       chokidar: 4.0.3
       json5: 2.2.3
@@ -12016,7 +12016,7 @@ snapshots:
       - tsx
       - yaml
 
-  vite-plugin-checker@0.10.3(eslint@10.4.0(jiti@2.7.0))(optionator@0.9.4)(typescript@6.0.3)(vite@7.1.9(@types/node@24.12.4)(jiti@2.7.0)(lightningcss@1.31.1)(sass-embedded@1.89.2)(terser@5.44.0)(yaml@2.8.1))(vue-tsc@3.2.9(typescript@6.0.3)):
+  vite-plugin-checker@0.10.3(eslint@10.4.0(jiti@2.7.0))(optionator@0.9.4)(typescript@6.0.3)(vite@7.1.9(@types/node@24.12.4)(jiti@2.7.0)(lightningcss@1.31.1)(sass-embedded@1.89.2)(terser@5.44.0)(yaml@2.8.1))(vue-tsc@3.3.0(typescript@6.0.3)):
     dependencies:
       '@babel/code-frame': 7.27.1
       chokidar: 4.0.3
@@ -12032,7 +12032,7 @@ snapshots:
       eslint: 10.4.0(jiti@2.7.0)
       optionator: 0.9.4
       typescript: 6.0.3
-      vue-tsc: 3.2.9(typescript@6.0.3)
+      vue-tsc: 3.3.0(typescript@6.0.3)
 
   vite-plugin-inspect@11.3.3(@nuxt/kit@4.1.3(magicast@0.3.5))(vite@7.1.9(@types/node@24.12.4)(jiti@2.7.0)(lightningcss@1.31.1)(sass-embedded@1.89.2)(terser@5.44.0)(yaml@2.8.1)):
     dependencies:
@@ -12182,10 +12182,10 @@ snapshots:
       '@vue/devtools-api': 6.6.4
       vue: 3.5.34(typescript@6.0.3)
 
-  vue-tsc@3.2.9(typescript@6.0.3):
+  vue-tsc@3.3.0(typescript@6.0.3):
     dependencies:
       '@volar/typescript': 2.4.28
-      '@vue/language-core': 3.2.9
+      '@vue/language-core': 3.3.0
       typescript: 6.0.3
 
   vue@3.5.34(typescript@6.0.3):
