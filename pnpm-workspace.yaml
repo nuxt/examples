@@ -8,9 +8,9 @@ patchedDependencies:
 
 overrides:
   "@nuxt/examples-ui": "workspace:*"
-  "@nuxt/kit": "4.1.3"
+  "@nuxt/kit": "4.4.6"
   "@vue/shared": "3.5.34"
-  nuxt: "4.1.0"
+  nuxt: "4.4.6"
   vue: "3.5.34"
 
 shellEmulator: true
