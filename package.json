@@ -10,19 +10,19 @@
     "typecheck": "node .scripts/typecheck.mjs"
   },
   "devDependencies": {
-    "@nuxt/cli": "^3.35.1",
+    "@nuxt/cli": "^3.35.2",
     "@nuxt/eslint": "^1.15.2",
     "@nuxt/eslint-config": "^1.15.2",
-    "@types/node": "^24.12.3",
+    "@types/node": "^24.12.4",
     "consola": "^3.4.2",
-    "eslint": "^10.3.0",
+    "eslint": "^10.4.0",
     "pathe": "^2.0.3",
     "pkg-types": "^2.3.1",
     "tinyexec": "^1.1.2",
     "tinyglobby": "^0.2.16",
-    "turbo": "2.9.12",
+    "turbo": "2.9.14",
     "typescript": "6.0.3",
-    "vue-tsc": "3.2.8"
+    "vue-tsc": "3.2.9"
   },
   "packageManager": "pnpm@11.1.2"
 }
