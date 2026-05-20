@@ -10,7 +10,7 @@
   "devDependencies": {
     "@nuxt/examples-ui": "latest",
     "@nuxt/test-utils": "^3.17.2",
-    "nuxt": "^3.16.2",
+    "nuxt": "^4.4.6",
     "vitest": "3.1.2",
     "vue": "3.5.13"
   }
