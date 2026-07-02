@@ -2,8 +2,16 @@
 toc: false
 title: 'Module Extend Pages'
 description: 'This example defines a new `test` page using `extendPages` within a module.'
+links:
+  - label: Source
+    icon: i-simple-icons-github
+    to: https://github.com/nuxt/examples/tree/main/examples/advanced/module-extend-pages
 ---
 
-:read-more{to="/docs/guide/going-further/modules"}
+::code-explorer{path="examples/advanced/module-extend-pages" default-value="modules/pages/index.ts"}
+::
 
-:sandbox{repo="nuxt/examples" branch="main" dir="examples/advanced/module-extend-pages" file="pages/index.vue"}
+::browser{src="https://module-extend-pages.example.nuxt.space"}
+::
+
+:read-more{to="/docs/guide/going-further/modules"}
