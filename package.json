@@ -21,7 +21,7 @@
     "tinyexec": "^1.2.4",
     "tinyglobby": "^0.2.17",
     "turbo": "2.10.4",
-    "typescript": "6.0.3",
+    "typescript": "7.0.2",
     "vue-tsc": "3.3.7"
   },
   "packageManager": "pnpm@11.12.0"
