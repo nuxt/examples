@@ -13,16 +13,16 @@
     "@nuxt/cli": "^3.36.1",
     "@nuxt/eslint": "^1.16.0",
     "@nuxt/eslint-config": "^1.16.0",
-    "@types/node": "^24.13.2",
+    "@types/node": "^24.13.3",
     "consola": "^3.4.2",
-    "eslint": "^10.6.0",
+    "eslint": "^10.7.0",
     "pathe": "^2.0.3",
     "pkg-types": "^2.3.1",
     "tinyexec": "^1.2.4",
     "tinyglobby": "^0.2.17",
-    "turbo": "2.10.3",
+    "turbo": "2.10.4",
     "typescript": "6.0.3",
-    "vue-tsc": "3.3.6"
+    "vue-tsc": "3.3.7"
   },
-  "packageManager": "pnpm@11.10.0"
+  "packageManager": "pnpm@11.12.0"
 }
