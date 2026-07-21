@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "@iconify-json/lucide": "^1.2.116",
-    "@nuxt/ui": "4.5.1",
+    "@nuxt/ui": "4.10.0",
     "tailwindcss": "4.3.2"
   }
 }
