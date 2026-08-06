@@ -20,3 +20,10 @@ allowBuilds:
   esbuild: false
   unrs-resolver: false
   vue-demi: false
+
+minimumReleaseAgeExclude:
+  - nuxt
+  - nuxt-nightly
+  - '@nuxt/*'
+  - vue
+  - '@vue/*'
