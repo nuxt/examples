@@ -14,4 +14,4 @@ links:
 ::browser{src="https://module-extend-pages.example.nuxt.space"}
 ::
 
-:read-more{to="/docs/guide/going-further/modules"}
+:read-more{to="/docs/guide/modules"}
