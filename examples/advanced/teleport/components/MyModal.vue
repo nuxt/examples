@@ -7,7 +7,7 @@ const open = ref(false)
 </script>
 
 <template>
-  <UButton @click="open = true">
+  <UButton @click="() => { open = true }">
     Open Modal
   </UButton>
   <Teleport to="#teleports">
@@ -24,7 +24,7 @@ const open = ref(false)
       </template>
       <slot />
       <template #footer>
-        <UButton @click="open = false">
+        <UButton @click="() => { open = false }">
           Close
         </UButton>
       </template>

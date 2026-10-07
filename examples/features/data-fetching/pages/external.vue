@@ -25,12 +25,12 @@ const canDecrease = computed(() => id.value > 1)
     <p>
       <UButton
         :disabled="!canDecrease"
-        @click="canDecrease ? id-- : null"
+        @click="() => { if (canDecrease) id-- }"
       >
         Previous
       </UButton>
       -
-      <UButton @click="id++">
+      <UButton @click="() => { id++ }">
         Next
       </UButton>
     </p>

@@ -5,6 +5,12 @@ const nav = [
   { label: 'Dynamic', to: '/dynamic' },
   { label: 'Other', to: '/other' },
 ]
+
+function removeLayout() {
+  // Nuxt 4.6 types no longer accept `false`, but the runtime still supports it
+  // @ts-expect-error `false` disables the layout
+  setPageLayout(false)
+}
 </script>
 
 <template>
@@ -40,7 +46,7 @@ const nav = [
       <UButton
         color="neutral"
         variant="outline"
-        @click="setPageLayout(false)"
+        @click="removeLayout"
       >
         Remove layout
       </UButton>
