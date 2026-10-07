@@ -6,9 +6,9 @@ const id = ref(1)
   <div class="flex flex-col gap-2">
     <p>Example of data fetching inside a component:</p>
     <p>
-      <UButton @click="id--">
+      <UButton @click="() => { id-- }">
         Previous
-      </UButton> - <UButton @click="id++">
+      </UButton> - <UButton @click="() => { id++ }">
         Next
       </UButton>
     </p>

@@ -7,10 +7,10 @@ const sameCounter = useState('counter')
   <NuxtExample dir="features/state-management">
     <p>Counter: {{ counter }}</p>
     <div class="flex gap-2 my-4">
-      <UButton @click="counter--">
+      <UButton @click="() => { counter-- }">
         -
       </UButton>
-      <UButton @click="counter++">
+      <UButton @click="() => { counter++ }">
         +
       </UButton>
     </div>

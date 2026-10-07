@@ -31,6 +31,10 @@ const isDark = computed({
   },
 })
 
+function toggleDark() {
+  isDark.value = !isDark.value
+}
+
 const title = computed(() => props.dir.split('/').map(i => i.split('-').join(' ')))
 
 const github = computed(() => `https://github.com/${props.repo}/tree/main/examples/${props.dir}`)
@@ -73,7 +77,7 @@ useSeoMeta({
                       color="neutral"
                       variant="outline"
                       aria-label="Theme"
-                      @click="isDark = !isDark"
+                      @click="toggleDark"
                     />
                   </UTooltip>
                   <template #fallback>

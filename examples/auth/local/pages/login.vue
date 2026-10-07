@@ -37,7 +37,7 @@ const onError = (err: any) => {
 </script>
 
 <template>
-  <UContainer :ui="{ constrained: 'max-w-xl' }">
+  <UContainer class="max-w-xl">
     <UTabs
       class="p-4"
       :items="tabs"
@@ -94,7 +94,7 @@ const onError = (err: any) => {
                     variant="link"
                     :padded="false"
                     class="cursor-pointer"
-                    @click="hidden = !hidden"
+                    @click="() => { hidden = !hidden }"
                   />
                 </template>
               </UInput>
@@ -164,7 +164,7 @@ const onError = (err: any) => {
                     variant="link"
                     :padded="false"
                     class="cursor-pointer"
-                    @click="hidden = !hidden"
+                    @click="() => { hidden = !hidden }"
                   />
                 </template>
               </UInput>
