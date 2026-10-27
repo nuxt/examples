@@ -47,6 +47,7 @@ Inside [advanced/](./examples/advanced).
 
 - [config-extends](https://config-extends.example.nuxt.space/)
 - [error-handling](https://error-handling.example.nuxt.space/)
+- eve - ([source](./examples/advanced/eve/), needs an AI Gateway key, no live preview)
 - [jsx](https://jsx.example.nuxt.space/)
 - [locale](https://locale.example.nuxt.space/)
 - [module-extend-pages](https://module-extend-pages.example.nuxt.space/)
