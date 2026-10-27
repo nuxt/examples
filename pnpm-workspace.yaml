@@ -27,3 +27,4 @@ minimumReleaseAgeExclude:
   - '@nuxt/*'
   - vue
   - '@vue/*'
+  - eve@0.84.1
