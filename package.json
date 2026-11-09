@@ -13,7 +13,7 @@
     "@nuxt/cli": "^3.37.0",
     "@nuxt/eslint": "^1.17.0",
     "@nuxt/eslint-config": "^1.17.0",
-    "@types/node": "^24.13.6",
+    "@types/node": "^26.6.6",
     "consola": "^3.4.2",
     "eslint": "^10.11.0",
     "pathe": "^2.0.3",
@@ -27,7 +27,7 @@
   "devEngines": {
     "runtime": {
       "name": "node",
-      "version": "^24.0.0",
+      "version": "^26.13.0",
       "onFail": "download"
     },
     "packageManager": {
